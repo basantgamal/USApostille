@@ -1,0 +1,594 @@
+@media screen and (max-width: 768px) {
+	#usapostile-footer .usapostile-footer-links {
+	  margin-bottom: 30px;
+	}
+  }
+  
+@media screen and (max-width: 768px) {
+	.usapostile-nav .menu-1 {
+	  display: none;
+	}
+  }
+@media screen and (min-width: 768px) {
+	.col-country-lists .country-single-wrapper > a {
+	  text-decoration: unset;
+	  font-size: 13px !important;
+	}
+	a {
+	  color: #11144a;
+	}
+	.country-col-6 {
+	  display: inline-block;
+	  vertical-align: top;
+	}
+	.Hague-contry {
+	  /* width: 69%; */
+	  position: relative;
+	  left: 4%;
+	}
+	.Hague-contry .country-single-wrapper {
+	  width: 11%;
+	  font-size: 17px;
+	  margin-bottom: 5px;
+	}
+	.country-single-wrapper {
+	  display: inline-block;
+	}
+	.non-hague-contry {
+	  width: 29%;
+	}
+	.country-single {
+	  text-decoration: unset;
+	  font-size: 13px !important;
+	  font-weight: 500;
+	  margin: 0;
+	  padding: 7px 5px;
+	  background: #e6e4cf;
+	  margin: 2px;
+	  border-radius: 3px;
+	  border: 1px solid yellow;
+	  width: 92%;
+	  display: inline-block;
+	  color: #11144a;
+	}
+	.non-hague-contry .country-single-wrapper {
+	  width: 48%;
+	  vertical-align: top;
+	  padding: 5px;
+	  background: #dfd9c7;
+	  margin: 2px;
+	  border-radius: 5px;
+	}
+  }
+
+@media screen and (min-width: 1400px){
+	.block  .personal_table {
+		width: 41%;
+	}
+	.block  .Exp-Bus {
+		margin: 0;
+		width: 53%;
+		margin-top: 2em;
+	}
+	.block  .choose-country {
+		width: 40%;
+		margin-left: 5em;
+		margin-top: 3em;
+	}
+	.block  .fed-table {
+		width: 52%;
+		margin: 0;
+		margin-right: 63px;
+	}
+	.Exp-Bus h2 span:first-child {
+		font-size: 73px;
+	}
+	.Exp-Bus h2 {
+		font-size: 77px;
+	}
+	.Exp-Bus h2 span:last-child {
+		font-size: 81px;
+	}
+	.Exp-Bus h2 span:first-child {
+		font-size: 68px;
+	}
+	.states_table .col {
+		height: 88vh;
+	}
+	.choose-country .col {
+		height: 68vh;
+	}
+	.charTable > tbody > tr span {
+		background: #dbdbdb;
+		width: 77%;
+	}
+	.nav-aside {
+		width: 14%;
+	}
+	.block .col-lg-10 {
+		width: 82%;
+		padding: 0;
+		margin-left: 46px;
+	}
+}
+
+
+@media screen and (max-width:908px){
+	.img-border{
+		top: 0;
+	}
+	.countryCase .box {
+		width: 100%;
+		position: relative;
+		top: 0;
+	}
+	.fedxOption .form-check-label {
+		font-size: 19px;
+	}
+	.backBtn{
+		position: absolute;
+  	    top: -20px;
+	}
+	.authQues h5 {
+		display: none;
+	}
+	.fed-table h3 {
+		font-size: 89px;
+	}
+	.first-par span {
+		font-size: 75px!important;
+	}	
+	.B-doc .first-par {
+		font-size: 59px!important;
+	}
+	.embassyForm .scrolling{
+		margin: 0;
+	}
+	#embassy {
+		margin-bottom: 0;
+	}
+}
+
+@media screen and (min-width:1700px){	
+	.personal_table .table {
+		margin-left: 2em;
+	}
+	.usapostile-nav {
+		width: 14%;
+	}
+	.block .fed-table{
+		width: 30%;
+	}
+	.block .personal_table {
+		width: 29%;
+	}
+	.block .Exp-Bus {
+		width: 30%;
+	}	
+	.block .choose-country {
+		width: 16%;
+	}
+	.Exp-Bus h2 span:last-child {
+		font-size: 54px;
+	}
+}
+@media screen and (min-width: 1830px){
+	.fed-table h3 {
+		font-size: 97px;
+	}
+	.block  .personal_table {
+		width: 24%;
+	}
+	.block  .Exp-Bus {
+		margin: 0;
+		width: 25%;
+		margin-left: 39px;
+		margin-right: 27px;
+	}
+	.block  .choose-country {
+		width: 17%;
+		margin-left: 12px;
+		margin-top: -6px;
+	}
+	.block  .fed-table {
+		width: 28%;
+		margin: 0;
+	}
+	.Exp-Bus h2 span:first-child {
+		font-size: 73px;
+	}
+	.Exp-Bus h2 {
+		font-size: 55px;
+		line-height: 1.3;
+		margin-bottom: 0em;
+	}
+	.Exp-Bus h2 span:last-child {
+		font-size: 60px;
+		position: relative;
+		top: -25px;
+		margin: 0;
+	}
+	.Exp-Bus h2 span:first-child {
+		font-size: 75px;
+		margin-bottom: 17px;
+	}
+	.states_table .col {
+		height: 67vh;
+	}
+	.choose-country .col {
+		height: 46vh;
+	}
+	.charTable > tbody > tr span {
+		background: #dbdbdb;
+		width: 77%;
+	}
+
+}
+
+
+@media screen and (min-width:1400px){
+	.fixedPos {
+		position: fixed;
+	}
+}
+
+@media screen and (max-width:1600px){
+	.block .col-lg-10 {
+		margin-left: 25px;
+		width: 84%;
+	}
+}
+@media screen and (max-width:1300px){
+	.Exp-Bus span:nth-child(2){
+		font-size: 67px;
+	}
+}
+
+@media screen and (min-width: 1200px){
+	#fedexShipping .modal-dialog{
+	  width: 85%;
+	}    
+  }
+  
+@media screen and (min-width: 576px){
+	#fedexShipping .modal-dialog{
+	  width: 75%;
+	}
+  
+	#editFedexAddressFrom, #editFedexAddressTo{
+	  overflow-y: scroll;
+	}
+}
+  
+@media screen and (max-width:1800px){
+	.B-doc{
+	  margin:0;
+	}
+	.Exp-Bus h2 {
+	  font-size: 46px;
+	}
+  }
+@media screen and (min-width: 1240px) and (max-width:1440){
+  
+	.col-lg-10 {
+	  width: 100%;
+  
+	}
+}
+@media screen and (min-width: 1360px) {
+	.Exp-Bus h2 span:last-child {
+		/* font-size: 107px; */
+	}
+	.fed-table,.personal_table,.Exp-Bus {
+	  width: 50%;
+	  margin-top: 2em;
+	  margin-left: 0;
+	}
+	.choose-country{
+	  width: 40%;
+	}
+	.Exp-Bus h2 span:last-child {
+	  font-size: 96px;
+	}
+	.Exp-Bus h2 {
+	  /* font-size: 97px; */
+	}
+	.Exp-Bus h2 span:first-child {
+	  font-size: 124px;
+	}
+	.personal_table .table{
+		margin:0;
+		margin-top: 8em;
+	}
+}
+@media screen and (max-width :768px) {
+	.col-lg-10 {padding: 0 3em;}
+	.usapostile-nav .top-menu {
+	  padding: 28px 1em;
+	}
+  }
+@media screen and (min-width:1701px){
+	.block .personal_table{
+		width: 23%;
+		padding: 0;
+	}
+}
+
+@media screen and (min-width:1600px){
+	.states_table .col {
+		height: 77vh;
+	}
+
+}
+
+@media screen and (max-width:1360px){
+
+	.block .personal_table {
+		width: 47%;
+	}
+	.block .Exp-Bus {
+		width: 56%;
+	}
+	.block .choose-country {
+		width: 39%;
+	}
+	.block .fed-table {
+		width: 52%;
+		margin: 0;
+	}
+	.block .col-lg-10 {
+		width: 82%;
+	}
+	.choose-country .col {
+		height: 76vh;
+	}
+	.Exp-Bus h2 span:first-child {
+		font-size: 79px;
+	}
+	.Exp-Bus h2 {
+		font-size: 54px;
+	}
+	.Exp-Bus h2 span:last-child {
+		font-size: 79px;
+	}
+	.choose-country .col-lg-offset-1 {
+		margin-left: 0.33333%;
+	}
+	.block .w-100{
+		width: 99%; 
+	}
+	.block  .mp-0{
+	width: auto!important;   
+	}
+	.states_table .col {
+	height: 113vh;
+	}
+	.authQues h3{
+		font-size: 32px;	
+	}
+	.authQues h5{
+		font-size: 20px;
+	}
+	.authQues  h2{
+		font-size: 47px;   
+		
+	}
+	.authQues h3 {
+		font-size: 30px;
+	}
+	.countryCase {
+		margin-top: 5em;
+	}
+	.authQues label {
+		font-size: 34px;
+	}
+	.authQues .radioContainer input[type="checkbox"], .stateQuestion .radioContainer input[type="checkbox"] {
+		height: 44px;
+		width: 44px;
+	}
+	.block .col-lg-10 {
+		width: 100%;
+		padding: 0;
+	}
+}
+
+@media screen and (max-width:1200px){
+
+	.block .personal_table {
+		width: 47%;
+		padding: 0;
+		margin: 0;
+	}
+	.block .Exp-Bus {
+		width: 51%;
+	}
+	.block .choose-country {
+		width: 44%;
+	}
+	.block .fed-table {
+		width: 52%;
+		margin: 0;
+	}
+
+	.choose-country .col {
+		height: 62vh;
+	}
+	.Exp-Bus h2 span:first-child {
+		font-size: 100px;
+	}
+	.Exp-Bus h2 {
+		font-size: 71px;
+	}
+	.Exp-Bus h2 span:last-child {
+		font-size: 81px;
+	}
+	.choose-country .col-lg-offset-1 {
+		margin-left: 0.33333%;
+	}
+	.block .w-100{
+		width: 99%; 
+	}
+	.block  .mp-0{
+	width: auto!important;   
+	}
+	.states_table .col{
+	height: 133vh;
+	}
+
+	.countryCase h3 {
+		font-size: 30px;
+		margin-bottom: 27px;
+	}
+	.countryCase h4 {
+		font-size: 29px;
+	}
+	.countryCase {
+		margin-top: 0em;
+	}
+	.authQues h5 {
+		font-size: 13px;
+	}
+	.states_table .col {
+		height: 83vh;
+	}
+}
+
+@media screen and (max-width: 1000px){
+	.block .choose-country {
+		width: 42%;
+	}
+	.block .Exp-Bus h2 {
+		font-size: 54px;
+	}
+	.block .Exp-Bus {
+		width: 52%;
+	}
+	.click-text {
+		font-size: 27px;
+	}
+	.fed-table p {
+		font-size: 14.5px;
+	}
+	.Exp-Bus h2 span:last-child {
+		font-size: 56px;
+	}
+	.Exp-Bus h2 span:first-child {
+		font-size: 73px;
+	}
+	.block .Exp-Bus h2 {
+		font-size: 48px;
+	}
+	.states_table .col{
+		height: 83vh;
+	}
+	.countryCase {
+		margin-top: 13em;
+	}
+	.fixedPos{
+		position: relative;
+	}
+	.fedxOption {
+		padding: 0!important;
+	}
+
+}
+
+@media screen and (max-width:800px){
+	.states_table .col {
+		height: 83vh;
+	}
+	.credcontainer .container{
+		height: 30vh;
+	}
+	.authQues .col-xs-8 img{
+		width: 74px!important;
+	}
+	.goBack {
+		width: 148px;
+		margin-bottom: 0;
+		margin-top: -5em;
+	}
+	.block .personal_table,.block .Exp-Bus,.block .choose-country,.block	.fed-table {
+		width: 99%;
+		margin: 0;
+		padding: 0;
+		margin-bottom: 5em;
+	}
+	.block .choose-country .col {
+		height: 54vh;
+	}
+	.Exp-Bus h2 span:last-child {
+		font-size: 61px;
+	}
+	.Exp-Bus h2 span:first-child {
+		font-size: 57px;
+	}
+	.charTable {
+		margin-left: -39px;
+	}
+	.Exp-Bus h2 {
+		font-size: 54px;
+	}
+	.charTable > tbody > tr span {
+		width: 48px;
+		margin: 8px 8px;
+	}
+	.charTable {
+		margin-left: -10px;
+	}
+	.countryCase h3 {
+		font-size: 24px;
+	}
+	.countryCase h4 {
+		font-size: 17px;
+	}
+	.block .authQues, .stateQuestion {
+		padding: 22px 0;
+	}
+}
+
+@media screen and (max-width:500px){
+	.block .Exp-Bus h2 span:last-child {
+		font-size: 76px;
+	}
+	.Exp-Bus h2 span:first-child {
+		font-size: 97px;
+	}
+	.block .charTable {
+		margin-left: -39px;
+	}
+	.Exp-Bus h2 {
+		font-size: 59px;
+	}
+	.block .charTable > tbody > tr span {
+	width: 75%;
+	}
+	.block .charTable {
+		margin-left: -10px;
+	}
+
+	.block .authQues, .stateQuestion {
+		padding: 22px 0;
+	}
+	.block .Exp-Bus h2 {
+		font-size: 68px;
+	}
+	.choose-country h3 span {
+		font-size: 77px;
+	}
+	.ChooseState .processBtn {
+		width: 71px;
+	}
+}
+
+@media screen and (max-width:1700px) and (min-width:1200px){
+	.authQues h3 {
+		font-size: 40px;
+	}
+	.countryCase h4 {
+		font-size: 34px;
+	}
+	.authQues h5 {
+		font-size: 23px;
+	}
+}

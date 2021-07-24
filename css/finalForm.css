@@ -1,0 +1,101 @@
+.finalForm {
+	font-size: 15px;
+	width: 52%;
+	margin: auto;
+	border: 2px solid gainsboro;
+	min-height: 99vh;
+	padding: 20px;
+	}
+  
+  .finalForm .header {
+	padding: 20px;
+	background: #f9f9f9;
+	margin-bottom: 20px;
+	border-bottom: 2px solid;
+	}
+	.finalForm .header b{
+		margin-right: 12px;
+	}
+  .finalForm .header span:first-child {
+	margin-right: 25px;
+	display: inline-block;
+	width: 39%;
+  }
+  .finalForm .header h1{
+	  font-size: 34px;
+	  text-transform: uppercase;
+	  font-weight: bold;
+	 }
+  .finalForm .header img {
+	width: 126px;
+	margin: auto;
+  }
+  
+  .finalForm ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+  }
+  
+  .finalForm ul li {
+	margin-bottom: 3px;
+  }
+  
+  .finalForm h2 {
+	font-size: 24px;
+	font-weight: bold;
+	text-transform: uppercase;
+  }
+  .finalForm .form-group{
+	  margin: 0;
+  }
+  .finalForm section{
+	background: #f9f9f9;
+	padding: 12px;
+	border-bottom: 2px solid;
+	}
+	.finalForm table tbody{
+		background: #f9f9f9;
+		border-top: 1px solid;
+		border-left: 1px saddlebrown;
+	}
+	.finalForm table tr{
+		/* border-bottom: 1px solid!important; */
+		/* background: #f9f9f9; */
+		height: 100%;
+		padding: 0;
+		margin: 0;
+	}
+	.finalForm table td{
+		border-bottom: 1px solid;
+		padding: 5px;
+		border-right: 1px solid;
+	}
+	.finalForm table {
+		width: 100%;
+		background: #f9f9f9;
+		overflow: hidden;
+		padding: 0;
+		margin: 0;
+		/* border: 1px solid; */
+	}
+
+	.finalForm table tr .white{
+		border: 0;
+		background-color: white;
+	}
+
+	.finalForm table th{
+		text-decoration: underline;
+		padding: 1em 0;
+		text-align: center;
+		background: white;
+		font-size: 19px;
+	}
+	.bl-1{
+		border-left: 1px solid;
+	}
+
+	.finalForm table .redBorder{
+		border: 3px solid red;
+	}
