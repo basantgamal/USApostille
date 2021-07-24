@@ -2859,11 +2859,11 @@ label.vacation.transportAccount.packageShipped{
 
 
 .priceInfo{
-	/* background: #dcdcdc8c; */
+	background: #dcdcdc8c;
 	padding: 22px;
 	width: 90%;
 	margin: auto;
-	/* border: 1px solid gainsboro; */
+	border: 1px solid gainsboro;
 	/* font-size: 12px!important; */
 }
 .prictot-div {
@@ -6047,7 +6047,8 @@ hr {
 	box-shadow: 2px 3px 4px;
 }
 .businessDoc .box p {
-    font-size: 24px;
+    font-size: 18px;
+    MARGIN-BOTTOM: 40PX;
 }
 .businessDoc .box h2{font-weight: bold;font-size: 43px;/* font-family: 'Alegreya Sans'; */margin-bottom: 61px;color: #b32134;}
 .businessDoc .box h2 span{
