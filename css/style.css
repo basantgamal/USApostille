@@ -2860,9 +2860,9 @@ label.vacation.transportAccount.packageShipped{
 
 .priceInfo{
 	/* background: #dcdcdc8c; */
-	/* padding: 22px; */
-	/* width: 90%; */
-	/* margin: auto; */
+	padding: 22px;
+	width: 90%;
+	margin: auto;
 	/* border: 1px solid gainsboro; */
 	/* font-size: 12px!important; */
 }
