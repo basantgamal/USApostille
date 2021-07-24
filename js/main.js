@@ -522,14 +522,19 @@
 		  }
 		
 
-		  $('.moveBtn').click(function(){
+		  $('.moveBtn-B').click(function(){
 				$('.single-dovument-case-container').addClass('animated fadeOut').hide();
 				$(this).parents('.single-dovument-case-container').removeClass('animated fadeOut').show().addClass('animated fadeIn');
-				$(this).parents('.expService').find('.docDetails').show().addClass('animated fadeIn');
+				$(this).parents('.expService').find('.docDetails-B').show().addClass('animated fadeIn');
 				$('.clickText').hide();
 		  })
 
-
+		  $('.moveBtn-C').click(function(){
+			$('.single-dovument-case-container').addClass('animated fadeOut').hide();
+			$(this).parents('.single-dovument-case-container').removeClass('animated fadeOut').show().addClass('animated fadeIn');
+			$(this).parents('.expService').find('.docDetails-C').show().addClass('animated fadeIn');
+			$('.clickText').hide();
+	 		 })
 
 		$('.docDetails .procBtn').on("click", (function(){
 			  console.log('ddd')
@@ -541,7 +546,7 @@
 			}		
 		}))
 
-		$(".docDetails .block .custom-option").on("click", (function(){
+		$(".docDetails-Iran-B .block .custom-option").on("click", (function(){
 			let tar = $(this).parents('.block').attr("data-target");
 			console.log(tar)
 			if (tar != "") {
@@ -549,6 +554,24 @@
 				$(this).parents('.docDetails').find('.steps').show();
 				$(this).parents('.docDetails').find('.' + tar).show();
 			}
+		}))
+
+		// $(".docDetails-B .block .custom-option").on("click", (function(){
+		// 	let tar = $(this).parents('.block').attr("data-target");
+		// 	console.log(tar)
+		// 	if (tar != "") {
+		// 		$('.docDetails .block').hide();
+		// 		$(this).parents('.docDetails').find('.steps').show();
+		// 		$(this).parents('.docDetails').find('.' + tar).show();
+		// 	}
+		// }))
+		$(".docDetails-C  .custom-option").on("click", (function(){
+			$('.docDetails-C  .tableDetails').show();
+			console.log('zft')
+		}))
+		$(".docDetails-B  .step2 .custom-option").on("click", (function(){
+			$('.docDetails-B  .tableDetails').show();
+			console.log('zft')
 		}))
 	});
 
