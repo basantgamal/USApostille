@@ -488,12 +488,15 @@
 		top: 0;
 		left: 0;
 		top: 0;
+		/* right: 0; */
 		bottom: 0;
-		padding: 75px 40px 40px 40px;
+		padding: 75px 19px 40px;
 		overflow-y: auto;
 		display: none;
 		transition: 0.5s;
-	  }
+		display: flex;
+		align-items: center;
+		}
 	  
 	  @media screen and (max-width: 768px) {
 		#usapostile-offcanvas {
@@ -503,11 +506,14 @@
 	  
 	  .offcanvas #usapostile-offcanvas {
 		transform: none;
-	  }
+		display: flex;
+		width: 1;
+		}
 	  
 	  #usapostile-offcanvas a {
-		color: rgb(255 255 255);
-	  }
+		color: rgb(245 196 2);
+		font-size: 27px;
+		}
 	  
 	  #usapostile-offcanvas a:hover {
 		color: rgba(255, 255, 255, 0.8);
@@ -516,17 +522,24 @@
 	  #usapostile-offcanvas ul {
 		padding: 0;
 		margin: 0;
-	  }
+		width: 100%;
+		}
 	  
 	  #usapostile-offcanvas ul li {
 		padding: 0;
 		margin: 0;
 		list-style: none;
-		padding: 39px 3px;
-		font-size: 19px;
+		padding: 29px 0;
+		font-size: 21px;
+		color: white;
 		text-transform: capitalize;
 		border-bottom: 1px solid;
-	  }
+		text-transform: uppercase;
+		text-align: center;
+		font-weight: normal;
+		font-family: 'Alegreya Sans';
+		width: 100%;
+		}
 	  
 	  #usapostile-offcanvas ul li > ul {
 		padding-left: 20px;
@@ -602,8 +615,8 @@
 		height: 25px;
 		cursor: pointer;
 		text-decoration: none;
-		top: 25px !important;
-	  }
+		top: 25px;
+		}
 	  
 	  .usapostile-nav-toggle.active i::before, .usapostile-nav-toggle.active i::after {
 		background: #444;
@@ -688,12 +701,13 @@
 		display: block;
 		margin: 0 auto;
 		display: none;
-		height: 44px;
-		width: 123px;
+		height: 48px;
+		width: 163px;
 		text-align: center;
 		border-radius: 4px;
 		z-index: 2001;
 		border-bottom: none !important;
+		box-shadow: 2px 3px 4px gainsboro;
 		}
 	  
 	  @media screen and (max-width: 768px) {
@@ -1333,7 +1347,7 @@
 	font-weight: 400;
 	padding: 8px;
 	font-size: 14px;
-  }
+	}
   .fed-table p{
 	font-size: 17.5px;
 	padding: 0;
@@ -1464,7 +1478,7 @@
   .B-doc  .issued-text{
 	padding: 0;
 	margin-top: 14px;
-	font-size: 19px;
+	font-size: 18px;
 	line-height: 1;
 	margin-top: 25px;
 	}
@@ -1637,20 +1651,20 @@
 
   .charTable > tbody > tr > td{
 	border: 1px solid;
-	margin-left: 1px;
+	margin-left: 7px;
 	padding: 3px;
 	text-align: center;
 	padding: 0px!important;
 	color: white;
 	text-transform: capitalize;
 	line-height: 1!important;
-	margin: 0;
-	width: 32px;
+	/* margin: 0; */
+	width: 14%;
 	display: inline-block;
 	}
   .charTable > tbody > tr span{
 	background: #dbdbdb;
-	width: 24px;
+	width: 93%;
 	display: inline-block;
 	border-radius: 3px;
 	padding: 0px;
@@ -1766,9 +1780,9 @@
   
   .first-header  p{
 	font-size: 15px;
-	padding-bottom: 7px;
+	/* padding-bottom: 7px; */
 	width: 99%;
-	margin-bottom: 3px;
+	/* margin-bottom: 3px; */
 	color: #101348;
 	text-indent: 0;
 	margin-left: 15px;
@@ -2706,7 +2720,7 @@ label.vacation.transportAccount.packageShipped{
 		width: 50%;
 }
 .ddl_doc .custom-select-trigger {
-    line-height: 45px;
+    line-height: 61px;
 }
 .pricelstdiv p{
 	font-size: 22px;
@@ -2726,8 +2740,11 @@ label.vacation.transportAccount.packageShipped{
 	border: 2px solid;
 }
 .docDetails .block{
-	margin-top: 10em;
-	border-color: gainsboro;
+	/* margin-top: 162px; */
+	/* border-color: gainsboro; */
+	border: 0;
+	/* border-width: 2px; */
+	/* background: #fcf9f1; */
 }
 .hasinv-tbl{
 	background-color: gainsboro;
@@ -2770,9 +2787,11 @@ label.vacation.transportAccount.packageShipped{
 .single-dovument-case-container img{
 	display: inline-block;
 	text-align: center;
-	height: 443px;
+	height: 419px;
 	object-fit: cover;
+	object-position: center;
 	border: 6px solid #d1d1d1;
+	/* margin-top: 12px; */
 	}
 .clearfix {
 	clear: both;
@@ -2787,12 +2806,13 @@ label.vacation.transportAccount.packageShipped{
 	justify-content: center;
 	line-height: 1.3;
 	margin-top: -35px;
+	height: 83px;
 }
 .single-dovument-case-container{
 	text-align: center;
 	position: relative;
 }
-.caseStyle .document-case .hiddenInput {
+.caseStyle .single-dovument-case-container .hiddenInput {
 	opacity: 0;
 	visibility: hidden;
 	display: inline-block;
@@ -2821,7 +2841,7 @@ label.vacation.transportAccount.packageShipped{
 }
 .step1,.step2,.step3,.step4,.step5{
 	width: 100%;
-	min-height: 445px;
+	min-height: 422px;
 	content: '';
 	padding: 20px;
 	border: 7px solid #b32134;
@@ -2834,7 +2854,7 @@ label.vacation.transportAccount.packageShipped{
 }
 .step1 
 	p{
-	font-size: 25px;
+	font-size: 45px;
 	font-weight: normal;
 	text-align: left;
 }
@@ -3173,6 +3193,7 @@ hr {
 
 .Other-countries a{
 	color:white;
+	font-size: 15px;
 }
 
 .prictot-div > thead > tr > th, .prictot-div > thead > tr > td {
@@ -4231,10 +4252,11 @@ hr {
 	.choose-country h3 span {
 		font-size: 36px;
 	}
-	.block .col-lg-10 {
+	.indexStyle .block .col-lg-10 {
 		margin: 0;
 		width: 84%;
 		padding: 0;
+		/* margin-top: 15px; */
 		/* overflow: hidden; */
 	}
 	.indexStyle .Exp-Bus h2 span:first-child {
@@ -4300,7 +4322,7 @@ hr {
 		margin-left: 31px;
 	}
 	.choose-country .col {
-		height: 44vh;
+		height: 42vh;
 	}
 	.states_table .col {
 		height: 63vh;
@@ -4315,6 +4337,9 @@ hr {
 }
 
 @media screen and (max-width:1830px){
+	.nav-aside h1 {
+		font-size: 40px;
+	}
 	.alabamaForm ul{
 		width:70%;
 	}
@@ -4331,14 +4356,14 @@ hr {
 		margin-left: 12px;
 	}
 	.united-text {
-		font-size: 28px;
+		font-size: 27px;
 	}
 	.text-OneDay {
 		font-size: 71px;
 		text-transform: capitalize;
 	}
 	.choose-country h3 span {
-		font-size: 36px;
+		font-size: 35px!important;
 	}
 	.block .col-lg-10 {
 		margin: 0;
@@ -4366,10 +4391,10 @@ hr {
 		display: block;
 	}
 	.first-par span:first-child {
-		font-size: 73px;
+		font-size: 70px;
 	}
 		.first-par span:last-child {
-		font-size: 56px;
+		font-size: 54px;
 	}
 	.B-doc .first-par {
 		font-size: 51px;
@@ -4378,7 +4403,7 @@ hr {
 		width: 28%;
 	}
 	.text-OneDay span:last-child{
-				font-size: 73px;
+				font-size: 70px;
 	}
 	.block .choose-country {
 		width: 15%;
@@ -4401,6 +4426,16 @@ hr {
 	}
 	.states_table .col {
 		height: 73vh;
+	}
+	.personal_table .table > tbody > tr > td{
+		font-size: 16px!important;
+	}
+	.charTable > tbody > tr > td {
+		width: 13%;
+	}
+	.personal_table .table>thead>tr>th:first-child {
+		font-size: 20px;
+		color: #f5da70;
 	}
 }
 
@@ -4436,7 +4471,7 @@ hr {
 		margin-left: 9px;
 	}
 	.united-text {
-		font-size: 28px;
+		font-size: 27px;
 	}
 	.text-OneDay {
 		font-size: 71px;
@@ -4451,6 +4486,7 @@ hr {
 		margin: 0;
 		width: 84%;
 		margin-left: 3px;
+		padding-right: 0;
 	}
 	.indexStyle .Exp-Bus h2 span:first-child {
 		font-size: 84px;
@@ -4481,6 +4517,7 @@ hr {
 	}
 	.B-doc .issued-text{
 		font-size: 18px;
+		text-align: center;
 	}
 	.Exp-Bus h2{
 		font-size: 15px!important;
@@ -4493,10 +4530,10 @@ hr {
 		font-size: 51px;
 	}
 	.text-OneDay span:last-child{
-		font-size: 67px;
+		font-size: 65px;
 	}
 	.block .personal_table {
-		width: 27%;
+		width: 26%;
 		padding: 0;
 	}
 	.block .choose-country {
@@ -4509,9 +4546,10 @@ hr {
 	.personal_table .table {
 		margin-left: 0;
 		margin-top: 2em;
+		/* width: 32%; */
 	}
 	.block .choose-country {
-		width: 14%;
+		width: 15%;
 		margin: 0;
 		margin-left: 20px;
 	}
@@ -4522,7 +4560,7 @@ hr {
 			font-size: 14px;
 	}
 	.choose-country .col {
-		height: 50vh;
+		height: 44vh;
 	}
 	.states_table .col {
 		height: 73vh;
@@ -4544,6 +4582,7 @@ hr {
 	.alabamaForm ul{
 		width:70%;
 	}
+
 }
 
 @media screen and (max-width:1600px){	
@@ -4557,23 +4596,41 @@ hr {
 		padding: 0;
 	}
 	.united-text {
-		font-size: 25px;
+		font-size: 29px;
+		text-align: center;
+		display: block;
+		margin: 0;
 	}
 	.text-OneDay {
-		font-size: 70px;
+		font-size: 71px;
 		text-transform: capitalize;
 	}
 	.text-OneDay span:first-child{
 		font-size: 7rem;
 	}
+	.first-par span:last-child {
+		font-size: 57px;
+	}
+	.first-par span:first-child {
+		font-size:72px;
+	}
+	.B-doc .issued-text {
+    font-size: 19px;
+ }
 	.choose-country h3 span {
-		font-size: 20px!important;
+		font-size: 42px!important;
+		display: block;
 	}
 	.block .col-lg-10 {
 	    width: 100%;
 	    margin-left: 16px;
 	    margin-top: 5em;
+	    display: flex;
+	    flex-direction: column;
 	}
+	.block .col-lg-10 .row:first-child {
+    order: 2;
+}
 	.indexStyle .Exp-Bus h2 span:first-child {
 		font-size: 84px;
 	}
@@ -4581,6 +4638,7 @@ hr {
 		display:block;
 		left: -6px;
 		/* position: fixed; */
+		top: 14px;
 	}
 	.block .fed-table {
 		margin-right: 0;
@@ -4610,6 +4668,7 @@ hr {
 	}
 	.B-doc .first-par {
 		font-size: 51px;
+		text-align: center;
 	}
 	.block .personal_table {
 		width: 25%;
@@ -4632,7 +4691,7 @@ hr {
 		margin-left: 20px;
 	}
 	.choose-country .col {
-		height: 52vh;
+		height: 45vh;
 	}
 	.states_table .col {
 		height: 76vh;
@@ -4650,10 +4709,16 @@ hr {
 	.first-header{
 		margin-left: 1em;
 		margin-top: -3em;
+		/* display: none; */
+	}
+	.nav-aside h1 {
+
+		font-size: 40px;
 	}
 }
 
 @media screen and (max-width: 1500px) {
+
 	.alabamaForm .fixedPos label {
 		font-size: 18px;
 	}
@@ -4705,7 +4770,13 @@ hr {
 	.block .col-lg-10 {
 	    width: 100%;
 	    margin: 0;
+	    display: flex;
+	    flex-direction: column;
+	    margin-top: 20px;
 	}
+		.block .col-lg-10 .row:first-child{
+			order:2
+		}
 	.img-content {
 	  margin:0;
 	}
@@ -4736,12 +4807,14 @@ hr {
 	.gen-form {
 	overflow-x: hidden;
 	}
-	.first-header {  
+	.first-header {
 	  margin: 12px;
-	  margin-top: 6em;
+	  /* margin-top: 6em; */
 	  padding: 12px;
 	}
-  
+  .first-header p{
+  	margin:0
+  }
 	.fed-table,.personal_table,.Exp-Bus {
 	  width: 49%;
 	  left: 0;
@@ -4764,9 +4837,10 @@ hr {
 	.ml-2 {
 	  margin:0
 	}
-	.choose-country h3 {font-size: 66px;}
+	.choose-country h3 {font-size: 66px;margin-top: 26px;}
 	.usapostile-nav-toggle{
 	  display: block;
+	  top: 0;
 	}
 	#usapostile-offcanvas{
 	  display: block;
@@ -4779,14 +4853,25 @@ hr {
 		margin-top: 21px;
 	}
 	.fed-table p {
-		font-size: 47px;
+		font-size: 38px;
+		margin-top: 16px;
+		right: 0;
 	}
 	.fed-table .table > tbody > tr >td:first-child ,.fed-table .table > tbody > tr > td{
 		font-size: 17px;
 	}
+
 }
 @media screen and (max-width: 1400px) {
-
+	.united-text {
+		font-size: 25px;
+	}
+	.personal_table .table > tbody > tr > td {
+		font-size: 14px!important;
+	}
+	.first-par span:last-child {
+		font-size: 48px;
+	}
 	.block .fed-table {
 		margin-right: 0;
 		padding: 0;
@@ -4795,6 +4880,12 @@ hr {
 	 .personal_table .table>thead>tr>th:first-child{
 		font-size:17px;
 	 }
+	 .first-par span:first-child {
+		font-size: 63px;
+	}
+	.B-doc .issued-text {
+		font-size: 17px;
+	}
 	.block .personal_table {
 		width: 27%;
 		margin-left: 0em;
@@ -4826,15 +4917,17 @@ hr {
 		display: block;
 	}
 	.indexStyle .Exp-Bus span:nth-child(2){
-		font-size: 48px;
+		font-size: 46px;
 		margin-top: 17px;
 		text-align: center;
 		display: block;
 	}
-	.block .col-lg-10 {
-	    width: 100%;
+	.indexStyle .block .col-lg-10 {
+	    /* width: 94%; */
 	    margin: 0;
 	    /* padding: 0; */
+	    MARGIN-TOP: 4EM;
+	    padding: 0;
 	}
 	.img-content {
 	  margin:0;
@@ -4894,7 +4987,7 @@ hr {
 	.ml-2 {
 	  margin:0
 	}
-	.choose-country h3 {font-size: 66px;}
+	.choose-country h3 {font-size: 66px;line-height: 1;min-height: unset;/* margin: 0; */}
 	.usapostile-nav-toggle{
 	  display: block;
 	}
@@ -4908,10 +5001,14 @@ hr {
 		font-size: 6rem;
 	}
 	.fed-table p {
-		font-size: 47px;
+		font-size: 34px;
+		margin-top: 15px;
 	}
 	.choose-country h3 span {
-		font-size: 31px!important;
+		font-size: 35px!important;
+		line-height: unset;
+		min-height: unset;
+		display: block;
 	}
 	.alabamaForm ul{
 		width: 99%;
@@ -4920,6 +5017,12 @@ hr {
 	
 }
 @media screen and (max-width: 1300px) {
+	.block .choose-country {
+		width: 18%;
+	}
+	.fed-table .table > tbody > tr >td:first-child, .fed-table .table > tbody > tr > td {
+		font-size: 15px;
+	}
 	.personal_table .table > tbody > tr > td{
 		font-size: 14px!important;
 	}
@@ -4929,28 +5032,28 @@ hr {
     font-size: 15px;
  }
 	.first-par span:first-child {
-		font-size: 69px;
+		font-size: 63px;
 	}
 	.indexStyle .Exp-Bus h2 span:last-child {
 		font-size: 5rem;
 	}
 	.first-par span:last-child {
-		font-size: 53px;
+		font-size: 48px;
 	}
 	.indexStyle .Exp-Bus h2 span:first-child {
 		font-size: 6.5rem;
 	}
 	.B-doc .issued-text {
-	font-size: 18px;
+	font-size: 17px;
 	}
 	.united-text {
-		font-size: 26px;
+		font-size: 24px;
 	}
 	.text-OneDay span:last-child {
-		font-size: 68px;
+		font-size: 63px;
 	}
 	.indexStyle .Exp-Bus span:nth-child(2){
-		font-size: 4.6rem;
+		font-size: 43px;
 	}
 	
 	.container-wrap {
@@ -4977,9 +5080,9 @@ hr {
 	.gen-form {
 	overflow-x: hidden;
 	}
-	.first-header {  
+	.first-header {
 	  margin: 12px;
-	  margin-top: 6em;
+	  margin-top: 0;
 	  padding: 12px;
 	}
   
@@ -5037,6 +5140,9 @@ hr {
 	
 }
 @media screen and (max-width: 1200px) {
+	.personal_table .table > thead > tr > th span {
+		font-size: 12px;
+	}
 	.personal_table .table > tbody > tr > td{
 		font-size: 13px!important;
 	}
@@ -5053,7 +5159,7 @@ hr {
 		 font-size: 19px;
 	}
 	.choose-country .col {
-		height: 50vh;
+		height: 43vh;
 	}
 	.indexStyle .Exp-Bus h2 span:last-child {
 		font-size: 4.5rem;
@@ -5065,24 +5171,37 @@ hr {
 		font-size: 4rem;
 	}
 	.first-par span:first-child {
-		font-size: 6rem;
+		font-size: 57px;
 	}
 	.first-par span:last-child {
-		font-size: 4.7rem;
+		font-size: 44px;
 	}
 	.text-OneDay span:last-child {
-		font-size: 6rem;
+		font-size: 58px;
+		margin-top: 27px;
+		display: inline-block;
+	}
+	.text-OneDay {
+    font-size: 63px;
+    text-transform: capitalize;
+ }
+	.text-OneDay span:first-child {
+    font-size: 6rem;
+}
+	.personal_table .table>thead>tr>th {
+		font-size: 16px!important;
 	}
 	.indexStyle .Exp-Bus {
-		width: 28%;
+		width: 29%;
 		padding: 0;
-		margin-right: 1em;
+		margin-right: 7px;
+		margin-left: 4px;
 	}
 	.B-doc .issued-text {
-		font-size: 1.6rem;
+		font-size: 15px;
 	}
 	.united-text {
-		font-size: 2.3rem;
+		font-size: 22px;
 	}
 	.showNonHag {
 		font-size: 14px;
@@ -5109,6 +5228,12 @@ hr {
 	
 }
 @media screen and (max-width: 1100px) {
+	.charTable > tbody > tr > td {
+		width: 10%;
+	}
+	.showNonHag {
+		font-size: 26px;
+	}
 	.indexStyle .Exp-Bus h2 span:last-child {
 		font-size: 7rem;
 	}
@@ -5133,16 +5258,16 @@ hr {
 		width: 44%;
 		}
   .first-par span:first-child {
-    font-size: 8.2rem;
+    font-size: 94px;
  }
 	.first-par span:last-child {
-		font-size: 6.5rem;
+		font-size: 71px;
 	}
 	.text-OneDay span:last-child {
-		font-size: 8.4rem;
+		font-size: 103px;
 	}
 	.text-OneDay span:first-child {
-		font-size: 13rem;
+		font-size: 9rem;
 		text-transform: capitalize;
 	}
 	.text-OneDay span:nth-child(2){
@@ -5155,7 +5280,7 @@ hr {
         margin-right: 23px;
       }
       .B-doc .issued-text {
-		font-size: 1.9rem;
+		font-size: 25px;
 	}
 	.fed-table h3 {
     font-size:7rem;
@@ -5164,7 +5289,7 @@ hr {
 	  width: 100%;
 	}
 	.united-text {
-		font-size: 2.8rem;
+		font-size: 37px;
 		}
 	.nav-aside .nabar-brand{
 		display: none;
@@ -5214,7 +5339,7 @@ hr {
 	.ml-2 {
 	  margin:0
 	}
-	.choose-country h3 {font-size: 46px!important;min-height: fit-content;}
+	.choose-country h3 {font-size: 60px!important;min-height: fit-content;}
 	.usapostile-nav-toggle{
 	  display: block;
 	}
@@ -5232,13 +5357,13 @@ hr {
 		font-size: 47px;
 	}
 	.choose-country h3 span {
-		font-size: 28px!important;
+		font-size: 58px!important;
 	}
 	.charTable > tbody > tr span {
 		width: 36px;
 	}
 	.choose-country .col {
-		height: 65vh;
+		height: 49vh;
 	}
 	.fedxOption .col-md-12,.fedxOption .col-xs-12{
 		padding:0
@@ -5311,29 +5436,54 @@ hr {
 		height: 87vh;
 	}
 }
-@media screen and (max-width: 900px) {
-
+@media screen and (max-width: 1000px) {
+	.first-par span:first-child {
+		font-size: 81px;
+	}
+	.text-OneDay span:nth-child(2) {
+		font-size: 120PX;
+		text-transform: capitalize;
+	}
 	.charTable > tbody > tr > td {
-		width: 54px;
+		width: 44px;
 	}
 	.block .personal_table {
-		width: 50%;
+		width: 47%;
 		margin-left: 0;
 	}
+	.text-OneDay span:last-child {
+		font-size: 89px;
+	}
+	.B-doc .issued-text {
+		font-size: 20px;
+	}
+	.united-text {
+		font-size: 33px;
+	}
+	.text-OneDay span:first-child {
+		font-size: 116px;
+		text-transform: capitalize;
+	}
+	.text-OneDay span:last-child {
+		font-size: 88px;
+		text-transform: capitalize;
+	}
 	.indexStyle .Exp-Bus h2 span:last-child {
-		font-size: 67px;
+		font-size: 59px;
 	}
 	.indexStyle .Exp-Bus h2 span:first-child {
-		font-size: 84px;
+		font-size: 72px;
 	}
 	.indexStyle .Exp-Bus span:nth-child(2){
-		font-size: 59px;
+		font-size: 48px;
 	}
 	
 	.changeState{
 	  margin-top: 6em;
 	}
-  
+  .first-par span:last-child {
+    font-size: 64px;
+}
 	.state-h2 {
 	  font-size: 21px;
 	  margin-top: 2em;
@@ -5377,23 +5527,25 @@ hr {
 		font-size: 47px;
 	}
 	.choose-country h3 span {
-		font-size: 28px!important;
+		font-size: 56px!important;
+		margin-top: 6px;
 	}
 	.charTable > tbody > tr span {
 		width: 36px;
 	}
 	.choose-country .col {
-		height: 61vh;
+		height: 42vh;
 	}
 	.indexStyle .Exp-Bus {
-		width: 51%;
+		width: 52%;
 		padding: 0;
 		margin-right: 0em;
+		margin: 0;
 	}
 	.block .choose-country {
-		margin-left: 38px;
+		margin-left: 36px;
 		padding: 0;
-		width: 40%;
+		width: 41%;
 	}
 	.ChooseState .processBtn{
 		width: 55px;
@@ -5422,7 +5574,147 @@ hr {
 	}
 
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 900px) {
+	.text-OneDay span:last-child {
+		font-size: 78px;
+		text-transform: capitalize;
+	}
+	.first-par span:first-child {
+		font-size: 79px;
+	}
+	.B-doc .issued-text {
+    font-size: 21px;
+    }
+    .united-text {
+		font-size: 31px;
+	}
+	.text-OneDay span:nth-child(2) {
+		font-size: 87PX;
+		text-transform: capitalize;
+	}
+	.charTable > tbody > tr > td {
+		width: 44px;
+	}
+	.block .personal_table {
+		width: 47%;
+		margin-left: 0;
+	}
+	.indexStyle .Exp-Bus h2 span:last-child {
+		font-size: 59px;
+	}
+	.indexStyle .Exp-Bus h2 span:first-child {
+		font-size: 72px;
+	}
+	.indexStyle .Exp-Bus span:nth-child(2){
+		font-size: 48px;
+	}
+	
+	.changeState{
+	  margin-top: 6em;
+	}
+  .first-par span:last-child {
+    font-size: 62px;
+}
+	.state-h2 {
+	  font-size: 21px;
+	  margin-top: 2em;
+	}
+	.gen-form {
+	overflow-x: hidden;
+	}
+	.first-header {  
+	  margin: 12px;
+	  margin-top: 6em;
+	  padding: 12px;
+	}
+  
+	.fed-table,.personal_table,.Exp-Bus {
+	  width: 49%;
+	  left: 0;
+	  margin-left: 0;
+	  float:left;
+	}
+	.choose-country{
+	  width: 47%;
+	  padding: 37px;
+	  margin: 0;
+	  float:left;
+	}
+	.choose-countryState {
+	  margin:0;
+	}
+	.B-doc,  .personal_table .table {
+  
+	  margin-left: 1em;
+	}
+
+	.nav-aside h1 {
+	  font-size: 37px;
+	}
+	.fed-table h3 {
+		font-size: 8rem;
+	}
+	.fed-table p {
+		font-size: 47px;
+	}
+	.choose-country h3 span {
+		font-size: 56px!important;
+		margin-top: 6px;
+	}
+	.charTable > tbody > tr span {
+		width: 36px;
+	}
+	.choose-country .col {
+		height: 42vh;
+	}
+	.indexStyle .Exp-Bus {
+		width: 52%;
+		padding: 0;
+		margin-right: 0em;
+		margin: 0;
+	}
+	.block .choose-country {
+		margin-left: 36px;
+		padding: 0;
+		width: 41%;
+	}
+	.ChooseState .processBtn{
+		width: 55px;
+		/* position: relative; */
+		top: 0;
+		height: 57px;
+	}
+	.overScroll{
+		overflow-x: auto;
+	}
+	.state-btn{
+		box-shadow: none;
+	}
+	.ChooseState .fedral {
+		width: 480px;
+		background: #12154b;
+		border: 0;
+	}
+	.ChooseState .fedral {
+		width: 61%;
+		font-size: 20px;
+		top: 0;
+	}
+	.state-btn {
+		width: 117px;
+	}
+
+}
+@media screen and (max-width: 800px) {
+	.B-doc .issued-text {
+		font-size: 16px;
+	}
+	.united-text {
+		font-size: 24px;
+	}
+	.text-OneDay span:first-child {
+		font-size: 70PX;
+	}
 	.single-dovument-case-container img {
 		height: 479px;
 		width: 72%;
@@ -5434,7 +5726,7 @@ hr {
 		font-size: 56px;
 	}
 	.personal_table .table > tbody > tr > td {
-		font-size: 17px!important;
+		font-size: 16px!important;
 	}
 	.ChooseState .processBtn {
 		width: 99px;
@@ -5498,21 +5790,21 @@ hr {
 	  font-size: 37px;
 	}
 	.fed-table h3 {
-		font-size: 5rem;
+		font-size: 7rem;
 	}
 	.fed-table p {
 		font-size: 43px;
 		margin-top: 30px;
 	}
 	.choose-country h3 span {
-		font-size: 28px!important;
+		font-size: 52px!important;
 		margin: 0;
 	}
 	.charTable > tbody > tr span {
 		width: 34px;
 	}
 	.choose-country .col {
-		height: 113vh;
+		height: 38vh;
 	}
 	.indexStyle .Exp-Bus {
 		width: 49%;
@@ -5540,16 +5832,164 @@ hr {
 		font-size: 26px;
 	}
 	.states_table .col {
-		height: 102vh;
+		height: 82vh;
 	}
 	.text-OneDay span:last-child {
-		font-size: 87px;
+		font-size: 69px;
 	}
 	.first-par span:first-child {
-		font-size: 87px;
+		font-size: 70px;
 	}
 	.first-par span:last-child{
 		font-size: 55px;
+	}
+	.countryCase  .alabamaForm{
+		margin-top: 3em;
+	}
+
+
+}
+@media screen and (max-width: 768px) {
+	.B-doc .issued-text {
+		font-size: 16px;
+	}
+	.united-text {
+		font-size: 24px;
+	}
+	.text-OneDay span:first-child {
+		font-size: 70PX;
+	}
+	.single-dovument-case-container img {
+		height: 479px;
+		width: 72%;
+	}
+	#embassy .form-container {
+		margin: 0!important;
+	}
+	.indexStyle .Exp-Bus span:nth-child(2) {
+		font-size: 56px;
+	}
+	.personal_table .table > tbody > tr > td {
+		font-size: 15px!important;
+	}
+	.ChooseState .processBtn {
+		width: 99px;
+	}
+	.charTable > tbody > tr span {
+		width: 33px;
+	}
+	.showNonHag {
+		font-size: 25px;
+	}
+	.indexStyle .Exp-Bus h2 span:last-child {
+		font-size: 53px;
+	}
+	.indexStyle .Exp-Bus h2 span:first-child {
+		font-size: 69px;
+		text-align: center;
+		display: block;
+	}
+	.indexStyle .Exp-Bus span:nth-child(2){
+		font-size: 43px;
+	}
+	
+	.changeState{
+	  margin-top: 6em;
+	}
+  
+	.state-h2 {
+	  font-size: 21px;
+	  margin-top: 2em;
+	}
+	.gen-form {
+	overflow-x: hidden;
+	}
+	.first-header {
+	  margin: 0;
+	  margin-top: 6em;
+	  padding: 0;
+	}
+  
+	.fed-table,.personal_table,.Exp-Bus {
+	  width: 49%;
+	  left: 0;
+	  margin-left: 0;
+	  float:left;
+	}
+	.choose-country{
+	  width: 47%;
+	  padding: 37px;
+	  margin: 0;
+	  float:left;
+	}
+	.choose-countryState {
+	  margin:0;
+	}
+	.B-doc,  .personal_table .table {
+	margin-left: 0;
+	/* margin: 0; */
+	}
+
+	.nav-aside h1 {
+	  font-size: 37px;
+	}
+	.fed-table h3 {
+		font-size: 5rem;
+	}
+	.fed-table p {
+		font-size: 43px;
+		margin-top: 30px;
+	}
+	.choose-country h3 span {
+		font-size: 52px!important;
+		margin: 0;
+	}
+	.charTable > tbody > tr span {
+		width: 48px;
+	}
+	.choose-country .col {
+		height: 113vh;
+	}
+	.indexStyle .Exp-Bus {
+		width: 49%;
+		padding: 0;
+		margin-right: 2em;
+	}
+	.charTable > tbody > tr > td {
+		width: 50px;
+	}
+
+	.block .choose-country {
+		margin-left: 20px;
+		padding: 0;
+		margin: 3em 0;
+	}
+	.USDInstruction .fixedPos h3{
+		display: none;
+		}
+	.alabamaForm ul{
+		font-size: 22px!important;
+		padding-left: 33px;
+		width: 100%;
+		margin-top: 2em;
+	}
+	.Other-countries {
+		font-size: 12px;
+	}
+	.ChooseState h4 {
+		font-size: 26px;
+	}
+	.states_table .col {
+		height: 81vh;
+	}
+	.text-OneDay span:last-child {
+		font-size: 69px;
+	}
+	.first-par span:first-child {
+		font-size: 106px;
+	}
+	.first-par span:last-child{
+		font-size: 52px;
 	}
 	.countryCase  .alabamaForm{
 		margin-top: 3em;
@@ -5561,6 +6001,30 @@ hr {
 	.exp-country {
 		/* width: 85%; */
 	}	
+	.indexStyle .block .col-lg-10{
+		margin:60px 20px;
+	}
+	.text-OneDay span:first-child {
+		font-size: 132PX;
+	}
+	.united-text {
+		font-size: 40px;
+	}
+	.B-doc .issued-text {
+		font-size: 28px;
+	}
+	.first-par span:last-child {
+	}
+	.text-OneDay span:nth-child(2) {
+		font-size: 134PX;
+		text-transform: capitalize;
+	}
+	.first-par span:last-child {
+		font-size: 95px;
+	}
+	.text-OneDay span:last-child {
+		font-size: 102px;
+	}
     .js-usapostile-nav-toggle span{
 		display: none;
 	}
@@ -5572,14 +6036,14 @@ hr {
 		margin-top: 4em;
 	}
 	.block .personal_table,.block .fed-table ,.indexStyle .Exp-Bus,.block .choose-country{
-		width: 100%;
+		width: 91%;
 		margin: 0;
 	}
 	.indexStyle .Exp-Bus span:nth-child(2) {
 		font-size: 64px;
 	}
 	.indexStyle .Exp-Bus h2 span:last-child {
-		font-size: 79px;
+		font-size: 95px;
 		display: block;
 		text-align: center;
 	}
@@ -5607,7 +6071,7 @@ hr {
 		font-size: 17px;
 	}
 	.indexStyle .Exp-Bus h2 span:first-child {
-		font-size: 104px;
+		font-size: 124px;
 	}
 	.fed-table h3 {
 		font-size: 13rem;
@@ -5617,7 +6081,152 @@ hr {
 		margin: 0;
 	}
 }
-@media screen and (max-width:550px){
+@media screen and (max-width: 600px) {
+	.B-doc .issued-text {
+		font-size: 24px;
+	}
+	.united-text {
+		font-size: 37px;
+	}
+	.text-OneDay span:first-child {
+		font-size: 109PX;
+	}
+	.single-dovument-case-container img {
+		height: 479px;
+		width: 72%;
+	}
+	#embassy .form-container {
+		margin: 0!important;
+	}
+	.indexStyle .Exp-Bus span:nth-child(2) {
+		font-size: 56px;
+	}
+	.personal_table .table > tbody > tr > td {
+		font-size: 16px!important;
+	}
+	.ChooseState .processBtn {
+		width: 99px;
+	}
+	.charTable > tbody > tr span {
+		width: 33px;
+	}
+	.showNonHag {
+		font-size: 25px;
+	}
+	.indexStyle .Exp-Bus h2 span:last-child {
+		font-size: 71px;
+	}
+	.indexStyle .Exp-Bus h2 span:first-child {
+		font-size: 90px;
+		text-align: center;
+		display: block;
+	}
+	.indexStyle .Exp-Bus span:nth-child(2){
+		font-size: 61px;
+	}
+	
+	.changeState{
+	  margin-top: 6em;
+	}
+  
+	.state-h2 {
+	  font-size: 21px;
+	  margin-top: 2em;
+	}
+	.gen-form {
+	overflow-x: hidden;
+	}
+	.first-header {
+	  margin: 0;
+	  margin-top: 6em;
+	  padding: 0;
+	  width: 91%;
+	}
+  
+	.fed-table,.personal_table,.Exp-Bus {
+	  width: 49%;
+	  left: 0;
+	  margin-left: 0;
+	  float:left;
+	}
+	.choose-country{
+	  width: 47%;
+	  padding: 37px;
+	  margin: 0;
+	  float:left;
+	}
+	.choose-countryState {
+	  margin:0;
+	}
+	.B-doc,  .personal_table .table {
+	margin-left: 0;
+	/* margin: 0; */
+	}
+
+	.nav-aside h1 {
+	  font-size: 37px;
+	}
+	.fed-table h3 {
+		font-size: 7rem;
+	}
+	.fed-table p {
+		font-size: 43px;
+		margin-top: 30px;
+	}
+	.choose-country h3 span {
+		font-size: 52px!important;
+		margin: 0;
+	}
+	.charTable > tbody > tr span {
+		width: 50px;
+	}
+	.choose-country .col {
+		height: 38vh;
+	}
+	.indexStyle .Exp-Bus {
+		width: 86%;
+		padding: 0;
+		margin-right: 2em;
+	}
+	.block .choose-country {
+		margin-left: 20px;
+		padding: 0;
+		margin: 3em 0;
+	}
+	.USDInstruction .fixedPos h3{
+		display: none;
+		}
+	.alabamaForm ul{
+		font-size: 22px!important;
+		padding-left: 33px;
+		width: 100%;
+		margin-top: 2em;
+	}
+	.Other-countries {
+		font-size: 12px;
+	}
+	.ChooseState h4 {
+		font-size: 26px;
+	}
+	.states_table .col {
+		height: 82vh;
+	}
+	.text-OneDay span:last-child {
+		font-size: 93px;
+	}
+	.first-par span:first-child {
+		font-size: 94px;
+	}
+	.first-par span:last-child{
+		font-size: 73px;
+	}
+	.countryCase  .alabamaForm{
+		margin-top: 3em;
+	}
+
+
+}
+@media screen and (max-width:500px){
 	.expService h4 {
 		font-size: 40px;
 	}
@@ -6070,13 +6679,15 @@ hr {
 	color: gray;
 }
 .tableDetails{
-	margin-top: 3em;
+	/* margin-top: 3em; */
 	font-size: 17px;
+	/* background: #f6f6f6; */
+	padding: 12px;
 }
  .moveBtn-C{
 	font-size: 24px;
-    font-weight: normal;
-    margin-bottom: 11px;
+	font-weight: normal;
+	margin-bottom: 34px;
 }
 .btn-container{
 	height: 23vh;
@@ -6091,6 +6702,13 @@ hr {
 	font-size: 22px;
 	border-radius: 8px;
 }
+.tableDetails .text-right .btn{
+	background-color: #b32134;
+	width:200px;
+	color: white;
+	font-size: 22px;
+	border-radius: 8px;
+}
 @media(max-width: 650px) {
     .creditCardForm .owner,
     .creditCardForm .CVV,
@@ -6101,4 +6719,30 @@ hr {
     .creditCardForm #credit_cards {
         text-align: left;
     }
-}                                                            
+}  
+
+
+ .custom-select-trigger {
+    border: 1px solid #808080ab;
+	line-height: 60px;
+ }
+.pricelstdiv p {
+	line-height: 59px;
+	display: flex;
+	align-items: center;
+	height: 69px;
+	font-size: 20px;
+}
+.expService {
+	display: flex;
+	align-items: center;
+
+}
+.pricelstdiv .btn{
+	width: 300px;
+	font-size: 30px;
+	margin-top: 54px;
+}
+.pricelstdiv .col-sm-4{
+	text-align: right;
+}

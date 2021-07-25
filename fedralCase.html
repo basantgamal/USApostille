@@ -53,6 +53,7 @@
 
 		<!-- Theme style  -->
 		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/lumos.css">
 		<link href="https://fonts.googleapis.com/css?family=Oxygen:300,400"
 			rel="stylesheet">
 		<link
@@ -165,28 +166,67 @@
 											text-align: center;">
 											<div class="images-container" >
 											
-												<img src="images/fedralDoc/FDA dig.jpg" alt="" >
-												<img src="images/fedralDoc/fbi.jpg" alt="" >
+												<img src="images/fedralDoc/FDA dig.jpg" alt="" 
+												data-action="lumos"
+												data-lumos-src="images/fedralDoc/FDA dig.jpg"
+												data-lumos-caption="Portrait de la planète Mars – © NASA/JPL/USGS"
+					   
+												class="m-auto">
+												<img src="images/fedralDoc/fbi.jpg" alt="" 
+												data-action="lumos"
+												data-lumos-src="images/fedralDoc/fbi.jpg"
+												data-lumos-caption="Portrait de la planète Mars – © NASA/JPL/USGS"
+					   
+												class="m-auto" >
 							
 											</div>
 										</div>
 										<div class="col-lg-9" style="margin-top: 3em;">
 											<p >The original version of these 6 documents is required. No digital files or copies are accepted. </p>
 												<img src="images/fedralDoc/downArrow.gif" class="arrowDown" >
+
 											<div class="images-container" >
 												
 												<div class="row" style="margin-bottom: 21px;position: relative;top: 8px;">
-													<img src="images/fedralDoc/FDA yel.jpg" alt="" >
-													<img src="images/fedralDoc/FDA red.jpg" alt="" >
+												
+													<img src="images/fedralDoc/FDA yel.jpg" alt=""
+													data-action="lumos"
+													data-lumos-src="images/fedralDoc/FDA yel.jpg"
+													data-lumos-caption="Portrait de la planète Mercure – © NASA/Johns Hopkins University/Carnegie Institution of Washington"
+													class="m-auto" >
+
+													<img src="images/fedralDoc/FDA red.jpg" alt=""
+													data-action="lumos"
+													data-lumos-src="images/fedralDoc/FDA red.jpg"
+													data-lumos-caption="Portrait de la planète Mercure – © NASA/Johns Hopkins University/Carnegie Institution of Washington"
+													class="m-auto" >
+
 												</div>
+
 												<div class="row">
-													
-		
-													<img src="images/fedralDoc/FDA org.jpg" alt="" >
-													<img src="images/fedralDoc/USPTO.jpg" alt="" >
+													<img src="images/fedralDoc/FDA org.jpg" alt="" 	
+													data-action="lumos"
+													data-lumos-src="images/fedralDoc/FDA org.jpg"
+													data-lumos-caption="Portrait de la planète Mercure – © NASA/Johns Hopkins University/Carnegie Institution of Washington"
+													class="m-auto" >
+
+													<img src="images/fedralDoc/USPTO.jpg" alt="" 
+														data-action="lumos"
+													data-lumos-src="images/fedralDoc/USPTO.jpg"
+													data-lumos-caption="Portrait de la planète Mercure – © NASA/Johns Hopkins University/Carnegie Institution of Washington"
+													class="m-auto" >
 									
-													<img src="images/fedralDoc/USDA.jpg" alt="" >
-													<img src="images/fedralDoc/usda (2).jpg" alt="" >
+													<img src="images/fedralDoc/USDA.jpg" alt=""
+													data-action="lumos"
+													data-lumos-src="images/fedralDoc/USDA.jpg"
+													data-lumos-caption="Portrait de la planète Mercure – © NASA/Johns Hopkins University/Carnegie Institution of Washington"
+													class="m-auto"  >
+
+													<img src="images/fedralDoc/usda (2).jpg" alt="" 	
+													data-action="lumos"
+													data-lumos-src="images/fedralDoc/usda (2).jpg"
+													data-lumos-caption="Portrait de la planète Mercure – © NASA/Johns Hopkins University/Carnegie Institution of Washington"
+													class="m-auto"  >
 												</div>
 									
 											</div>
@@ -242,7 +282,15 @@
 			</main>
 
 		</div>
-
+        <template id="lumos-template">
+            <div id="lumos-container">
+                <figure id="lumos-figure">
+                    <img src="" alt="" id="lumos-image">
+                    <!-- <figcaption id="lumos-caption"></figcaption>  -->
+					<!-- Optional: only if you want to use data-lumos-caption -->
+                </figure>
+            </div>
+        </template>
 		<div class="gototop js-top">
 			<a href="#" class="js-gotop"><i class="icon-arrow-up2"></i></a>
 		</div>
@@ -264,7 +312,7 @@
 		<script src="js/jquery.countTo.js"></script>
 		<!-- Main -->
 		<script src="js/main.js"></script>
-
+		<script src="js/lumos.js"></script>
 
 
 
