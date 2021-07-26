@@ -713,6 +713,10 @@
 	  @media screen and (max-width: 768px) {
 		.usapostile-nav-toggle {
 		  display: block;
+		  width: 51px;
+		  top: 12px!important;
+		  line-height: 30px;
+		  left: 12px!important;
 		}
 	  }
 	  
@@ -742,8 +746,8 @@
 	  
 	  .btn-primary {
 		background: #101348;
-		color: #fff;
-		border: 2px solid #f7d65b;
+		color: #ffffff;
+		border: 3px solid #f5da75;
 		font-size: 18px;
 		border-radius: 5px;
 		}
@@ -2744,7 +2748,7 @@ label.vacation.transportAccount.packageShipped{
 	/* border-color: gainsboro; */
 	border: 0;
 	/* border-width: 2px; */
-	/* background: #fcf9f1; */
+	background: #f4f4f4;
 }
 .hasinv-tbl{
 	background-color: gainsboro;
@@ -2807,6 +2811,7 @@ label.vacation.transportAccount.packageShipped{
 	line-height: 1.3;
 	margin-top: -35px;
 	height: 83px;
+	display: flex;
 }
 .single-dovument-case-container{
 	text-align: center;
@@ -2831,6 +2836,7 @@ label.vacation.transportAccount.packageShipped{
 	color: #b32134;
 	margin-bottom: 34px;
 	margin-top: 38px;
+	text-transform: capitalize;
 }
 .expService h3{
 	font-size: 39px;
@@ -3311,6 +3317,8 @@ hr {
 .creditCardForm .payment select {
     padding: 10px;
     margin-right: 15px;
+    color: black;
+    font-size: inherit;
 }
 .transparent {
     opacity: 0.2;
@@ -3725,10 +3733,8 @@ hr {
 		width: 97%;
 		margin-top: 9em;
 		margin: auto;
-		/* margin-top: 3em; */
 	}
 	.countryCase .block-content{
-		/* padding: 0 62px; */
 		border-radius: 5px;
 		min-height: 43vh;
 	}
@@ -3748,10 +3754,6 @@ hr {
 	.countryCase .block{
 		background: transparent;
 		display: none;
-		/* position: absolute; */
-		/* top: 0; */
-		/* left: 0; */
-		/* width: 100%; */
 	}
 
 	.countryCase .authQues{
@@ -3785,7 +3787,6 @@ hr {
 		font-size: 45px;
 		color: #11144a;
 		margin-bottom: 1em;
-		/* width: 55%; */
 	}
 	.countryCase  .form-control {
 		box-shadow: none;
@@ -3816,7 +3817,6 @@ hr {
 		font-size: 47px;   
 		margin-bottom: 2em;
 	}
-
 
 	.choose-country .col tr:hover{
 		background-color: #dbdbdb;
@@ -3937,16 +3937,10 @@ hr {
 		margin-top: -2em;
 	}
 
-
-
 	#embassy {
 		font-family: Arial, Helvetica, sans-serif;
 		box-shadow: 2px 3px 7px 6px gainsboro;
 		margin-top: 0;
-	}
-	.fedxOption{
-		/* padding: 0 5EM; */
-		/* padding-bottom: 5em; */
 	}
 	.fedxOption .radioContainer input[type="checkbox"]:checked:after {
 		font-size: 12px;
@@ -4016,7 +4010,6 @@ hr {
 		margin-top: 1.5em;
 	}
 	.gen-form.bigContentSmallScreen {
-		/* margin: 0 104px; */
 	}
 	#usd{
 		margin: 0px 93px;
@@ -4035,7 +4028,6 @@ hr {
 		-moz-border-radius: 10px3px;
 		-ms-border-radius: 3px;
 		-o-border-radius: 3px;
-		/* width: 110px; */
 	}
 	.first-par span{
 		font-size: 75px;
@@ -4087,12 +4079,8 @@ hr {
 		top: -10px;
 	}
 	.img-border{
-		/* border-top: 11px solid #6d1612; */
-		/* position: relative; */
-		/* top: -67px; */
 	}
 	.img-border img{
-		/* box-shadow: 0px 3px 7px 3px gainsboro; */
 		border: 5px solid #101348;
 	}
 	.form-container{
@@ -4102,14 +4090,16 @@ hr {
 	.stateStyle h3{
 		font-size: 32px;
 		margin-top: 1em;
-		text-shadow: 1px 1px 1px gold;
 	}
 	.stateStyle button{
-		width:90%;
-		margin-top: 1em;
-		border-radius: 50px;
-		font-size: 40px;
-		text-transform: capitalize;
+		width: 91%;
+		/* margin-top: 3em; */
+		border-radius: 13px;
+		font-size: 29px;
+		text-transform: uppercase;
+		display: block;
+		/* margin: auto; */
+		margin-top: 2em;
 	}
 	.stateStyle p:first-of-type{
 		font-size: 27px;
@@ -4126,18 +4116,322 @@ hr {
 		font-weight: normal;
 	}
 	.alabamaForm .fixedPos label{
-		font-size: 23px;
-		font-weight: normal;
+		font-size: 30px;
+		/* font-weight: normal; */
+		font-family: 'Alegreya Sans';
+		width: 50%;
 	}
 	.alabamaForm .fixedPos .labelName{
-		font-family: sans-serif;
-		 font-size: 44px;
-		 color: #6e150e;
-		 display: inline;
-		 margin-left: 14px;
+		font-size: 39px;
+		color: #b32134;
+		display: inline;
+		margin-left: 14px;
+	}
+
+	
+	.bl-3{
+		border-left: 3px solid black;
+	}
+	.notaryQuestion img{
+			width: 93%;
+			margin: auto;
+			object-fit: contain;
+			object-position: center;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+	}
+	.notaryQuestion{
+		margin-top: 3em;
+		height: 76vh;
+	}
+	.notaryQuestion h1{
+		font-size: 64px;
+		font-weight: bold;
+		text-align: center;
+		color: #11144a;
+		margin-bottom: 1em;
+	}
+
+	.notaryQuestion label {
+		position: relative;
+		top: 5px;
+		font-weight: normal;
+	}
+
+	.notaryQuestion .image-container img:first-child{width: 328px;}
+	.notaryQuestion .image-container img:nth-child(2){
+		width: 264px;
+		top: 9em;
+		position: absolute;
+		left: 14em;
+		z-index: 2;
+	}
+	.notaryQuestion .image-container img:nth-child(3){
+		position: absolute;
+		top: 17em;
+		width: 265px;
+		left: 9em;
+		z-index: 4;
+	}
+
+	.notaryQuestion .image-container img:nth-child(4){
+		position: absolute;
+		top: 21em;
+		z-index: 5;
+		width: 525px;
+		left: 9em;
+		height: 384px;
+		object-position: 65% 14%;
+	}
+	.notaryQuestion .image-container img:last-child{
+		position: absolute;
+		top: 12em;
+		left: 25em;
+		width: 302px;
+	}
+	.notaryQuestion .image-container{
+		height: 452px;
+		overflow: hidden;
+		position: relative;
+	}
+	.IssuedByState .image-container{
+		position: relative;
+	}
+
+	.IssuedByState .image-container img:first-child{
+		width: 489px;
+		margin: auto;
+		display: flex;
+		margin-top: 2em;
+		border: 5px solid #101348;
+	}
+	.IssuedByState .image-container img:nth-child(2){
+		position: absolute;
+		top: 41em;
+		width: 300px;
+		z-index: 2;
+		border: 4px solid #101348;
+		left: 3em;
+	}
+	.IssuedByState .image-container img:last-child{
+		position: absolute;
+		top: 41em;
+		width: 300px;
+		left: 27em;
+		border: 5px solid #101348;
+	}
+	.notaryQuestion h1{
+		font-size: 7rem;
+	}
+	.notaryQuestion h1::before,
+	.notaryQuestion h1::after {
+		content: "";
+		border-top: .3rem solid #d0d0d0;
+		width: 11rem;
+		margin: 0 1rem;
+		transform: translateY(0rem);
+	}
+	.box p{
+		margin: 0;
+	}
+	.choose2 .charTable > tbody > tr span {
+		background: #dbdbdb;
+		width: 36px;
+		margin-bottom: 13px;
+	}
+	.fedCase .images-container img{
+		width: 400px;
+		border: 1px solid gainsboro;
+		height: 291px;
+	position: relative;
+	}
+	.fedxEditForm label{
+		font-size: 22px;
+	}
+	.fedCase p{
+		font-size: 17px;
+		margin-bottom: 8px;
+	}
+	.fedCase .col-lg-3 .images-container img{
+		border: 3px solid #b32134;
+	}
+	.fedCase .col-lg-9 .images-container img{
+		border: 3px solid #101348;
+	}
+
+	.fedCase .col-lg-3 .images-container img:first-child{
+		top: 14px;
+		width: 236px;
+		margin-bottom: 1em;
+		position: relative;
+	}
+	.fedCase .col-lg-3 .images-container img:last-child{
+		width: 235px;
+		position: relative;
+		position: relative;
+		top: 14px;
+	}
+
+	.fedCase .col-lg-9 .row:first-child img:nth-of-type(1){
+		left: -12px;
+		width: 49%;
+		position: relative;
+	}
+
+	.fedCase .col-lg-9 .row:first-child img:nth-of-type(2){
+		width: 49%;
+		left: 5px;
+	}
+
+	.fedCase .col-lg-9 .row:last-child img:nth-of-type(1){
+		width: 190px;
+		z-index: 6;
+		width: 23%;
+		left: -14px;
+	}
+
+	.fedCase .col-lg-9 .row:last-child img:nth-of-type(2){
+		width: 26%;
+		position: relative;
+		left: -7px;
+	}
+	.fedCase .col-lg-9 .row:last-child img:nth-of-type(3){
+		width: 247px;
+		width: 24%;
+		left: 1px;
+	}
+	.fedCase .col-lg-9 .row:last-child img:nth-of-type(4){
+		width: 23%;
+		left: 14px;
+	}
+	.fedCase .col-lg-9 .arrowDown{
+		width: 40px;
+		left: 25em;
+		border: 0;
+		height: auto;
+		position: relative;
+	}
+	.fedCase .col-lg-3 p{
+		font-size: 20px;
+		color: #b32134;
+		margin-top: 2em;
+		margin-bottom: 0;
+	}
+	.fedCase .col-lg-9 p{
+		font-size: 26px;
+		height: 119px;
+	}
+	.businessDoc{
+		background-image: url('../images/backCertifi-03-01.png');
+		height: 100vh;
+		display: flex;
+	}
+	.businessDoc .box{
+		width: 51%;
+		margin: auto;
+		background-color: white;
+		height: 40vh;
+		padding: 3em;
+		border-radius: 6px;
+		box-shadow: 2px 3px 4px;
+	}
+	.businessDoc .box p {
+		font-size: 18px;
+		MARGIN-BOTTOM: 40PX;
+	}
+	.businessDoc .box h2{font-weight: bold;font-size: 43px;/* font-family: 'Alegreya Sans'; */margin-bottom: 61px;color: #b32134;}
+	.businessDoc .box h2 span{
+		font-size: 44px;
+		font-family: 'Yellowtail', cursive;
+		position: relative;
+		top: 1em;
+		color: gray;
+	}
+	.busDetails p {
+		font-size: 24px;
+	}
+	.busDetails h2{font-weight: bold;font-size: 43px;/* font-family: 'Alegreya Sans'; */margin-bottom: 61px;color: #b32134;margin-top: 4em;}
+	.busDetails  h2 span{
+		font-size: 44px;
+		font-family: 'Yellowtail', cursive;
+		position: relative;
+		top: 1em;
+		color: gray;
+	}
+	.tableDetails{
+		font-size: 17px;
+		padding: 12px;
+	}
+	 .moveBtn-C{
+		font-size: 24px;
+		font-weight: normal;
+		margin-bottom: 34px;
+	}
+	.btn-container{
+		height: 23vh;
+		display: flex;
+		justify-content: flex-end;
+		flex-direction: column;
+	}
+	.btn-container .btn{
+		background-color: #b32134;
+		width: 100%;
+		color: white;
+		font-size: 22px;
+		border-radius: 8px;
+	}
+	.tableDetails .text-right .btn{
+		background-color: #b32134;
+		width:200px;
+		color: white;
+		font-size: 22px;
+		border-radius: 8px;
+	}
+	
+	
+	
+	 .custom-select-trigger {
+		border: 1px solid #808080ab;
+		line-height: 60px;
+	 }
+	.pricelstdiv p {
+		line-height: 59px;
+		display: flex;
+		align-items: center;
+		height: 69px;
+		font-size: 20px;
+	}
+	.expService {
+		display: flex;
+		align-items: center;
+	
+	}
+	.pricelstdiv .btn{
+		width: 300px;
+		font-size: 30px;
+		margin-top: 54px;
+	}
+	.pricelstdiv .col-sm-4{
+		text-align: right;
+	}
+	
+	.certicatesImg{
+		position: relative;
+		width: 100%;
+	}
+	.stateStyle a{
+		color: blue;
 	}
 }
 
+
+
+
+
+
+/* print */
 @media print {
 	.gototop{
 		display: none;
@@ -4230,6 +4524,13 @@ hr {
 
 }
 
+
+
+
+
+/* Responsive */
+
+
 @media screen and (min-width: 1831px){
 	.fed-table p{
 		font-size: 47px;
@@ -4256,8 +4557,6 @@ hr {
 		margin: 0;
 		width: 84%;
 		padding: 0;
-		/* margin-top: 15px; */
-		/* overflow: hidden; */
 	}
 	.indexStyle .Exp-Bus h2 span:first-child {
 		font-size: 84px;
@@ -4279,8 +4578,6 @@ hr {
 	}
 	.indexStyle .Exp-Bus span:nth-child(2){
 		font-size: 5.3rem;
-		/* font-weight: bold; */
-		/* text-shadow: -1px 2px 2px #f5da75; */
 	}
 	.first-par span:first-child {
 		font-size: 71px;
@@ -4331,8 +4628,10 @@ hr {
 		width: 86%;
 		font-family: 'Roboto';
 		font-weight: normal;
-		font-size: 39px!important;
+		font-size: 23px!important;
 		padding: 0;
+		margin-top: 2em;
+		list-style: none;
 	}
 }
 
@@ -4451,7 +4750,39 @@ hr {
 		font-size: 29px;
 	}
 }
-
+@media screen and (max-width:1600px ) and (min-width:1000px){
+	.fedCase{
+		margin-top: 4em!important;
+	}
+	.fedCase p {
+		font-size: 16px;
+	}
+	.fedCase .col-lg-3 .images-container img:first-child{
+		width: 222px;
+	}
+	.fedCase .col-lg-3 .images-container img:last-child{
+		width: 221px;
+	}
+	
+	.fedCase .col-lg-9 .row:first-child img:nth-of-type(1){
+		width: 319px;
+	}
+	
+	.fedCase .col-lg-9 .row:first-child img:nth-of-type(2){
+		width: 375px;
+	}
+	
+	.fedCase .col-lg-9 .row:last-child img:nth-of-type(1){
+		width: 175px;
+	}
+	
+	.fedCase .col-lg-9 .row:last-child img:nth-of-type(3){
+		width: 179px;
+	}
+	.fedCase .col-lg-9 .row:last-child img:nth-of-type(4){
+		width: 172px;
+	}
+}
 @media screen and (max-width:1700px){
 	.indexStyle .Exp-Bus {
 	}
@@ -4498,9 +4829,8 @@ hr {
 		margin-right: 18px;
 	}
 	.Other-countries {
-    /* background-color: #730808; */
-    font-size: 15px;
- }
+		font-size: 15px;
+      }
 	.indexStyle .Exp-Bus h2 span:last-child {
 		font-size: 52px;
 	}
@@ -4521,7 +4851,6 @@ hr {
 	}
 	.Exp-Bus h2{
 		font-size: 15px!important;
-		/* text-align: center; */
 	}
 	.first-par span:last-child {
 		font-size: 52px;
@@ -4546,7 +4875,6 @@ hr {
 	.personal_table .table {
 		margin-left: 0;
 		margin-top: 2em;
-		/* width: 32%; */
 	}
 	.block .choose-country {
 		width: 15%;
@@ -4709,11 +5037,13 @@ hr {
 	.first-header{
 		margin-left: 1em;
 		margin-top: -3em;
-		/* display: none; */
 	}
 	.nav-aside h1 {
 
 		font-size: 40px;
+	}
+	.single-dovument-case-container .caseLabel{
+		font-size: 19px!important;
 	}
 }
 
@@ -4812,9 +5142,9 @@ hr {
 	  /* margin-top: 6em; */
 	  padding: 12px;
 	}
-  .first-header p{
-  	margin:0
-  }
+	  .first-header p{
+		margin:0
+	  }
 	.fed-table,.personal_table,.Exp-Bus {
 	  width: 49%;
 	  left: 0;
@@ -4831,9 +5161,9 @@ hr {
 	  margin:0;
 	}
 	.B-doc,  .personal_table .table {
-  margin-left: 1em;
-  margin-top: 35px;
- }
+	  margin-left: 1em;
+	  margin-top: 35px;
+	 }
 	.ml-2 {
 	  margin:0
 	}
@@ -4862,7 +5192,12 @@ hr {
 	}
 
 }
+
 @media screen and (max-width: 1400px) {
+
+	.single-dovument-case-container img {
+		height: 343px;
+	}
 	.united-text {
 		font-size: 25px;
 	}
@@ -4923,9 +5258,7 @@ hr {
 		display: block;
 	}
 	.indexStyle .block .col-lg-10 {
-	    /* width: 94%; */
 	    margin: 0;
-	    /* padding: 0; */
 	    MARGIN-TOP: 4EM;
 	    padding: 0;
 	}
@@ -5016,6 +5349,7 @@ hr {
 	}
 	
 }
+
 @media screen and (max-width: 1300px) {
 	.block .choose-country {
 		width: 18%;
@@ -5102,15 +5436,12 @@ hr {
 	  margin:0;
 	}
 	.B-doc,  .personal_table .table {
-  margin-left: 1em;
-  /* margin-top: 2em; */
-  /* position: relative; */
-  /* top: 2em; */
-  /* overflow: hidden; */
- }
-  .personal_table .table{
-  	 margin-top: 6em;
-  }
+		margin-left: 1em;
+
+	}
+	  .personal_table .table{
+		 margin-top: 6em;
+	  }
 	.ml-2 {
 	  margin:0
 	}
@@ -5139,7 +5470,27 @@ hr {
 	}
 	
 }
+
 @media screen and (max-width: 1200px) {
+	.alabamaForm .col-md-offset-5 {
+		padding: 0;
+		margin-bottom: 9em;
+	}
+	.single-dovument-case-container .overlay {
+		left: 0;
+		right: 0;
+		width: 63%;
+		margin: auto;
+	}
+	.single-dovument-case-container .step1,.single-dovument-case-container .step2,.single-dovument-case-container .step3,.single-dovument-case-container .step4,.single-dovument-case-container .step5 {
+		margin: auto;
+		height: 513px;
+		width: 63%;
+	}
+	.single-dovument-case-container img {
+		height: 384px;
+		width: 66%;
+	}
 	.personal_table .table > thead > tr > th span {
 		font-size: 12px;
 	}
@@ -5153,10 +5504,10 @@ hr {
 		font-size: 16px;
 	}
 	.alabamaForm .fixedPos label{
-		font-size: 17px!important;
+		font-size: 30px!important;
 	}
 	.alabamaForm .fixedPos .labelName{
-		 font-size: 19px;
+		 font-size: 35px;
 	}
 	.choose-country .col {
 		height: 43vh;
@@ -5215,7 +5566,7 @@ hr {
 		height: 73vh;
 	}
 	.stateStyle h3{
-		font-size: 19px;
+		font-size: 24px!important;
 	}
 	.caseStyle .single-dovument-case-container {
 		margin-bottom: 5em;
@@ -5227,6 +5578,7 @@ hr {
 	}
 	
 }
+
 @media screen and (max-width: 1100px) {
 	.charTable > tbody > tr > td {
 		width: 10%;
@@ -5242,7 +5594,6 @@ hr {
 	}
 	.indexStyle .Exp-Bus span:nth-child(2){
 		font-size: 6.2rem;
-		/* text-align: center; */
 		display: block;
 		margin-top: 14px;
 	}
@@ -5257,14 +5608,14 @@ hr {
 	.block .choose-country {
 		width: 44%;
 		}
-  .first-par span:first-child {
-    font-size: 94px;
- }
+	.first-par span:first-child {
+		font-size: 94px;
+	}
 	.first-par span:last-child {
 		font-size: 71px;
 	}
 	.text-OneDay span:last-child {
-		font-size: 103px;
+		font-size: 91px;
 	}
 	.text-OneDay span:first-child {
 		font-size: 9rem;
@@ -5283,13 +5634,13 @@ hr {
 		font-size: 25px;
 	}
 	.fed-table h3 {
-    font-size:7rem;
+   		 font-size:7rem;
 	}
 	.container-wrap {
 	  width: 100%;
 	}
 	.united-text {
-		font-size: 37px;
+		font-size: 36px;
 		}
 	.nav-aside .nabar-brand{
 		display: none;
@@ -5339,7 +5690,10 @@ hr {
 	.ml-2 {
 	  margin:0
 	}
-	.choose-country h3 {font-size: 60px!important;min-height: fit-content;}
+	.choose-country h3 {
+		font-size: 60px!important;
+		min-height: fit-content;
+	}
 	.usapostile-nav-toggle{
 	  display: block;
 	}
@@ -5436,7 +5790,84 @@ hr {
 		height: 87vh;
 	}
 }
+
 @media screen and (max-width: 1000px) {
+	.single-dovument-case-container img {
+		height: 60vh;
+		width: 48%;
+	}
+	.single-dovument-case-container .overlay {
+		left: 0;
+		right: 0;
+		width: 63%;
+		margin: auto;
+	}
+	.single-dovument-case-container .step1,.single-dovument-case-container .step2,.single-dovument-case-container .step3,.single-dovument-case-container .step4,.single-dovument-case-container .step5 {
+		margin: auto;
+		height: 513px;
+		width: 63%;
+	}
+	.single-dovument-case-container .caseLabel{
+		font-size: 37px!important;
+	}
+	.arrowDown{
+		display: block;
+	}
+	.fedCase .col-lg-9 .row:last-child img {
+		width: 49.5%!important;
+		display: inline-block;
+		left: 0!important;
+		margin-bottom: 12px;
+	}
+	.col-lg-3 .images-container{
+		display: flex;
+   		 justify-content: space-around;
+	}
+	.displayFlex{
+		display: flex;
+		flex-direction: column;
+	}
+	.certicatesImg{
+	    min-height: 43vh;
+		text-align: center;
+		margin: auto;
+		justify-content: center;
+		align-items: center;
+		width: 50%;
+		position: relative;
+	}
+	.busDetails{
+		order: 2;
+	}
+	.certicatesImg img:first-child{
+		border: 4px solid;
+	}
+	.certicatesImg img:nth-child(2){
+		top: 6em;
+		right: 10em;
+		z-index: 2;
+		animation-duration: 1s;
+		animation-delay:1s;
+	}
+	.certicatesImg img:nth-child(3){
+		top: 22em;
+		right: 10em;
+	}
+	.certicatesImg img:nth-child(4){
+		top: 6em;
+		right: -12em;
+		z-index: 3;
+		border: 3px solid;
+		animation-duration: 1s;
+		animation-delay:3s;
+	}
+
+	.certicatesImg img {
+		width: 327px;
+	}
+	.businessDoc .box {
+		width: 91%;
+	}
 	.first-par span:first-child {
 		font-size: 81px;
 	}
@@ -5445,7 +5876,7 @@ hr {
 		text-transform: capitalize;
 	}
 	.charTable > tbody > tr > td {
-		width: 44px;
+		/* width: 10%; */
 	}
 	.block .personal_table {
 		width: 47%;
@@ -5455,7 +5886,7 @@ hr {
 		font-size: 89px;
 	}
 	.B-doc .issued-text {
-		font-size: 20px;
+		font-size: 22px;
 	}
 	.united-text {
 		font-size: 33px;
@@ -5465,7 +5896,7 @@ hr {
 		text-transform: capitalize;
 	}
 	.text-OneDay span:last-child {
-		font-size: 88px;
+		font-size: 83px;
 		text-transform: capitalize;
 	}
 	.indexStyle .Exp-Bus h2 span:last-child {
@@ -5481,9 +5912,9 @@ hr {
 	.changeState{
 	  margin-top: 6em;
 	}
-  .first-par span:last-child {
-    font-size: 64px;
-}
+	.first-par span:last-child {
+		font-size: 64px;
+	}
 	.state-h2 {
 	  font-size: 21px;
 	  margin-top: 2em;
@@ -5513,8 +5944,8 @@ hr {
 	  margin:0;
 	}
 	.B-doc,  .personal_table .table {
-  
-	  margin-left: 1em;
+		margin-left: 1em;
+		margin-top: 21px;
 	}
 
 	.nav-aside h1 {
@@ -5522,6 +5953,7 @@ hr {
 	}
 	.fed-table h3 {
 		font-size: 8rem;
+		margin-top: 21px;
 	}
 	.fed-table p {
 		font-size: 47px;
@@ -5549,7 +5981,6 @@ hr {
 	}
 	.ChooseState .processBtn{
 		width: 55px;
-		/* position: relative; */
 		top: 0;
 		height: 57px;
 	}
@@ -5574,19 +6005,27 @@ hr {
 	}
 
 }
+
 @media screen and (max-width: 900px) {
+	.alabamaForm .fixedPos .labelName {
+		font-size: 27px;
+	}
+	.text-OneDay span:first-child {
+		font-size: 91px;
+		text-transform: capitalize;
+	}
 	.text-OneDay span:last-child {
-		font-size: 78px;
+		font-size: 73px;
 		text-transform: capitalize;
 	}
 	.first-par span:first-child {
-		font-size: 79px;
+		font-size: 76px;
 	}
 	.B-doc .issued-text {
-    font-size: 21px;
+    font-size: 19px;
     }
     .united-text {
-		font-size: 31px;
+		font-size: 29px;
 	}
 	.text-OneDay span:nth-child(2) {
 		font-size: 87PX;
@@ -5612,9 +6051,9 @@ hr {
 	.changeState{
 	  margin-top: 6em;
 	}
-  .first-par span:last-child {
-    font-size: 62px;
-}
+	.first-par span:last-child {
+		font-size: 58px;
+	}
 	.state-h2 {
 	  font-size: 21px;
 	  margin-top: 2em;
@@ -5644,10 +6083,14 @@ hr {
 	  margin:0;
 	}
 	.B-doc,  .personal_table .table {
-  
-	  margin-left: 1em;
+		margin-left: 1em;
 	}
-
+	.personal_table .table {
+		margin-top: 8em;
+	}
+	.states_table .col {
+		height: 83vh;
+	}
 	.nav-aside h1 {
 	  font-size: 37px;
 	}
@@ -5680,7 +6123,6 @@ hr {
 	}
 	.ChooseState .processBtn{
 		width: 55px;
-		/* position: relative; */
 		top: 0;
 		height: 57px;
 	}
@@ -5705,7 +6147,12 @@ hr {
 	}
 
 }
+
 @media screen and (max-width: 800px) {
+	.single-dovument-case-container img {
+
+		width: 50%;
+	}
 	.B-doc .issued-text {
 		font-size: 16px;
 	}
@@ -5758,7 +6205,7 @@ hr {
 	  margin-top: 2em;
 	}
 	.gen-form {
-	overflow-x: hidden;
+		overflow-x: hidden;
 	}
 	.first-header {
 	  margin: 0;
@@ -5782,8 +6229,7 @@ hr {
 	  margin:0;
 	}
 	.B-doc,  .personal_table .table {
-	margin-left: 0;
-	/* margin: 0; */
+		margin-left: 0;
 	}
 
 	.nav-aside h1 {
@@ -5849,9 +6295,45 @@ hr {
 
 
 }
+
 @media screen and (max-width: 768px) {
+	.stateStyle button {
+		width: 61%;
+		margin: auto;
+		display: block;
+	}
+	.certicatesImg img:nth-child(2){
+		top: 6em;
+		right: 8em;
+		z-index: 2;
+		animation-duration: 1s;
+		animation-delay:1s;
+	}
+	.certicatesImg img:nth-child(3){
+		top: 16em;
+		right: 10em;
+	}
+	.busDetails h2{
+		position:relative;;
+	}
+	.busDetails h2 span {
+		display:block;
+		position:absolute;
+        right:12px;
+	}
+	.certicatesImg img:nth-child(4){
+		top: 12em;
+		right: -7em;
+	}
+	.certicatesImg img{
+		width: 245px;
+	}
 	.B-doc .issued-text {
 		font-size: 16px;
+	}
+	.text-OneDay span:nth-child(2) {
+		font-size: 73PX;
+		text-transform: capitalize;
 	}
 	.united-text {
 		font-size: 24px;
@@ -5926,8 +6408,7 @@ hr {
 	  margin:0;
 	}
 	.B-doc,  .personal_table .table {
-	margin-left: 0;
-	/* margin: 0; */
+		margin-left: 0;
 	}
 
 	.nav-aside h1 {
@@ -5941,14 +6422,17 @@ hr {
 		margin-top: 30px;
 	}
 	.choose-country h3 span {
-		font-size: 52px!important;
+		font-size: 45px!important;
 		margin: 0;
 	}
 	.charTable > tbody > tr span {
-		width: 48px;
+		width: 49px;
+	}
+	.showNonHag{
+		font-size:20px
 	}
 	.choose-country .col {
-		height: 113vh;
+		height: 87vh;
 	}
 	.indexStyle .Exp-Bus {
 		width: 49%;
@@ -5956,13 +6440,12 @@ hr {
 		margin-right: 2em;
 	}
 	.charTable > tbody > tr > td {
-		width: 50px;
+		width: 61px;
 	}
 
 	.block .choose-country {
-		margin-left: 20px;
 		padding: 0;
-		margin: 3em 0;
+		margin: 0;
 	}
 	.USDInstruction .fixedPos h3{
 		display: none;
@@ -5983,13 +6466,16 @@ hr {
 		height: 81vh;
 	}
 	.text-OneDay span:last-child {
-		font-size: 69px;
+		font-size: 62px;
 	}
 	.first-par span:first-child {
-		font-size: 106px;
+		font-size: 61px;
+	}
+	.usapostile-nav-toggle span {
+		display:none
 	}
 	.first-par span:last-child{
-		font-size: 52px;
+		font-size: 48px;
 	}
 	.countryCase  .alabamaForm{
 		margin-top: 3em;
@@ -5997,6 +6483,7 @@ hr {
 
 
 }
+
 @media screen and (max-width: 700px){
 	.exp-country {
 		/* width: 85%; */
@@ -6008,22 +6495,25 @@ hr {
 		font-size: 132PX;
 	}
 	.united-text {
-		font-size: 40px;
+		font-size: 44px;
 	}
 	.B-doc .issued-text {
-		font-size: 28px;
+		font-size: 31px;
 	}
 	.first-par span:last-child {
 	}
 	.text-OneDay span:nth-child(2) {
-		font-size: 134PX;
+		font-size: 85PX;
 		text-transform: capitalize;
 	}
 	.first-par span:last-child {
-		font-size: 95px;
+		font-size: 89px;
+	}
+	.first-par span:first-child {
+		font-size: 111px;
 	}
 	.text-OneDay span:last-child {
-		font-size: 102px;
+		font-size: 72px;
 	}
     .js-usapostile-nav-toggle span{
 		display: none;
@@ -6043,22 +6533,18 @@ hr {
 		font-size: 64px;
 	}
 	.indexStyle .Exp-Bus h2 span:last-child {
-		font-size: 95px;
+		font-size: 82px;
 		display: block;
 		text-align: center;
 	}
 	.choose-country h3 span {
-		font-size: 59px!important;
+		font-size: 88px!important;
 	}
 	.ChooseState h4 {
 		font-size: 30px;
 	}
 	.radioContainer input[type="checkbox"] {
 		margin-top: -11px;
-	}
-	.authQues .radioContainer input[type="checkbox"], .stateQuestion .radioContainer input[type="checkbox"] {
-		/* width: 46px; */
-		/* height: 47px; */
 	}
 	.exp-country h2{
 		text-align: left;
@@ -6071,7 +6557,7 @@ hr {
 		font-size: 17px;
 	}
 	.indexStyle .Exp-Bus h2 span:first-child {
-		font-size: 124px;
+		font-size: 114px;
 	}
 	.fed-table h3 {
 		font-size: 13rem;
@@ -6081,6 +6567,17 @@ hr {
 		margin: 0;
 	}
 }
+@media (max-width: 650px) {
+    .creditCardForm .owner,
+    .creditCardForm .CVV,
+    .creditCardForm #expiration-date,
+    .creditCardForm #credit_cards {
+        width: 100%;
+    }
+    .creditCardForm #credit_cards {
+        text-align: left;
+    }
+}  
 @media screen and (max-width: 600px) {
 	.B-doc .issued-text {
 		font-size: 24px;
@@ -6114,15 +6611,15 @@ hr {
 		font-size: 25px;
 	}
 	.indexStyle .Exp-Bus h2 span:last-child {
-		font-size: 71px;
+		font-size: 65px;
 	}
 	.indexStyle .Exp-Bus h2 span:first-child {
-		font-size: 90px;
+		font-size: 85px;
 		text-align: center;
 		display: block;
 	}
 	.indexStyle .Exp-Bus span:nth-child(2){
-		font-size: 61px;
+		font-size: 58px;
 	}
 	
 	.changeState{
@@ -6159,8 +6656,7 @@ hr {
 	  margin:0;
 	}
 	.B-doc,  .personal_table .table {
-	margin-left: 0;
-	/* margin: 0; */
+		margin-left: 0;
 	}
 
 	.nav-aside h1 {
@@ -6227,14 +6723,35 @@ hr {
 
 }
 @media screen and (max-width:500px){
+	.first-par span:first-child {
+    font-size: 85px;
+	}
+	.text-OneDay span:last-child {
+		font-size: 51px;
+		margin-top: 56px;
+	}
 	.expService h4 {
 		font-size: 40px;
+	}
+	.text-OneDay span:first-child {
+		font-size: 100PX;
+		margin-top: 17px;
+	}
+	.text-OneDay span:nth-child(2) {
+        font-size: 70PX;
+		text-transform: capitalize;
+	}
+	.united-text {
+		font-size: 33px;
 	}
 	.single-dovument-case-container img {
 		width: 100%;
 	}
 	.first-par span:last-child {
 		font-size: 66px;
+	}
+	.B-doc .issued-text {
+		font-size: 21px;
 	}
 	.indexStyle .Exp-Bus h2 span:last-child {
 		font-size: 56px;
@@ -6243,7 +6760,7 @@ hr {
 		font-size: 73px;
 	}
 	.indexStyle .Exp-Bus span:nth-child(2) {
-		font-size: 60px;
+		font-size: 51px;
 	}
 	.Exp-Bus h2{
 		text-align: center;
@@ -6253,6 +6770,7 @@ hr {
 	}
 	
 }
+
 @media screen and (max-width:414px){
 	.indexStyle .Exp-Bus span:nth-child(2) {
 		font-size: 48px;
@@ -6291,6 +6809,7 @@ hr {
 	}
 
 }
+
 @media screen and (max-width: 375px){
 	.first-par span {
 		font-size: 71px;
@@ -6323,6 +6842,7 @@ hr {
 		font-size: 27px;
 	}
 }
+
 @media screen and (max-width: 320px){
 	.first-par span {
 		font-size: 63px;
@@ -6355,6 +6875,7 @@ hr {
 		font-size: 20px;
 	}
 }
+
 @media screen and (max-width: 280px){
 	.indexStyle .Exp-Bus h2 span:first-child {
 		font-size: 56px;
@@ -6401,348 +6922,4 @@ hr {
 	border-radius: 0;
 	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
 	background-color: #11144a;
-}
-
-
-.bl-3{
-	border-left: 3px solid black;
-}
-.notaryQuestion img{
-		width: 93%;
-		margin: auto;
-		object-fit: contain;
-		object-position: center;
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-}
-.notaryQuestion{
-	margin-top: 3em;
-	height: 76vh;
-}
-.notaryQuestion h1{
-	font-size: 64px;
-	font-weight: bold;
-	text-align: center;
-	color: #11144a;
-	margin-bottom: 1em;
-}
-
-.notaryQuestion label {
-    position: relative;
-    top: 5px;
-    font-weight: normal;
-}
-
-.notaryQuestion .image-container img:first-child{width: 328px;}
-.notaryQuestion .image-container img:nth-child(2){
-	width: 264px;
-	top: 9em;
-	position: absolute;
-	left: 14em;
-	z-index: 2;
-}
-.notaryQuestion .image-container img:nth-child(3){
-	position: absolute;
-	top: 17em;
-	width: 265px;
-	left: 9em;
-	z-index: 4;
-}
-
-.notaryQuestion .image-container img:nth-child(4){
-	position: absolute;
-	top: 21em;
-	z-index: 5;
-	width: 525px;
-	left: 9em;
-	height: 384px;
-	object-position: 65% 14%;
-}
-.notaryQuestion .image-container img:last-child{
-	position: absolute;
-	top: 12em;
-	left: 25em;
-	width: 302px;
-}
-.notaryQuestion .image-container{
-	height: 452px;
-    overflow: hidden;
-    position: relative;
-}
-.IssuedByState .image-container{
-	position: relative;
-}
-
-.IssuedByState .image-container img:first-child{
-	width: 489px;
-	margin: auto;
-	display: flex;
-	margin-top: 2em;
-	border: 5px solid #101348;
-}
-.IssuedByState .image-container img:nth-child(2){
-	position: absolute;
-	top: 41em;
-	width: 300px;
-	z-index: 2;
-	border: 4px solid #101348;
-	left: 3em;
-}
-.IssuedByState .image-container img:last-child{
-	position: absolute;
-	top: 41em;
-	width: 300px;
-	left: 27em;
-	border: 5px solid #101348;
-}
-.notaryQuestion h1{
-	font-size: 7rem;
-}
-.notaryQuestion h1::before,
-.notaryQuestion h1::after {
-	content: "";
-	border-top: .3rem solid #d0d0d0;
-	width: 11rem;
-	margin: 0 1rem;
-	transform: translateY(0rem);
-}
-.box p{
-	margin: 0;
-}
-.choose2 .charTable > tbody > tr span {
-    background: #dbdbdb;
-    width: 36px;
-	margin-bottom: 13px;
-}
-.fedCase .images-container img{
-	width: 400px;
-	border: 1px solid gainsboro;
-	height: 291px;
-}
-.fedxEditForm label{
-	font-size: 22px;
-}
-.fedCase p{
-	font-size: 17px;
-	margin-bottom: 8px;
-}
-.fedCase .col-lg-3 .images-container img{
-    border: 3px solid #b32134;
-}
-.fedCase .col-lg-9 .images-container img{
-    border: 3px solid #101348;
-}
-
-.fedCase .col-lg-3 .images-container img:first-child{
-	top: 14px;
-	width: 236px;
-	margin-bottom: 1em;
-	position: relative;
-	/* left: -28px; */
-}
-.fedCase .col-lg-3 .images-container img:last-child{
-    width: 235px;
-    position: relative;
-    position: relative;
-    top: 14px;
-}
-
-.fedCase .col-lg-9 .row:first-child img:nth-of-type(1){
-	left: -12px;
-	width: 49%;
-	position: relative;
-}
-
-.fedCase .col-lg-9 .row:first-child img:nth-of-type(2){
-    width: 49%;
-    position: relative;
-    left: 5px;
-}
-
-.fedCase .col-lg-9 .row:last-child img:nth-of-type(1){
-	/* top: 22em; */
-	width: 190px;
-	z-index: 6;
-	width: 23%;
-	position: relative;
-	left: -14px;
-}
-
-.fedCase .col-lg-9 .row:last-child img:nth-of-type(2){
-    /* top: 25em; */
-    width: 26%;
-    position: relative;
-    left: -7px;
-}
-.fedCase .col-lg-9 .row:last-child img:nth-of-type(3){
-    width: 247px;
-    /* top: 22em; */
-    width: 24%;
-    position: relative;
-    left: 1px;
-}
-.fedCase .col-lg-9 .row:last-child img:nth-of-type(4){
-    /* top: 22em; */
-    width: 23%;
-    position: relative;
-    left: 14px;
-}
-.fedCase .col-lg-9 .arrowDown{
-	width: 40px;
-	left: 25em;
-	border: 0;
-	height: auto;
-	position: relative;
-}
-.fedCase .col-lg-3 p{
-	font-size: 20px;
-	color: #b32134;
-	margin-top: 2em;
-	margin-bottom: 0;
-}
-.fedCase .col-lg-9 p{
-	font-size: 26px;
-	height: 119px;
-}
-
-@media screen and (max-width:1600px ) and (min-width:1000px){
-
-	.fedCase{
-		margin-top: 4em!important;
-	}
-	.fedCase p {
-		font-size: 16px;
-	}
-	.fedCase .col-lg-3 .images-container img:first-child{
-		width: 222px;
-	}
-	.fedCase .col-lg-3 .images-container img:last-child{
-		width: 221px;
-	}
-	
-	.fedCase .col-lg-9 .row:first-child img:nth-of-type(1){
-		width: 319px;
-	}
-	
-	.fedCase .col-lg-9 .row:first-child img:nth-of-type(2){
-		width: 375px;
-	}
-	
-	.fedCase .col-lg-9 .row:last-child img:nth-of-type(1){
-		width: 175px;
-	}
-	
-	.fedCase .col-lg-9 .row:last-child img:nth-of-type(3){
-		width: 179px;
-	}
-	.fedCase .col-lg-9 .row:last-child img:nth-of-type(4){
-		width: 172px;
-	}
-}
-.businessDoc{
-	background-image: url('../images/backCertifi-03-01.png');
-	height: 100vh;
-	display: flex;
-}
-.businessDoc .box{
-	width: 51%;
-	margin: auto;
-	background-color: white;
-	height: 40vh;
-	padding: 3em;
-	border-radius: 6px;
-	box-shadow: 2px 3px 4px;
-}
-.businessDoc .box p {
-    font-size: 18px;
-    MARGIN-BOTTOM: 40PX;
-}
-.businessDoc .box h2{font-weight: bold;font-size: 43px;/* font-family: 'Alegreya Sans'; */margin-bottom: 61px;color: #b32134;}
-.businessDoc .box h2 span{
-	font-size: 44px;
-	font-family: 'Yellowtail', cursive;
-	position: relative;
-	top: 1em;
-	color: gray;
-}
-.busDetails p {
-    font-size: 24px;
-}
-.busDetails h2{font-weight: bold;font-size: 43px;/* font-family: 'Alegreya Sans'; */margin-bottom: 61px;color: #b32134;margin-top: 4em;}
-.busDetails  h2 span{
-	font-size: 44px;
-	font-family: 'Yellowtail', cursive;
-	position: relative;
-	top: 1em;
-	color: gray;
-}
-.tableDetails{
-	/* margin-top: 3em; */
-	font-size: 17px;
-	/* background: #f6f6f6; */
-	padding: 12px;
-}
- .moveBtn-C{
-	font-size: 24px;
-	font-weight: normal;
-	margin-bottom: 34px;
-}
-.btn-container{
-	height: 23vh;
-	display: flex;
-	justify-content: flex-end;
-	flex-direction: column;
-}
-.btn-container .btn{
-	background-color: #b32134;
-	width: 100%;
-	color: white;
-	font-size: 22px;
-	border-radius: 8px;
-}
-.tableDetails .text-right .btn{
-	background-color: #b32134;
-	width:200px;
-	color: white;
-	font-size: 22px;
-	border-radius: 8px;
-}
-@media(max-width: 650px) {
-    .creditCardForm .owner,
-    .creditCardForm .CVV,
-    .creditCardForm #expiration-date,
-    .creditCardForm #credit_cards {
-        width: 100%;
-    }
-    .creditCardForm #credit_cards {
-        text-align: left;
-    }
-}  
-
-
- .custom-select-trigger {
-    border: 1px solid #808080ab;
-	line-height: 60px;
- }
-.pricelstdiv p {
-	line-height: 59px;
-	display: flex;
-	align-items: center;
-	height: 69px;
-	font-size: 20px;
-}
-.expService {
-	display: flex;
-	align-items: center;
-
-}
-.pricelstdiv .btn{
-	width: 300px;
-	font-size: 30px;
-	margin-top: 54px;
-}
-.pricelstdiv .col-sm-4{
-	text-align: right;
 }
