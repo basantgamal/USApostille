@@ -2850,7 +2850,7 @@ label.vacation.transportAccount.packageShipped{
 	font-weight: bold;
 	color: #b32134;
 	margin-bottom: 34px;
-	margin-top: 38px;
+	/* margin-top: 38px; */
 	text-transform: capitalize;
 }
 .expService h3{
@@ -2875,7 +2875,7 @@ label.vacation.transportAccount.packageShipped{
 }
 .step1 
 	p{
-	font-size: 45px;
+	font-size: 40px;
 	font-weight: normal;
 	text-align: left;
 }
@@ -7179,5 +7179,6 @@ hr {
 	
 
 }
+
 
 
