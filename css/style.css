@@ -45,7 +45,7 @@
 			padding: 0;
 		}
 		.block .col-lg-10{
-			width: 80%;
+			/* width: 80%; */
 		}
 		.indexStyle .block .col-lg-10{
 			/* width: 83%; */
@@ -3227,13 +3227,13 @@ hr {
     font-weight: normal;
     text-transform: capitalize;
 }
-.expCountries .col-xs-4 P{
+.expCountries .col-xs-3 P{
 	font-size: 24px;
 	border-left: 3px solid #b32134;
 	padding-left: 14px;
 	margin-bottom: 40px;
 }
-.expCountries .col-xs-4 P:first-child{
+.expCountries .col-xs-3 P:first-child{
 	margin-top: 5em;
 }
 .expCountries .choose-country .col{
@@ -3299,7 +3299,7 @@ hr {
     padding: 0 16px;
 }
 .creditCardForm .owner {
-    width: 63%;
+    width: 100%;
     margin-right: 10px;
 }
 .creditCardForm .CVV {
@@ -3324,9 +3324,10 @@ hr {
     width: 100%;
     margin-top: 3px;
     font-size: 33px;
-    background-color: #101348;
+    background-color: #b32134;
     color: white;
     border: 4px solid #f5da75;
+    text-transform: uppercase;
 }
 .creditCardForm .payment select {
     padding: 10px;
@@ -3760,7 +3761,7 @@ hr {
 		color: #6d120a;
 	}
 	.countryCase h3{
-		font-size: 50px;
+		font-size: 26px;
 		margin-bottom: -2px;
 		color: #b32134;
 		font-weight: 500;
@@ -3897,29 +3898,31 @@ hr {
 
 
 	.authQues .radioContainer input[type="checkbox"],.stateQuestion .radioContainer input[type="checkbox"]{
-		height: 57px;
-		width: 57px;
+		height: 45px;
+		width: 45px;
 	}
 	.authQues  label {
 		top: 13px;
-		font-size: 40px;
+		font-size: 33px;
 		position: relative;
 		left: 10px;
+		font-weight: normal;
 	}
 	.stateQuestion  h2{
 		font-size: 50px;
 	}
 	.stateQuestion  h5{
-		font-size: 34px;
+		font-size: 28px;
 		margin-top: 0em;
-		color: #b41414;
+		color: #b32134;
 		margin-bottom: 0;
 	}
 
 	.stateQuestion  label{
 		font-size: 32px;
 		position: relative;
-		top: 18px;
+		top: 9px;
+		left: 12px;
 	}
 	.stateQuestion p{
 		font-size: 20px;
@@ -3931,14 +3934,15 @@ hr {
 		min-height: 83vh;
 	}
 	.goBack{
-		width: 140px;
-		margin-bottom: 2em;
+		width: 148px;
+		/* margin-top: -5px; */
+		/* margin-bottom: 2em; */
 		/* margin-top: 3em; */
 	}
 	#usd label{
 		color: black;
 	}
-	.USDInstruction h2,.embassyForm h2,.alabamaForm h2{
+	#formStyle h2,.embassyForm h2,.alabamaForm h2{
 		margin-top: 1em;
 	}
 	.paymentMethod{
@@ -3976,9 +3980,10 @@ hr {
 		width: 93%;
 		text-transform: capitalize;
 		font-size: 36px;
-		background: #11144a;
-		border: 2px solid #dac36d;
+		background: #b32134;
+		border: 5px solid #dac36d;
 		border-radius: 40px;
+		text-transform: uppercase;
 		margin: auto;
 	}
 	.embassyForm .fixedPos p{
@@ -3994,7 +3999,7 @@ hr {
 	.embassyForm .fixedPos ul{
 		font-size: 31px;
 		width: 75%;
-		margin-top: 6em;
+		margin-top: 2em;
 		list-style: none;
 	}
 	.printBtn{
@@ -4027,12 +4032,12 @@ hr {
 	.ChooseState h4{
 		font-size: 59px;
 		color: #11144a;
-		margin-top: 1.5em;
+		margin-top: 7vh;
 	}
 	.gen-form.bigContentSmallScreen {
 	}
 	#usd{
-		margin: 0px 93px;
+		/* margin: 0px 93px; */
 	}
 	.processBtn:hover{
 		background-color: gray;
@@ -4045,11 +4050,12 @@ hr {
 	}
 	.ChooseState .processBtn{
 		background-color: #741311;
-		border-radius: 10px;
-		-webkit-border-radius: 10px;
+		/* border-radius: 10px; */
+		/* -webkit-border-radius: 10px; */
 		-moz-border-radius: 10px3px;
 		-ms-border-radius: 3px;
 		-o-border-radius: 3px;
+		/* border: 4px solid #f5da75; */
 	}
 	.first-par span{
 		font-size: 75px;
@@ -4095,7 +4101,7 @@ hr {
 	}
 	.embassyForm .scrolling{
 		overflow: auto;
-		margin-left: 41%;
+		margin-left: 37%;
 	}
 	.indexStyle .Exp-Bus span:nth-child(2){
 		position: relative;
@@ -4155,9 +4161,10 @@ hr {
 	.bl-3{
 		border-left: 3px solid black;
 	}
-	.notaryQuestion img{
-			width: 93%;
+	.notaryQuestion .col-md-6 img{
+			width: 94%;
 			margin: auto;
+			height: 51vh;
 			object-fit: contain;
 			object-position: center;
 			display: flex;
@@ -4165,16 +4172,23 @@ hr {
 			justify-content: center;
 			align-items: center;
 	}
+	.notaryQuestion .col-md-6:last-child img{
+        width: 90%;
+        display: block;
+ }
 	.notaryQuestion{
 		margin-top: 3em;
 		height: 76vh;
+	}
+	.notaryQuestion .row:first-child{
+	
 	}
 	.notaryQuestion h1{
 		font-size: 64px;
 		font-weight: bold;
 		text-align: center;
 		color: #11144a;
-		margin-bottom: 1em;
+		margin-bottom: 41px;
 	}
 
 	.notaryQuestion label {
@@ -4504,9 +4518,9 @@ hr {
 		margin-bottom: 53px;
 	}
 	.goBack{
-		position: absolute;
+		/* position: absolute; */
 		/* top: 12em; */
-		left: 0;
+		/* left: 0; */
 	}
 	.choose2 {
 		margin-top: 3em;
@@ -4527,6 +4541,127 @@ hr {
     .checkOut{
     	margin-top:3em;
     }
+	.stateQuestion .row:first-child{
+		min-height: 93vh;
+		padding-top: 6em;
+	}
+	.stateQuestion .row:first-child h5 img{
+		
+		width: 98px
+	}
+	.stateQuestion .row:first-child h3{
+		color: #b32134;
+		font-size: 24px;
+		margin-top: 5em;
+	}
+	#formStyle .col-md-4 ul{
+	  font-size: 28px;
+	}
+	#formStyle .col-md-4 h3{
+		font-size: 32px;margin-top: 3em;
+	}
+	#formStyle .col-md-4 .processBtn{
+		width:90%;margin-top: 2em;
+	}
+	#formStyle .col-md-4 img{width: 143px;margin-top: -7px;}
+	.embassyForm .col-md-4 .row:first-child{
+		min-height: 88vh;
+	}
+	.embassyForm .col-md-4 h3 img{
+		width: 98px;    margin-bottom: 0;
+	}
+	.embassyForm #embassy .row:first-child input{
+		margin-left: 28px;
+	}
+	.embassyForm #embassy .row:nth-child(2) input{
+		margin-left: 111px;
+	}
+	.embassyForm #embassy .row:nth-child(3) input{
+		margin-left: 95px;
+	}
+	.embassyForm #embassy .row:nth-child(4) input{
+		margin-left: 89px;
+	}
+	.embassyForm #embassy .row:nth-child(5) input{
+		margin-left: 136px;
+	}
+	.embassyForm #embassy .row:nth-child(6) input{
+		margin-left: 49px;
+	}
+	.embassyForm #embassy .row:nth-child(6) input{
+		margin-left: 58px;
+	}
+	.embassyForm #embassy .row:nth-child(7) input{
+		margin-left: 28px;
+	}
+	#formStyle .col-md-4 .row:first-child{
+		 padding-top: 8em;
+		 min-height: 93vh;
+	}
+	.fedxOption .row:nth-child(3) .col-md-6 .btn{
+		position: relative;
+		/* top: 25px; */
+		background: #b32134;
+		width: 50%;
+		font-size: 28px;
+		margin-top: -1em;
+		border-color: #f5da75;
+		border-width: 4px;
+	}
+	.fedxOption .col-md-6:first-child .processBtn{
+		background-color: transparent;
+		border: 0;
+		width: auto;
+		font-size: inherit;
+	}
+	.choose-countryState .charTable td,.choose-countryState .charTable td {
+		width: 37px;
+	}
+	.notaryQuestion .row:first-child .col-md-6:first-child img{
+		    width: 82%;
+	}
+	.fedxEditForm .contentInfo{
+		min-height: 71vh;
+	}	
+	.authQues .contentInfo{
+		min-height: 80vh;
+		padding-top: 3em;
+	}
+	.contentInfo .contentInfo{
+		min-height: 64vh;
+	}
+	.choose-country h3{
+		font-size: 26px;margin-top: 27px;
+	}
+	.fedxOption .contentInfo{
+		min-height: 89vh;
+	}
+	.notaryQuestion .contentInfo{
+		min-height: 75vh;
+	}
+	.paymentMethod .row:first-child{
+		min-height: 85vh;
+	}
+	#formStyle .col-md-4 .row:first-child p{
+		font-size: 28px;
+		color: #b32134;
+		margin-top: 51px;
+		/* font-weight: bold; */
+		font-family: 'Roboto';
+	}
+	.paymentMethod .contentInfo{
+		min-height: 75vh;
+	}
+	.IssuedByState .row:first-child{
+		min-height: 80vh;
+	}
+	.fedxEditForm .fill-form{
+		font-size: 55px;font-weight: bold;color: #101348;
+	}
+	.paymentMethod .goBack {
+
+		MARGIN-LEFT: 40px;
+	}
 }
 
 
@@ -6396,7 +6531,7 @@ hr {
 		padding: 0;
 		margin: 3em 0;
 	}
-	.USDInstruction .fixedPos h3{
+	#formStyle .fixedPos h3{
 		display: none;
 		}
 	.alabamaForm ul{
@@ -6581,7 +6716,7 @@ hr {
 		padding: 0;
 		margin: 0;
 	}
-	.USDInstruction .fixedPos h3{
+	#formStyle .fixedPos h3{
 		display: none;
 		}
 	.alabamaForm ul{
@@ -6824,7 +6959,7 @@ hr {
 		padding: 0;
 		margin: 3em 0;
 	}
-	.USDInstruction .fixedPos h3{
+	#formStyle .fixedPos h3{
 		display: none;
 		}
 	.alabamaForm ul{
@@ -7191,10 +7326,6 @@ hr {
 		padding: 0;
 	}
 
-	.choose-countryState .charTable td,.choose-countryState .charTable td {
-		width: 37px;
-	}
-	
 
 }
 
