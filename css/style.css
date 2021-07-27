@@ -3933,7 +3933,7 @@ hr {
 	.goBack{
 		width: 140px;
 		margin-bottom: 2em;
-		margin-top: 3em;
+		/* margin-top: 3em; */
 	}
 	#usd label{
 		color: black;
@@ -4470,7 +4470,7 @@ hr {
 		font-size: 49px;
 		font-weight: bold;
 		color: #b32134;
-		margin-top: 31px;
+		margin-top: 13px;
 		text-transform: capitalize;
 		font-family: 'Alegreya Sans';
 	}
@@ -4503,7 +4503,7 @@ hr {
 	}
 	.goBack{
 		position: absolute;
-		top: -6em;
+		/* top: 12em; */
 		left: 0;
 	}
 	.choose2 {
@@ -4525,7 +4525,6 @@ hr {
     .checkOut{
     	margin-top:3em;
     }
-	
 }
 
 
