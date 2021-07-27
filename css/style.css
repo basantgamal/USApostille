@@ -4038,8 +4038,10 @@ hr {
 		background-color: gray;
 	}
 	.fedxOption .form-check-label{
-		font-size: 20px;
+		font-size: 22px;
 		font-weight: normal;
+		font-family: 'Alegreya Sans';
+		font-weight: bold;
 	}
 	.ChooseState .processBtn{
 		background-color: #741311;
@@ -4789,6 +4791,9 @@ hr {
 		font-size: 20px;
 		color: #f5da70;
 	}
+	.block .col-lg-10 {
+		width: 85%;
+	}
 }
 
 @media screen and (max-width:1600px){
@@ -4802,6 +4807,7 @@ hr {
 	.stateQuestion h5 {
 		font-size: 29px;
 	}
+
 }
 @media screen and (max-width:1600px ) and (min-width:1000px){
 	.fedCase{
@@ -4963,7 +4969,9 @@ hr {
 	.alabamaForm ul{
 		width:70%;
 	}
-
+	.authQues h5 {
+		font-size: 23px;
+	}
 }
 
 @media screen and (max-width:1600px){	
@@ -5097,6 +5105,9 @@ hr {
 	}
 	.single-dovument-case-container .caseLabel{
 		font-size: 19px!important;
+	}
+	.block .col-lg-10 {
+		width: 100%!important;
 	}
 }
 
@@ -5256,10 +5267,15 @@ hr {
 	.fed-table .table > tbody > tr >td:first-child ,.fed-table .table > tbody > tr > td{
 		font-size: 17px;
 	}
-
+	.block .col-lg-10 {
+		width: 100%!important;
+	}
 }
 
 @media screen and (max-width: 1400px) {
+	.authQues h5 {
+		font-size: 21px;
+	}	
 	/* .fixedPos {
 		position: relative;
 	} */
@@ -5420,7 +5436,7 @@ hr {
 		width: 99%;
 		font-size: 20px!important;
 	}
-	
+
 }
 
 @media screen and (max-width: 1300px) {
@@ -5683,7 +5699,7 @@ hr {
 		font-size: 20px;
 
 	}
-	
+
 }
 
 @media screen and (max-width: 1100px) {
@@ -5908,6 +5924,7 @@ hr {
 }
 
 @media screen and (max-width: 1000px) {
+	
 	.single-dovument-case-container img {
 		height: 60vh;
 		width: 48%;
@@ -6602,6 +6619,7 @@ hr {
 }
 
 @media screen and (max-width: 700px){
+
 	.exp-country {
 		/* width: 85%; */
 	}	
