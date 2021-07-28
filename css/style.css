@@ -1572,13 +1572,13 @@
   .choose-country h3{
 	margin: 0;
 	font-size: 44px;
-	margin-bottom: 12px;
+	margin-bottom: 0;
 	font-weight: bold;
 	color: #11144a;
 	/* text-shadow: 3px 1px #e7cf75; */
-	border-bottom: 5px solid #beaa5f;
+	/* border-bottom: 5px solid #beaa5f; */
 	padding-bottom: 17px;
-	min-height: 11vh;
+	/* min-height: 11vh; */
 	/* display: flex; */
 	flex-direction: column;
 	justify-content: center;
@@ -1839,12 +1839,12 @@
 	overflow: hidden;
   }
   .choose-countryState .block{
-	background: #f2e6b4;
-	padding: 27px;
-	margin: 67px -7px;
-	text-align: center;
+	/* background: #f2e6b4; */
+	/* padding: 27px; */
+	/* margin: 67px -7px; */
+	/* text-align: center; */
 	border-radius: 5px;
-  }
+	}
   .choose-countryState .block h2{
 	font-size: 62px;
 	color: #671511;
@@ -3946,6 +3946,7 @@ hr {
 	}
 	#formStyle h2,.embassyForm h2,.alabamaForm h2{
 		margin-top: 1em;
+		padding-top: 26px;
 	}
 	.paymentMethod{
 		margin-top: 3em;
@@ -3966,6 +3967,7 @@ hr {
 		font-family: Arial, Helvetica, sans-serif;
 		box-shadow: 2px 3px 7px 6px gainsboro;
 		margin-top: 0;
+		margin-bottom: 0;
 	}
 	.fedxOption .radioContainer input[type="checkbox"]:checked:after {
 		font-size: 12px;
@@ -3982,7 +3984,7 @@ hr {
 		width: 93%;
 		text-transform: capitalize;
 		font-size: 36px;
-		background: #b32134;
+		background: #101348;
 		border: 5px solid #dac36d;
 		border-radius: 40px;
 		text-transform: uppercase;
@@ -4050,6 +4052,7 @@ hr {
 		font-family: 'Alegreya Sans';
 		font-weight: bold;
 	}
+
 	.ChooseState .processBtn{
 		background-color: #741311;
 		/* border-radius: 10px; */
@@ -4057,7 +4060,13 @@ hr {
 		-moz-border-radius: 10px3px;
 		-ms-border-radius: 3px;
 		-o-border-radius: 3px;
-		/* border: 4px solid #f5da75; */
+		border: 0;
+		border-radius: 6px;
+		width: 8%;
+	}
+		.states .fedral {
+		width: 64%;
+		background: #11144a!important;
 	}
 	.first-par span{
 		font-size: 75px;
@@ -4493,7 +4502,7 @@ hr {
 		font-family: 'Alegreya Sans';
 	}
 	.IssuedByState .col-md-6:first-child .info{
-		margin-top: 5em;
+		margin-top: 3em;
 	}
 	.IssuedByState .col-md-6:first-child .info div{
 		font-size: 23px;
@@ -4558,6 +4567,9 @@ hr {
 	}
 	#formStyle .col-md-4 ul{
 	  font-size: 28px;
+	}
+	#formStyle .col-md-4 ul li:last-child{
+	  font-size: 30px;
 	}
 	#formStyle .col-md-4 h3{
 		font-size: 32px;margin-top: 3em;
@@ -4655,7 +4667,7 @@ hr {
 		min-height: 75vh;
 	}
 	.IssuedByState .row:first-child{
-		min-height: 80vh;
+		min-height: 92vh;
 	}
 	.fedxEditForm .fill-form{
 		font-size: 55px;font-weight: bold;color: #101348;
@@ -4680,6 +4692,169 @@ hr {
 	.arabStamp .perDoc b{
 		margin-right: 12px;
 	}
+	.caseA .note{
+		text-align: left; 
+		  font-size: 18px;
+	}
+	.docQuestion{
+		font-size: 42px;
+		text-align: left;
+	}
+	.docDetails .contentInfo{
+		min-height: 70vh;
+	}
+	.notaryQuestion .image-container2{
+		position: relative;
+		height: 50vh;
+	}
+	.notaryQuestion .image-container2 img{
+		position: absolute;
+		width: 273px!important;
+		height: auto;
+		border: 3px solid #b6b2b2;
+		border-radius: 7px;
+	}
+	.notaryQuestion .image-container2 img:nth-child(1){
+	z-index: 2;
+	top: 11em;
+	left: 20em;
+	width: 321px!important;
+	}
+	.notaryQuestion .image-container2 img:nth-child(2){
+	top: 5em;
+	z-index: 2;
+	left: 5em;
+	}
+	.notaryQuestion .image-container2 img:nth-child(3){
+	top: 0em;
+	left: 13em;
+	z-index: 4;
+	}
+
+
+	
+	.expiditedCase .container .one,
+	.expiditedCase .container .two,
+	.expiditedCase .container .three{
+		/* width: calc(950px / 3); */
+		width: 66%;
+		margin: auto;
+		border: 6px solid #c8c8c8;
+		margin-top: 13em;
+		background-color: #FFFFFF;
+		border-radius: 7px;
+	}
+	.expiditedCase .container  header{
+		padding: 20px;
+		margin-top: 25px;
+		text-align: center;
+		font-size: 45px;
+		color: #101348;
+	}
+	.expiditedCase .container  span{
+		font-size: 28px;
+		position: relative;
+		top: -1px;
+	}
+	.expiditedCase .container .basic{
+		width: 120px;
+		background: #b32134;
+		color: white;
+		padding: 10px;
+		border-top-right-radius: 13px;
+		border-bottom-right-radius: 13px;
+		font-size: 20px;
+		text-align: center;
+		position: relative;
+		left: -8px;
+	}
+	.expiditedCase .container .basic::before{
+		content: "";
+		position: absolute;
+		border-width: 4px;
+		border-style: solid;
+		border-color: transparent #5d0f19 #b11f32 transparent;
+		left: 0px;
+		top: -8px;
+	}
+	.expiditedCase .container .content{
+		margin-top: 30px;
+		text-align: center;
+		color: #35354A;
+	}
+	.expiditedCase .container .content span{
+		top: 49px;
+		font-size: 17px;
+		margin-left: 17px;
+		position: absolute;
+		right: 30px;
+		font-family: 'Poppins';
+	}
+	.expiditedCase .container .content p:first-child{
+		line-height: 1.3;
+		font-size: 68px;
+		/* display: inline-flex; */
+		position: relative;
+		font-family: monospace;
+		color: #b32134;
+	}
+	.expiditedCase .container .send{
+		text-align: center;
+	}
+	.expiditedCase .container .send button{
+		border: none;
+		background-color: transparent;
+		padding: 15px 25px;
+		cursor: pointer;
+		color: white;
+		background-color: #b32134;
+		display: inline-block;
+		border-radius: 7px;
+		text-transform: uppercase;
+		/* font-weight: bold; */
+		margin-top: 20px;
+		margin-bottom: 50px;
+		font-family: "work sans",sans-serif;
+		font-size: 28px;
+		border: 4px solid #f5da75;
+	}
+	/* Div Two Start  */
+	.expiditedCase .container .two{
+		/* position: relative; */
+		/* top: 30px; */
+	}
+	.expiditedCase .container .two .basic{
+		background-color: #EFCB53;
+		color: black;
+	}
+	.expiditedCase .container .two .basic::before{
+		content: "";
+		border-color: transparent #BE9A23 #BE9A23 transparent;
+	}
+	.expiditedCase .container .two .send button{
+		background-color: #EFCB53;
+		color: #101348;
+		font-weight: bold;
+		border-color: #101348;
+	}
+	/* Div Two End  */
+
+	/* Div Three Start  */
+	.expiditedCase .container .three{
+		position: relative;
+		top: 50px;
+	}
+	.container .three .basic{
+		background-color: #555FAE;
+	}
+	.expiditedCase .container .three .basic::before{
+		content: "";
+		border-color: transparent #4854A7 #4854A7 transparent;
+	}
+	.expiditedCase .container .three .send button{
+		background-color: #555FAE;
+	}
+/* Div Tree End  */
 }
 
 
@@ -4827,7 +5002,7 @@ hr {
 		margin-left: 31px;
 	}
 	.indexStyle .choose-country .col {
-		height: 42vh;
+		height: 38vh;
 	}
 	.states_table .col {
 		height: 63vh;
@@ -7346,6 +7521,5 @@ hr {
 
 
 }
-
 
 

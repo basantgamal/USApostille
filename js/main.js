@@ -596,6 +596,11 @@
 			$('.docDetails-B  .tableDetails').show();
 			console.log('zft')
 		}))
+
+		$('.docDetails .backBtn').click(function(){
+			$('.docDetails').hide();
+			$('.document-case').show();
+		})
 	});
 
 
