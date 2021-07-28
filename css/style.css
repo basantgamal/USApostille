@@ -4733,9 +4733,9 @@ hr {
 
 
 	
-	.expiditedCase .container .one,
-	.expiditedCase .container .two,
-	.expiditedCase .container .three{
+	#expiditedCase .container .one,
+	#expiditedCase .container .two,
+	#expiditedCase .container .three{
 		/* width: calc(950px / 3); */
 		width: 66%;
 		margin: auto;
@@ -4744,19 +4744,19 @@ hr {
 		background-color: #FFFFFF;
 		border-radius: 7px;
 	}
-	.expiditedCase .container  header{
+	#expiditedCase .container  header{
 		padding: 20px;
 		margin-top: 25px;
 		text-align: center;
 		font-size: 45px;
 		color: #101348;
 	}
-	.expiditedCase .container  span{
+	#expiditedCase .container  span{
 		font-size: 28px;
 		position: relative;
 		top: -1px;
 	}
-	.expiditedCase .container .basic{
+	#expiditedCase .container .basic{
 		width: 120px;
 		background: #b32134;
 		color: white;
@@ -4768,7 +4768,7 @@ hr {
 		position: relative;
 		left: -8px;
 	}
-	.expiditedCase .container .basic::before{
+	#expiditedCase .container .basic::before{
 		content: "";
 		position: absolute;
 		border-width: 4px;
@@ -4777,12 +4777,12 @@ hr {
 		left: 0px;
 		top: -8px;
 	}
-	.expiditedCase .container .content{
+	#expiditedCase .container .content{
 		margin-top: 30px;
 		text-align: center;
 		color: #35354A;
 	}
-	.expiditedCase .container .content span{
+	#expiditedCase .container .content span{
 		top: 49px;
 		font-size: 17px;
 		margin-left: 17px;
@@ -4790,7 +4790,7 @@ hr {
 		right: 30px;
 		font-family: 'Poppins';
 	}
-	.expiditedCase .container .content p:first-child{
+	#expiditedCase .container .content p:first-child{
 		line-height: 1.3;
 		font-size: 68px;
 		/* display: inline-flex; */
@@ -4798,10 +4798,10 @@ hr {
 		font-family: monospace;
 		color: #b32134;
 	}
-	.expiditedCase .container .send{
+	#expiditedCase .container .send{
 		text-align: center;
 	}
-	.expiditedCase .container .send button{
+	#expiditedCase .container .send button{
 		border: none;
 		background-color: transparent;
 		padding: 15px 25px;
@@ -4819,19 +4819,19 @@ hr {
 		border: 4px solid #f5da75;
 	}
 	/* Div Two Start  */
-	.expiditedCase .container .two{
+	#expiditedCase .container .two{
 		/* position: relative; */
 		/* top: 30px; */
 	}
-	.expiditedCase .container .two .basic{
+	#expiditedCase .container .two .basic{
 		background-color: #EFCB53;
 		color: black;
 	}
-	.expiditedCase .container .two .basic::before{
+	#expiditedCase .container .two .basic::before{
 		content: "";
 		border-color: transparent #BE9A23 #BE9A23 transparent;
 	}
-	.expiditedCase .container .two .send button{
+	#expiditedCase .container .two .send button{
 		background-color: #EFCB53;
 		color: #101348;
 		font-weight: bold;
@@ -4840,21 +4840,27 @@ hr {
 	/* Div Two End  */
 
 	/* Div Three Start  */
-	.expiditedCase .container .three{
+	#expiditedCase .container .three{
 		position: relative;
 		top: 50px;
 	}
 	.container .three .basic{
 		background-color: #555FAE;
 	}
-	.expiditedCase .container .three .basic::before{
+	#expiditedCase .container .three .basic::before{
 		content: "";
 		border-color: transparent #4854A7 #4854A7 transparent;
 	}
-	.expiditedCase .container .three .send button{
+	#expiditedCase .container .three .send button{
 		background-color: #555FAE;
 	}
 /* Div Tree End  */
+	.orderForm{
+		margin-top: 14em;
+	}
+	.orderForm .contentInfo{
+		min-height: 65vh;
+	}
 }
 
 
