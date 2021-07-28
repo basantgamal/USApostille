@@ -1714,7 +1714,7 @@
   .indexStyle .Exp-Bus h2 span:last-child{
 	  font-size: 62px;
 	  color: #b32134;
-	  margin-bottom: 33px;
+	  /* margin-bottom: 33px; */
 	  display: inline-block;
 	  font-weight: bold;
 	  /* text-shadow: 3px 1px #e7cf75; */
@@ -3263,6 +3263,8 @@ hr {
 }
 .arabStamp a{
 	color: black;
+	font-weight: bold;
+	text-transform: capitalize;
 }
 .creditCardForm {
     max-width: 700px;
@@ -4661,6 +4663,22 @@ hr {
 	.paymentMethod .goBack {
 
 		MARGIN-LEFT: 40px;
+	}
+	.Exp-Bus .hint{
+		color: #191919;
+		font-size: 19px;
+		font-weight: 500;
+		padding-left: 13px;
+		line-height: 1;
+		margin: 15px 0;
+		color: #8a8787;
+	}
+	.arabStamp .perDoc{
+		font-size: 20px;
+		display: inline-flex;
+	}
+	.arabStamp .perDoc b{
+		margin-right: 12px;
 	}
 }
 
