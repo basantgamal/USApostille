@@ -4060,7 +4060,7 @@ hr {
 		-moz-border-radius: 10px3px;
 		-ms-border-radius: 3px;
 		-o-border-radius: 3px;
-		border: 0;
+		/* border: 0; */
 		border-radius: 6px;
 		width: 8%;
 	}
