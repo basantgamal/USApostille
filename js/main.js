@@ -394,6 +394,7 @@
 				$('.single-dovument-case-container .block').hide();
 				$(this).parents('.single-dovument-case-container').find('.imgContainer').hide();
 				$(this).parents('.single-dovument-case-container').find('.steps').show();
+				console.log(tar)
 				$(this).parents('.single-dovument-case-container').find('.' + tar).show();
 				$(this).parents('.single-dovument-case-container').find('.overlay').hide();
 			}
