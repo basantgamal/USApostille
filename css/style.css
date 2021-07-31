@@ -3168,7 +3168,7 @@ hr {
 	transition: .2s ease-in-out;
 	transition-property: background-color, border;
 	cursor: pointer;
-	border: 2px solid #b32134;
+	border: 2px solid #101348;
 	outline: none !important;
 	box-shadow: none !important;
 }
@@ -3183,7 +3183,7 @@ hr {
 	border-radius: 50%;
 	top: 3px;
 	left: 3px;
-	background: #b32134;
+	background: #101348;
 	font-weight: bold;
 }
 .shippingTable  input[type="radio"]+label{
@@ -3809,7 +3809,7 @@ hr {
 		box-shadow: none;
 		background: white;
 		border: 2px solid rgba(0, 0, 0, 0.1);
-		height: 42px;
+		height: 51px;
 	}
 	.countryCase .block:first-child .block-content{
 		min-height: 58vh;
@@ -4553,6 +4553,8 @@ hr {
 	}
     .checkOut{
     	margin-top:3em;
+    	text-align: end;
+    	margin-bottom: 25px;
     }
 	.stateQuestion .row:first-child{
 		min-height: 93vh;
@@ -4858,10 +4860,10 @@ hr {
 	}
 /* Div Tree End  */
 	.orderForm{
-		margin-top: 14em;
+		margin-top: 4em;
 	}
 	.orderForm .contentInfo{
-		min-height: 65vh;
+		min-height: 58vh;
 	}
 	.image-container3{
 		position: relative;
@@ -4890,6 +4892,13 @@ hr {
 	.yellow-btn{
 		background-color: #f5da75;
 		color: #101348;
+	}
+	.orderForm label{
+		font-size: 22px;
+		font-weight: normal;
+	}
+	.orderForm label span{
+		font-size: 15px;
 	}
 }
 
