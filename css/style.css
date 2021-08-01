@@ -1666,7 +1666,7 @@
   .choose-country .col::-webkit-scrollbar-thumb
   {
   -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
-  background-color: #11144a;
+  background-color: #f5da75;
   }
   .choose-country h3 span{
 	font-size: 46px;
@@ -1704,7 +1704,7 @@
 	}
   
   .indexStyle .choose-country{padding: 0;width: 18%;margin-left: 23px;}
-  .Exp-Bus h2{font-size: 57px;color: #8a8787;padding-left: 10px;margin-top: 0px;margin-bottom: 10px;}
+  .Exp-Bus h2{font-size: 45px;color: #8a8787;/* padding-left: 10px; */margin-top: 0px;margin-bottom: 10px;font-family: revert;}
   .indexStyle .Exp-Bus h2 span:first-child{
           font-size: 80px;
           color: #b32134;
@@ -3229,13 +3229,13 @@ hr {
     text-transform: capitalize;
 }
 .expCountries .col-xs-3 P{
-	font-size: 24px;
+	font-size: 20px;
 	border-left: 3px solid #b32134;
 	padding-left: 14px;
 	margin-bottom: 40px;
 }
 .expCountries .col-xs-3 P:first-child{
-	margin-top: 5em;
+	margin-top: 12em;
 }
 .expCountries .choose-country .col{
 	height: 67vh;
@@ -4540,7 +4540,7 @@ hr {
 		/* left: 0; */
 	}
 	.choose2 {
-		margin-top: 3em;
+		margin-top: 1em;
 		padding: 0;
 		/* width: 25%; */
 		margin-left: 0;
@@ -5511,6 +5511,9 @@ hr {
 		left: 17px;
 		position: relative;
 	}
+	.expCountries .charTable > tbody > tr td {
+		width: 7%;
+	}
 	.choose2 .charTable > tbody > tr span {
 
 		width: 90%;
@@ -5612,7 +5615,7 @@ hr {
 	  .first-header p{
 		margin:0
 	  }
-	.fed-table,.personal_table,.Exp-Bus {
+	.indexStyle .fed-table, .indexStyle .personal_table, .indexStyle .Exp-Bus {
 	  width: 49%;
 	  left: 0;
 	  margin-left: 0;
@@ -7492,7 +7495,7 @@ hr {
 {
 	border-radius: 0;
 	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
-	background-color: #11144a;
+	background-color: #f5da75;
 }
 
 
@@ -7622,3 +7625,6 @@ hr {
 	background: #101348;
 }
 
+.hagCountry .table{
+	margin-bottom: 0;
+}
