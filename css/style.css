@@ -1724,7 +1724,7 @@
 	padding: 6px;
 	background: #f6f6f6;
 	height: 61px;
-	margin-bottom: 16px;
+	margin-bottom: 13px;
 	color: #000000;
 	border-radius: 5px;
 	border: 2px solid #beaa5f;
@@ -1805,11 +1805,11 @@
   .first-header  p{
 	font-size: 15px;
 	/* padding-bottom: 7px; */
-	width: 99%;
+	/* width: 99%; */
 	/* margin-bottom: 3px; */
 	color: #101348;
 	text-indent: 0;
-	margin-left: 15px;
+	/* margin-left: 15px; */
 	/* text-indent: 45px; */
 	background: #f9f9f9;
 	padding: 12px 26px;
@@ -2755,6 +2755,7 @@ label.vacation.transportAccount.packageShipped{
 	text-align: center;
 	font-family: 'Alegreya Sans';
 	margin-bottom: 1em;
+	font-weight: bold;
 }
 .stickyPos{
 	position: fixed;
@@ -2849,7 +2850,7 @@ label.vacation.transportAccount.packageShipped{
 	font-size: 75px;
 	font-weight: bold;
 	color: #b32134;
-	margin-bottom: 34px;
+	margin-bottom: 12px;
 	/* margin-top: 38px; */
 	text-transform: capitalize;
 }
@@ -3213,7 +3214,7 @@ hr {
 
 .Other-countries a{
 	color:white;
-	font-size: 15px;
+	font-size: inherit;
 }
 
 .prictot-div > thead > tr > th, .prictot-div > thead > tr > td {
@@ -3753,7 +3754,8 @@ hr {
 	}
 	.countryCase .block-content{
 		border-radius: 5px;
-		min-height: 43vh;
+		min-height: 12vh;
+		/* margin-top: 8em; */
 	}
 	.countryCase .h2{
 		font-size: 67px;
@@ -4036,7 +4038,7 @@ hr {
 	.ChooseState h4{
 		font-size: 59px;
 		color: #11144a;
-		margin-top: 7vh;
+		margin-top: 4vh;
 	}
 	.gen-form.bigContentSmallScreen {
 	}
@@ -4639,7 +4641,7 @@ hr {
 		    width: 82%;
 	}
 	.fedxEditForm .contentInfo{
-		min-height: 71vh;
+		min-height: 61vh;
 	}	
 	.authQues .contentInfo{
 		min-height: 80vh;
@@ -4649,7 +4651,8 @@ hr {
 		min-height: 64vh;
 	}
 	.choose-country h3{
-		font-size: 26px;margin-top: 27px;
+		font-size: 26px;
+		/* margin-top: 27px; */
 	}
 	.fedxOption .contentInfo{
 		min-height: 89vh;
@@ -4674,7 +4677,10 @@ hr {
 		min-height: 92vh;
 	}
 	.fedxEditForm .fill-form{
-		font-size: 55px;font-weight: bold;color: #101348;
+		font-size: 55px;
+		font-weight: bold;
+		color: #101348;
+		margin-bottom: 2em;
 	}
 	.paymentMethod .goBack {
 
@@ -4682,12 +4688,13 @@ hr {
 	}
 	.Exp-Bus .hint{
 		color: #191919;
-		font-size: 19px;
+		font-size: 25px;
 		font-weight: 500;
 		padding-left: 13px;
 		line-height: 1;
-		margin: 15px 0;
-		color: #8a8787;
+		/* margin: 15px 0; */
+		color: #8e8e8e9e;
+		font-family: 'Alegreya Sans';
 	}
 	.arabStamp .perDoc{
 		font-size: 20px;
@@ -4863,7 +4870,7 @@ hr {
 		margin-top: 4em;
 	}
 	.orderForm .contentInfo{
-		min-height: 58vh;
+		min-height: 72vh;
 	}
 	.image-container3{
 		position: relative;
@@ -4997,15 +5004,17 @@ hr {
 		margin-left: 12px;
 	}
 	.indexStyle .Exp-Bus h2 span:last-child {
-		font-size: 5.7rem;
+		font-size: 60px;
+		position: relative;
+		top: -12px;
 	}
 	.indexStyle .Exp-Bus h2 span:first-child {
-		font-size: 7.5rem;
+		font-size: 78px;
 		position: relative;
 		top: -14px;
 	}
 	.indexStyle .Exp-Bus span:nth-child(2){
-		font-size: 5.3rem;
+		font-size: 55px;
 	}
 	.first-par span:first-child {
 		font-size: 71px;
@@ -5047,7 +5056,7 @@ hr {
 		margin-left: 31px;
 	}
 	.indexStyle .choose-country .col {
-		height: 38vh;
+		height: 44vh;
 	}
 	.states_table .col {
 		height: 63vh;
@@ -5216,7 +5225,8 @@ hr {
 	}
 }
 @media screen and (max-width:1700px){
-	.indexStyle .Exp-Bus {
+	.Exp-Bus .hint {
+		font-size: 22PX;
 	}
 	.B-doc {
 		margin: 0;
@@ -5247,8 +5257,8 @@ hr {
 	}
 	.indexStyle .block .col-lg-10 {
 		margin: 0;
-		width: 84%;
-		margin-left: 3px;
+		width: 83%;
+		margin-left: 22px;
 		padding-right: 0;
 	}
 	.indexStyle .Exp-Bus h2 span:first-child {
@@ -5306,7 +5316,7 @@ hr {
 	}
 	.personal_table .table {
 		margin-left: 0;
-		margin-top: 2em;
+		margin-top: 4em;
 	}
 	.indexStyle .block .choose-country {
 		width: 15%;
@@ -5320,10 +5330,10 @@ hr {
 			font-size: 14px;
 	}
 	.choose-country .col {
-		height: 44vh;
+		height: 48vh;
 	}
 	.states_table .col {
-		height: 73vh;
+		height: 71vh;
 	}
 	.container-fluid {
 		padding:0;
@@ -5414,7 +5424,7 @@ hr {
 	}
 	.indexStyle .Exp-Bus h2 span:last-child {
 		font-size: 57px;
-		margin-bottom: 1em;
+		margin-bottom: 0em;
 	}
 	.indexStyle .Exp-Bus h2 span:first-child {
 		font-size: 73px;
@@ -5445,7 +5455,7 @@ hr {
 	}
 	.personal_table .table {
 		margin-left: 0;
-		margin-top: 6em;
+		margin-top: 4em!important;
 	}
 	.indexStyle .block .choose-country {
 		width: 19%;
@@ -5453,10 +5463,10 @@ hr {
 		margin-left: 20px;
 	}
 	.choose-country .col {
-		height: 45vh;
+		height: 47vh;
 	}
 	.states_table .col {
-		height: 76vh;
+		height: 73vh;
 	}
 	.charTable > tbody > tr span {
 		width: 26px;
@@ -5469,8 +5479,8 @@ hr {
 		font-size: 30px!important;
 	}
 	.first-header{
-		margin-left: 1em;
-		margin-top: -3em;
+		/* margin-left: 1em; */
+		margin-top: 0em;
 	}
 	.nav-aside h1 {
 
@@ -5485,6 +5495,9 @@ hr {
 }
 
 @media screen and (max-width: 1500px) {
+	.Exp-Bus .hint{
+		font-size: 21px;
+	}
 	.choose-countryState .charTable > tbody > tr td {
 		width: 10%;
 	}
@@ -5534,6 +5547,7 @@ hr {
 		font-size: 55px;
 		text-align: center;
 		display: block;
+		margin-bottom: 26px;
 	}
 	.indexStyle .Exp-Bus h2 span:first-child {
 		font-size: 70px;
@@ -5612,7 +5626,7 @@ hr {
 	}
 	.B-doc,  .personal_table .table {
 	  margin-left: 1em;
-	  margin-top: 35px;
+	  margin-top: 41px;
 	 }
 	.ml-2 {
 	  margin:0
@@ -5754,9 +5768,9 @@ hr {
 	.gen-form {
 	overflow-x: hidden;
 	}
-	.first-header {  
+	.first-header {
 	  margin: 12px;
-	  margin-top: 6em;
+	  margin-top: 1em;
 	  padding: 12px;
 	}
   
@@ -5825,13 +5839,15 @@ hr {
 	.Other-countries {
     background-color: #730808;
     height: 64px;
-    font-size: 15px;
+    font-size: 14px;
+    /* margin-top: 3px; */
  }
 	.first-par span:first-child {
 		font-size: 63px;
 	}
 	.indexStyle .Exp-Bus h2 span:last-child {
 		font-size: 5rem;
+		margin-bottom: 36px;
 	}
 	.first-par span:last-child {
 		font-size: 48px;
@@ -5934,6 +5950,10 @@ hr {
 }
 
 @media screen and (max-width: 1200px) {
+	.Exp-Bus .hint {
+		font-size: 18px;
+		text-align: center;
+	}
 	.IssuedByState .col-md-6:first-child p:nth-of-type(3) {
 		font-size: 18px;
 	}
@@ -6010,6 +6030,10 @@ hr {
 	}
 	.indexStyle .Exp-Bus h2 span:last-child {
 		font-size: 4.5rem;
+		margin-bottom: 39px;
+	}
+	.Exp-Bus h2 {
+		text-align:left
 	}
 	.indexStyle .Exp-Bus h2 span:first-child {
 		font-size: 5.5rem;
@@ -6031,6 +6055,7 @@ hr {
 	.text-OneDay {
     font-size: 63px;
     text-transform: capitalize;
+    line-height: 1;
  }
 	.text-OneDay span:first-child {
     font-size: 6rem;
@@ -6039,10 +6064,10 @@ hr {
 		font-size: 16px!important;
 	}
 	.indexStyle .Exp-Bus {
-		width: 29%;
+		width: 28%;
 		padding: 0;
 		margin-right: 7px;
-		margin-left: 4px;
+		margin-left: 17px;
 	}
 	.B-doc .issued-text {
 		font-size: 15px;
@@ -6055,7 +6080,7 @@ hr {
 	}
 	.choose-country h3 span {
 		font-size: 30px!important;
-		margin-top: 15px;
+		margin-top: 2px;
 		display: inline-block;
 	}
 	.states_table .col {
@@ -6092,6 +6117,14 @@ hr {
 	.indexStyle .Exp-Bus h2 span:last-child {
 		font-size: 7rem;
 	}
+	.Other-countries {
+
+    font-size: 20px;
+	}
+	.Exp-Bus .hint {
+    font-size: 27px;
+    text-align: left;
+ }
 	.indexStyle .Exp-Bus h2 span:first-child {
 		font-size: 9rem;
 	}
@@ -6220,7 +6253,7 @@ hr {
 		width: 36px;
 	}
 	.choose-country .col {
-		height: 49vh;
+		height: 55vh;
 	}
 	.fedxOption .col-md-12,.fedxOption .col-xs-12{
 		padding:0
@@ -6375,17 +6408,21 @@ hr {
 		width: 91%;
 	}
 	.first-par span:first-child {
-		font-size: 81px;
+		font-size: 90px;
 	}
 	.text-OneDay span:nth-child(2) {
 		font-size: 120PX;
 		text-transform: capitalize;
+		margin: 0;
+		line-height: 1;
+		padding: 0;
+		display: inline;
 	}
 	.charTable > tbody > tr > td {
 		/* width: 10%; */
 	}
 	.block .personal_table {
-		width: 47%;
+		width: 50%;
 		margin-left: 0;
 	}
 	.text-OneDay span:last-child {
@@ -6400,26 +6437,34 @@ hr {
 	.text-OneDay span:first-child {
 		font-size: 116px;
 		text-transform: capitalize;
+		line-height: 1;
 	}
 	.text-OneDay span:last-child {
 		font-size: 83px;
 		text-transform: capitalize;
+		margin: 0;
 	}
 	.indexStyle .Exp-Bus h2 span:last-child {
-		font-size: 59px;
+		font-size: 63px;
+		TEXT-ALIGN: LEFT;
+		position: relative;
+		/* top: -16px; */
+		/* margin: 0; */
 	}
 	.indexStyle .Exp-Bus h2 span:first-child {
-		font-size: 72px;
+		font-size: 84px;
+		TEXT-ALIGN: LEFT;
 	}
 	.indexStyle .Exp-Bus span:nth-child(2){
-		font-size: 48px;
+		font-size: 58px;
+		TEXT-ALIGN: LEFT;
 	}
 	
 	.changeState{
 	  margin-top: 6em;
 	}
 	.first-par span:last-child {
-		font-size: 64px;
+		font-size: 70px;
 	}
 	.state-h2 {
 	  font-size: 21px;
@@ -6428,9 +6473,9 @@ hr {
 	.gen-form {
 	overflow-x: hidden;
 	}
-	.first-header {  
+	.first-header {
 	  margin: 12px;
-	  margin-top: 6em;
+	  margin-top: 2em;
 	  padding: 12px;
 	}
   
@@ -6465,25 +6510,27 @@ hr {
 		font-size: 47px;
 	}
 	.choose-country h3 span {
-		font-size: 56px!important;
+		font-size: 62px!important;
 		margin-top: 6px;
+		TEXT-ALIGN: L;
+		text-align: left;
 	}
 	.charTable > tbody > tr span {
 		width: 36px;
 	}
 	.choose-country .col {
-		height: 42vh;
+		height: 52vh;
 	}
 	.indexStyle .Exp-Bus {
-		width: 52%;
+		width: 46%;
 		padding: 0;
-		margin-right: 0em;
-		margin: 0;
+		/* margin-right: 0em; */
+		/* margin: 0; */
 	}
 	.indexStyle .block .choose-country {
-		margin-left: 36px;
+		/* margin-left: 36px; */
 		padding: 0;
-		width: 41%;
+		width: 42%;
 	}
 	.ChooseState .processBtn{
 		width: 55px;
@@ -7566,5 +7613,7 @@ hr {
 
 
 }
-
+.expCountries2 th{
+	background: #101348;
+}
 
