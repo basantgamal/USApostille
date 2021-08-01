@@ -603,10 +603,10 @@
 			$('.document-case').show();
 		})
 		$('.personal_table table').click(function(){
-			window.location="file:///D:/USApostileProject/USApostille/fedralCase.html";
+			window.location="fedralCase.html";
 		})
 		$('.B-doc').click(function(){
-			window.location="file:///D:/USApostileProject/USApostille/BusinessDoc.html";
+			window.location="BusinessDoc.html";
 		})
 	});
 
