@@ -602,6 +602,12 @@
 			$('.docDetails').hide();
 			$('.document-case').show();
 		})
+		$('.personal_table table').click(function(){
+			window.location="file:///D:/USApostileProject/USApostille/fedralCase.html";
+		})
+		$('.B-doc').click(function(){
+			window.location="file:///D:/USApostileProject/USApostille/BusinessDoc.html";
+		})
 	});
 
 
