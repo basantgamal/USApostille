@@ -168,16 +168,18 @@
   background-color: #3b3b6d;
   border-radius: 1rem;
   color: #47474e;
-  padding: 2rem;
+  /* padding: 2rem; */
   font-family: Abel;
   width: 550px;
   margin: auto;
   margin-top: 12em;
   background-image: url('../images/visaCreditCard.jpg');
   background-size: cover;
+  height: 356px;
 }
 .card__header {
   margin-bottom: 4rem;
+  padding: 5px;
 }
 .card__header:before, .card__header:after {
   content: " ";

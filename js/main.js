@@ -420,6 +420,19 @@
 				$(this).parents('.single-dovument-case-container').find('.overlay').hide();
 			}
 		}))
+
+
+		$("#OutUSA").on("click", (function(){
+			if ($(this).is(':checked')) {
+				$('.outUSA').show();
+				$('.inUSA').hide()
+				console.log('hello')
+			}
+			else{
+				$('.outUSA').hide();
+				$('.inUSA').show()
+			}
+		}))
 		// $(".nigiriaCase-c  .block .custom-option").on("click", (function(){
 		// 	$('.single-dovument-case-container').addClass('animated fadeOut').hide();
 		// 	$(this).parents('.single-dovument-case-container').removeClass('animated fadeOut').show().addClass('animated fadeIn');
@@ -608,6 +621,10 @@
 		$('.B-doc').click(function(){
 			window.location="BusinessDoc.html";
 		})
+		$(".orderForm  .custom-option").on("click", (function(){
+			$('.orderForm .form').show();
+			console.log('ff')
+		}))
 	});
 
 

@@ -46,6 +46,7 @@
 		}
 		.block .col-lg-10{
 			/* width: 80%; */
+			padding: 0;
 		}
 		.indexStyle .block .col-lg-10{
 			/* width: 83%; */
@@ -3620,7 +3621,7 @@ hr {
 		font-size: 12px;
 		width: 33px;
 		height: 26px;
-		font-size: 43px;
+		font-size: 35px;
 		position: absolute;
 		top: -5px;
 		left: 9px;
@@ -4503,8 +4504,9 @@ hr {
 		font-size: 49px;
 		font-weight: bold;
 		color: #b32134;
+		width: 90%;
 		margin-top: 13px;
-		text-transform: capitalize;
+		/* text-transform: capitalize; */
 		font-family: 'Alegreya Sans';
 	}
 	.IssuedByState .col-md-6:first-child .info{
@@ -4536,7 +4538,7 @@ hr {
 	}
 	.goBack{
 		/* position: absolute; */
-		/* top: 12em; */
+		/* top: 8em; */
 		/* left: 0; */
 	}
 	.choose2 {
@@ -4577,15 +4579,17 @@ hr {
 	  font-size: 28px;
 	}
 	#formStyle .col-md-4 ul li:last-child{
-	  font-size: 30px;
+	  /* font-size: 35px; */
+	  /* width: 95%; */
 	}
 	#formStyle .col-md-4 h3{
-		font-size: 32px;margin-top: 3em;
+		font-size: 32px;
+		margin-top: 2em;
 	}
 	#formStyle .col-md-4 .processBtn{
 		width:90%;margin-top: 2em;
 	}
-	#formStyle .col-md-4 img{width: 143px;margin-top: -7px;}
+	#formStyle .col-md-4 img{width: 141px;margin-top: -7px;}
 	.embassyForm .col-md-4 .row:first-child{
 		min-height: 88vh;
 	}
@@ -4683,6 +4687,7 @@ hr {
 		font-weight: bold;
 		color: #101348;
 		margin-bottom: 2em;
+		margin-top: 2em;
 	}
 	.paymentMethod .goBack {
 
@@ -4869,7 +4874,7 @@ hr {
 	}
 /* Div Tree End  */
 	.orderForm{
-		margin-top: 4em;
+		margin-top: 2em;
 	}
 	.orderForm .contentInfo{
 		min-height: 72vh;
@@ -5067,8 +5072,9 @@ hr {
 		width: 86%;
 		font-family: 'Roboto';
 		font-weight: normal;
-		font-size: 38px!important;
+		/* font-size: 38px!important; */
 		padding: 0;
+		font-size: 37px;
 		margin-top: 2em;
 		list-style: none;
 	}
@@ -7627,4 +7633,45 @@ hr {
 
 .hagCountry .table{
 	margin-bottom: 0;
+}
+
+.alabamaForm .fixedPos .teLImg{
+	width: 42px!important;
+	display: inline;
+	border-radius: 50%;
+}
+.card_bar{
+	background-color: #646464;
+	content: '';
+	height: 54px;
+	margin-top: 34px;
+	display: block;
+	width: 100%;
+	position: relative;
+	top: 18px;
+}
+.card .form{
+	margin-top: 4em;
+	padding: 0 12px 0em;
+}
+.cvv_card{
+	background-color: white;
+	height: 39px;
+	content: '';
+	width: 90%;
+	margin: auto;
+	position: relative;
+	top: 34px;
+}
+.orderForm .custom-select {
+    width: 66%;
+    height: 60px !important;
+    /* color: #b32134; */
+    /* border: 2px solid; */
+    /* border-radius: 6px; */
+}
+.checkOut  input[type="checkbox"]:checked:after {
+    font-size: 20px;
+
+    left: 1px;
 }
