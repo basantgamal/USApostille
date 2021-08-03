@@ -4028,8 +4028,8 @@ hr {
 		/* position: absolute; */
 		right: 0;
 		font-size: 16px;
-		margin-top: 40px;
-		top: 1em;
+		margin-top: 17px;
+		/* top: 1em; */
 		box-shadow: -2px 1px 6px 3px gainsboro;
 	}
 	.gen-form{
@@ -7641,27 +7641,28 @@ hr {
 	border-radius: 50%;
 }
 .card_bar{
-	background-color: #646464;
+	background-color: #8c8c8cd9;
 	content: '';
 	height: 54px;
-	margin-top: 17px;
+	margin-top: 20px;
 	display: block;
 	width: 100%;
 	/* position: relative; */
 	/* top: 18px; */
+	padding-top: 16px;
 }
 .card .form{
-	margin-top: 4em;
+	margin-top: 1em;
 	padding: 0 12px 0em;
 }
 .cvv_card{
-	background-color: white;
-	height: 39px;
+	background:url('../images/lineBackground.jpg');
+	height: 42px;
 	content: '';
 	width: 90%;
 	margin: auto;
 	position: relative;
-	top: 34px;
+	top: 3px;
 }
 .orderForm .custom-select {
     width: 66%;
@@ -7679,3 +7680,11 @@ hr {
 #embassy .addressWithCountry{
 	display: none;
   }
+  
+.orderForm .form{
+	display: none;
+}
+.companyType li{
+	font-size: 22px;
+	margin-bottom: 12px;
+}

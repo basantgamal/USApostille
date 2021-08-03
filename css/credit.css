@@ -167,6 +167,7 @@
 .card {
   background-color: #3b3b6d;
   border-radius: 1rem;
+  font-family: 'Abel';
   color: #47474e;
   /* padding: 2rem; */
   font-family: Abel;
@@ -175,7 +176,8 @@
   margin-top: 12em;
   background-image: url('../images/visaCreditCard.jpg');
   background-size: cover;
-  height: 356px;
+  height: 362px;
+  padding-top: 1px;
 }
 .card__header {
   margin-bottom: 4rem;
@@ -221,8 +223,9 @@ input {
   font: inherit;
   width: auto;
 }
-input::placeholder {
+.card input::placeholder {
   color: #fff;
+  font-size: 25px;
 }
 
 .card label {
@@ -240,12 +243,14 @@ input::placeholder {
   clear: both;
 }
 .form__field {
-  margin-bottom: 1.5rem;
+  /* margin-bottom: 1.5rem; */
 }
 .form input {
   outline: 0;
   font-weight: normal;
-  font-size: 21px;
+  font-size: 24px;
+  font-family: 'Abel';
+  margin-left: 12px;
 }
 .form input[type=email], .form input[type=password] {
   width: 100%;
@@ -320,7 +325,8 @@ a {
   width: 14px;
 }
 .card__name__input{
-    font-size: 23px;
+    font-size: 29px!important;
+    font-family: 'Poppins';
 }
 .credCard .custom-select-trigger{border: 0;color: white;font-size: 22px;line-height: 30px;padding: 0;width: 140px;}
 .credCard .custom-select-trigger::after{right: 22px;width: 10px;height: 10px;font-weight: normal;border-bottom: 2px solid rgb(245 218 117);border-right: 2px solid rgb(245 218 117);top: 15px;}
