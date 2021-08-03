@@ -1667,7 +1667,7 @@
   .choose-country .col::-webkit-scrollbar-thumb
   {
   -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
-  background-color: #f5da75;
+  background-color: #101348;
   }
   .choose-country h3 span{
 	font-size: 46px;
@@ -3571,7 +3571,7 @@ hr {
 	.states_table .col::-webkit-scrollbar-thumb
 	{
 		-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
-		background-color: #11144a;
+		background-color: #b32134;
 	}
 
 	.doc-titdiv{
@@ -3749,9 +3749,9 @@ hr {
 		font-size: 15px;
 	}
 	.countryCase {
-		width: 97%;
-		margin-top: 9em;
-		margin: auto;
+		/* width: 97%; */
+		/* margin-top: 9em; */
+		/* margin: auto; */
 	}
 	.countryCase .block-content{
 		border-radius: 5px;
@@ -3821,16 +3821,18 @@ hr {
 	.choose-country2{
 		width: 100%!important;
 	}
-
+	.authQues h4{font-size: 31px;margin-top: 1em;color: #d22d2d;font-weight: bold;}
 	.authQues h3{
 		font-size: 34px;
 		color: #11144a;
 		line-height: 1.5;
 		text-transform: none;
+		/* font-family: -webkit-body; */
+		line-height: 1.2;
 	}
 	.authQues h5{
 		font-size: 30px;
-		color: #d22d2d;
+		color: #101348;
 		font-weight: 500;
 	}
 	.authQues  h2{
@@ -3967,7 +3969,7 @@ hr {
 	}
 
 	#embassy {
-		font-family: Arial, Helvetica, sans-serif;
+		/* font-family: Arial, Helvetica, sans-serif; */
 		box-shadow: 2px 3px 7px 6px gainsboro;
 		margin-top: 0;
 		margin-bottom: 0;
@@ -3994,14 +3996,19 @@ hr {
 		margin: auto;
 	}
 	.embassyForm .fixedPos p{
-		font-size: 30px;
+		font-size: 32px;
 		margin-left: 34px;
 		color: firebrick;
+		font-weight: 500;
+		font-family: 'Poppins';
 	}
 	.embassyForm .fixedPos h3{
 		font-size: 32px;
 		margin-left: 40px;
 		margin-top: 3em;
+	}
+	.embassyForm .fixedPos h3 img{
+		width:60px
 	}
 	.embassyForm .fixedPos ul{
 		font-size: 31px;
@@ -4028,8 +4035,8 @@ hr {
 		/* position: absolute; */
 		right: 0;
 		font-size: 16px;
-		margin-top: 17px;
-		/* top: 1em; */
+		margin-top: 15px;
+		top: 1em;
 		box-shadow: -2px 1px 6px 3px gainsboro;
 	}
 	.gen-form{
@@ -4098,7 +4105,7 @@ hr {
 		font-size: 22px;
 		color: #f5da70;
 	}
-	.personal_table th:last-child span:first-child{
+	.personal_table th span:first-child{
 		font-size: 23px;
 		color: #f5da75;
 	}
@@ -4114,8 +4121,8 @@ hr {
 		font-size: 28px;
 	}
 	.embassyForm .scrolling{
-		overflow: auto;
-		margin-left: 37%;
+		/* overflow: auto; */
+		/* margin-left: 37%; */
 	}
 	.indexStyle .Exp-Bus span:nth-child(2){
 		position: relative;
@@ -4575,8 +4582,9 @@ hr {
 		font-size: 24px;
 		margin-top: 5em;
 	}
-	#formStyle .col-md-4 ul{
+	#formStyle .col-lg-4 ul{
 	  font-size: 28px;
+	  margin-top: 8em;
 	}
 	#formStyle .col-md-4 ul li:last-child{
 	  /* font-size: 35px; */
@@ -4589,11 +4597,11 @@ hr {
 	#formStyle .col-md-4 .processBtn{
 		width:90%;margin-top: 2em;
 	}
-	#formStyle .col-md-4 img{width: 141px;margin-top: -7px;}
-	.embassyForm .col-md-4 .row:first-child{
-		min-height: 88vh;
+	#formStyle .col-lg-4 img{width: 141px;margin-top: -7px;}
+	.embassyForm .col-lg-4 .row:first-child{
+		min-height: 93vh;
 	}
-	.embassyForm .col-md-4 h3 img{
+	.embassyForm .col-lg-4 h3 img{
 		width: 98px;    margin-bottom: 0;
 	}
 	.embassyForm #embassy .row:first-child input{
@@ -5363,6 +5371,28 @@ hr {
 	.authQues h5 {
 		font-size: 23px;
 	}
+	.fixedPos {
+		/* position: relative; */
+	}
+	#formStyle .col-md-4 ul {
+		/* padding: 0; */
+		/* margin-right: 0; */
+		width: 100%;
+	}
+	#formStyle .col-md-4 h3 {
+		font-size: 33px;
+		margin-top: 0;
+		margin: 0;
+	}
+	#formStyle .col-md-4 .row:first-child p{
+		margin-left:0;
+		font-size: 35px;
+	}
+		#formStyle .col-lg-4 ul li{
+		font-size: 25px;
+		line-height: 1.2;
+		margin-bottom: 22px;
+	}
 }
 
 @media screen and (max-width:1600px){	
@@ -5468,7 +5498,7 @@ hr {
 		margin-left: 20px;
 	}
 	.choose-country .col {
-		height: 47vh;
+		height: 51vh;
 	}
 	.states_table .col {
 		height: 73vh;
@@ -5504,6 +5534,9 @@ hr {
 }
 
 @media screen and (max-width: 1500px) {
+	 .contentInfo{
+		min-height: 75vh!important;
+	}
 	.Exp-Bus .hint{
 		font-size: 21px;
 	}
@@ -5531,7 +5564,24 @@ hr {
 		margin-top: 3em;
 	}
 	.fixedPos {
-		position: relative;
+		/* position: relative; */
+	}
+	#formStyle .col-md-4 ul {
+		padding: 0;
+		margin-right: 0;
+		width: 100%;
+	}
+	#formStyle .col-md-4 h3 {
+		font-size: 24px;
+		margin-top: 0;
+		margin: 0;
+	}
+	#formStyle .col-md-4 .row:first-child p{
+		margin-left:0;
+		font-size:20px;
+	}
+		#formStyle .col-lg-4 ul li{
+		font-size: 22px;
 	}
 	.alabamaForm .col-md-offset-5 {
 		margin-left:0;
@@ -5625,7 +5675,7 @@ hr {
 	  width: 49%;
 	  left: 0;
 	  margin-left: 0;
-	  float:left;
+	  /* float:left; */
 	}
 	.indexStyle .choose-country{
 	  width: 47%;
@@ -5672,6 +5722,16 @@ hr {
 }
 
 @media screen and (max-width: 1400px) {
+	.stateQuestion h2 {
+		font-size: 40px;
+	}
+	.stateQuestion .row:first-child h3 {
+
+		margin-top: 2em;
+	}
+	.stateQuestion h5 {
+		font-size: 23px;
+	}
 	.authQues h5 {
 		font-size: 21px;
 	}	
@@ -5700,6 +5760,7 @@ hr {
 	 }
 	 .personal_table .table>thead>tr>th:first-child{
 		font-size: 16px;
+		/* padding: 0; */
 		}
 	 .first-par span:first-child {
 		font-size: 63px;
@@ -5791,7 +5852,7 @@ hr {
 	  width: 49%;
 	  left: 0;
 	  margin-left: 0;
-	  float:left;
+	  /* float:left; */
 	}
 	.indexStyle .choose-country{
 	  width: 47%;
@@ -5841,6 +5902,23 @@ hr {
 }
 
 @media screen and (max-width: 1300px) {
+	.embassyForm .fixedPos h3{
+		margin:0;
+		font-size: 22px;
+		display: none;
+	}
+	.embassyForm .fixedPos p{
+				font-size: 38px;
+				text-align: center;
+	}
+		#formStyle .col-lg-4 ul{
+		padding: 0;
+		width: 100%;
+		margin-top: 4em;
+	}
+		#formStyle .col-lg-4 ul li{
+			font-size: 20px;
+		}
 	.indexStyle .block .choose-country {
 		width: 18%;
 	}
@@ -5916,7 +5994,7 @@ hr {
 	  width: 49%;
 	  left: 0;
 	  margin-left: 0;
-	  float:left;
+	  /* float:left; */
 	}
 	.indexStyle .choose-country{
 	  width: 47%;
@@ -5932,7 +6010,7 @@ hr {
 
 	}
 	  .personal_table .table{
-		 margin-top: 4em;
+		 margin-top: 5em;
 		 }
 	.ml-2 {
 	  margin:0
@@ -5958,7 +6036,7 @@ hr {
 		font-size: 31px!important;
 	}
 	.authQues h5 {
-		font-size: 23px;
+		font-size: 21px;
 	}
 	
 }
@@ -5996,9 +6074,28 @@ hr {
 	.embassyForm .no-print .col-md-offset-3{
 		left: 0!important;
 	}
+	#formStyle .col-lg-4 ul li {
+		font-size: 37px;
+		text-align: center;
+	}
+	#formStyle .col-lg-4 ul li br{
+		display:none;
+	}
+	.embassyForm .col-lg-4 .row:first-child {
+		min-height: 53vh;
+	}
+	.embassyForm .col-lg-4 .row:first-child .processBtn{
+		width:300px;
+		font-size:20px;
+		display: block;
+	}
 	.embassyForm .scrolling {
 		margin-left: 0;
+		position: relative;
 	}
+	.fixedPos {
+		position:relative
+    }
 	.block .col-lg-10 {
 		width: 100%!important;
 	}
@@ -6040,7 +6137,7 @@ hr {
 		 font-size: 35px;
 	}
 	.choose-country .col {
-		height: 43vh;
+		height: 48vh;
 	}
 	.indexStyle .Exp-Bus h2 span:last-child {
 		font-size: 4.5rem;
@@ -6067,15 +6164,24 @@ hr {
 		display: inline-block;
 	}
 	.text-OneDay {
-    font-size: 63px;
-    text-transform: capitalize;
-    line-height: 1;
- }
-	.text-OneDay span:first-child {
-    font-size: 6rem;
-}
+		font-size: 63px;
+		text-transform: capitalize;
+		line-height: 1;
+	 }
+		.text-OneDay span:first-child {
+		font-size: 6rem;
+	}
+	.Other-countries a{
+		font-size:13px
+	}
+	.exp-country p{
+		display:none
+	}
+	.exp-country h2 p{
+		display:block
+	}
 	.personal_table .table>thead>tr>th {
-		font-size: 16px!important;
+		font-size: 13px!important;
 	}
 	.indexStyle .Exp-Bus {
 		width: 28%;
@@ -6116,7 +6222,7 @@ hr {
 
 @media screen and (max-width: 1100px) {
 	.goBack {
-		position: relative;
+		/* position: relative; */
 		top: 0;
 	}
 	.IssuedByState .image-container{
@@ -6222,7 +6328,7 @@ hr {
 	  width: 49%;
 	  left: 0;
 	  margin-left: 0;
-	  float:left;
+	  /* float:left; */
 	}
 	.indexStyle .choose-country{
 	  width: 47%;
@@ -6344,7 +6450,13 @@ hr {
 }
 
 @media screen and (max-width: 1000px) {
-	
+	#formStyle .col-lg-4 ul li {
+		font-size: 27px;
+
+	}
+	.embassyForm .col-lg-4 .row:first-child {
+    min-height: auto;
+}
 	.single-dovument-case-container img {
 		height: 60vh;
 		width: 48%;
@@ -6359,6 +6471,13 @@ hr {
 		margin: auto;
 		height: 513px;
 		width: 63%;
+	}
+	.exp-country p {
+		display: block;
+		font-size:20px
+	}
+	.exp-country p span{
+		font-size:25px
 	}
 	.single-dovument-case-container .caseLabel{
 		font-size: 37px!important;
@@ -6497,7 +6616,7 @@ hr {
 	  width: 49%;
 	  left: 0;
 	  margin-left: 0;
-	  float:left;
+	  /* float:left; */
 	}
 	.indexStyle .choose-country{
 	  width: 47%;
@@ -6637,8 +6756,8 @@ hr {
 	.fed-table,.personal_table,.Exp-Bus {
 	  width: 49%;
 	  left: 0;
-	  margin-left: 0;
-	  float:left;
+	  /* margin-left: 0; */
+	  /* float:left; */
 	}
 	.choose-country{
 	  width: 47%;
@@ -6785,7 +6904,7 @@ hr {
 	  width: 49%;
 	  left: 0;
 	  margin-left: 0;
-	  float:left;
+	  /* float:left; */
 	}
 	.choose-country{
 	  width: 47%;
@@ -6964,7 +7083,7 @@ hr {
 	  width: 49%;
 	  left: 0;
 	  margin-left: 0;
-	  float:left;
+	  /* float:left; */
 	}
 	.choose-country{
 	  width: 47%;
@@ -7056,6 +7175,7 @@ hr {
 
 	.exp-country {
 		/* width: 85%; */
+		height:80px;
 	}	
 	.indexStyle .indexStyle .block .col-lg-10{
 		margin:60px 20px;
@@ -7095,8 +7215,9 @@ hr {
 		margin-top: 4em;
 	}
 	.block .personal_table,.block .fed-table ,.indexStyle .Exp-Bus,.indexStyle .block .choose-country{
-		width: 91%;
-		margin: 0;
+		width: 98%;
+		/* margin: 0; */
+		margin: auto;
 	}
 	.indexStyle .Exp-Bus span:nth-child(2) {
 		font-size: 64px;
@@ -7206,14 +7327,15 @@ hr {
 	  margin: 0;
 	  margin-top: 6em;
 	  padding: 0;
-	  width: 91%;
+	  width: 98%;
+	  margin: auto;
 	}
   
 	.fed-table,.personal_table,.Exp-Bus {
 	  width: 49%;
 	  left: 0;
 	  margin-left: 0;
-	  float:left;
+	  /* float:left; */
 	}
 	.choose-country{
 	  width: 47%;
@@ -7241,6 +7363,7 @@ hr {
 	.choose-country h3 span {
 		font-size: 52px!important;
 		margin: 0;
+		text-align: center;
 	}
 	.charTable > tbody > tr span {
 		width: 50px;
@@ -7249,7 +7372,7 @@ hr {
 		height: 38vh;
 	}
 	.indexStyle .Exp-Bus {
-		width: 86%;
+		/* width: 86%; */
 		padding: 0;
 		margin-right: 2em;
 	}
@@ -7330,7 +7453,9 @@ hr {
 	}
 	.indexStyle .Exp-Bus span:nth-child(2) {
 		font-size: 51px;
+		text-align: center;
 	}
+
 	.Exp-Bus h2{
 		text-align: center;
 	}
@@ -7501,7 +7626,7 @@ hr {
 {
 	border-radius: 0;
 	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
-	background-color: #f5da75;
+	background-color: #101348;
 }
 
 
@@ -7641,28 +7766,27 @@ hr {
 	border-radius: 50%;
 }
 .card_bar{
-	background-color: #8c8c8cd9;
+	background-color: #646464;
 	content: '';
 	height: 54px;
-	margin-top: 20px;
+	margin-top: 17px;
 	display: block;
 	width: 100%;
 	/* position: relative; */
 	/* top: 18px; */
-	padding-top: 16px;
 }
 .card .form{
-	margin-top: 1em;
+	margin-top: 4em;
 	padding: 0 12px 0em;
 }
 .cvv_card{
-	background:url('../images/lineBackground.jpg');
-	height: 42px;
+	background-color: white;
+	height: 39px;
 	content: '';
 	width: 90%;
 	margin: auto;
 	position: relative;
-	top: 3px;
+	top: 34px;
 }
 .orderForm .custom-select {
     width: 66%;
@@ -7680,11 +7804,3 @@ hr {
 #embassy .addressWithCountry{
 	display: none;
   }
-  
-.orderForm .form{
-	display: none;
-}
-.companyType li{
-	font-size: 22px;
-	margin-bottom: 12px;
-}
