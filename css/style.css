@@ -1828,7 +1828,7 @@
 	text-align: center;
 	padding: 16px 10px;
 	text-transform: capitalize;
-	font-size: 17px;
+	font-size: 16px;
 	border: 3px solid #ffe582;
 	border-radius: 0;
 	}
@@ -5119,7 +5119,8 @@ hr {
 	}
 	.indexStyle .block .col-lg-10 {
 		margin: 0;
-		width: 84%;
+		width: 85%;
+		padding: 0 12px;
 	}
 	.indexStyle .Exp-Bus h2 span:first-child {
 		font-size: 84px;
@@ -5166,7 +5167,7 @@ hr {
 	}
 	.personal_table .table {
 		margin-left: 19px;
-		margin-top: 2em;
+		margin-top: 7em;
 	}
 	.indexStyle .block .choose-country {
 		width: 16%;
@@ -5174,10 +5175,10 @@ hr {
 		margin-left: 2px;
 	}
 	.choose-country .col {
-		height: 50vh;
+		height: 53vh;
 	}
 	.states_table .col {
-		height: 73vh;
+		height: 75vh;
 	}
 	.personal_table .table > tbody > tr > td{
 		font-size: 16px!important;
