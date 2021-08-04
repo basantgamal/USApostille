@@ -615,9 +615,9 @@
 			$('.docDetails').hide();
 			$('.document-case').show();
 		})
-		$('.personal_table table').click(function(){
-			window.location="fedralCase.html";
-		})
+		// $('.personal_table table').click(function(){
+		// 	window.location="fedralCase.html";
+		// })
 		$('.B-doc').click(function(){
 			window.location="BusinessDoc.html";
 		})
@@ -625,6 +625,9 @@
 			$('.orderForm .form').show();
 			console.log('ff')
 		}))
+
+
+	
 	});
 
 
