@@ -1673,12 +1673,12 @@
 	color: white;
 	text-transform: capitalize;
 	line-height: 1!important;
-	width: 14%;
+	width: 9%;
 	display: inline-block;
 	}
   .charTable > tbody > tr span{
 	background: #dbdbdb;
-	width: 93%;
+	width: 99%;
 	display: inline-block;
 	border-radius: 3px;
 	padding: 0px;
@@ -2277,7 +2277,7 @@
   .choose-country .col td:hover{
 	color: #11144a;
    }
-  .img-content{background: #ffffff;/* margin: -26px; */margin-top: 3px;overflow: hidden;height: 99vh;width: 105%;padding: 0;}
+  .img-content{background: #ffffff;/* margin: -26px; */margin-top: 3px;overflow: hidden;height: 99vh;width: 102%;padding: 0;}
   .img-content img{
 	border-radius: 6px;
 	/* position: absolute; */
@@ -3164,7 +3164,9 @@ hr {
 	outline: none !important;
 	box-shadow: none !important;
 }
-
+.USDInstruction  ul{
+	font-size: 30px;
+}
   input[type="radio"]:checked:after {
 	content: '';
 	font-size: 12px;
@@ -3235,7 +3237,7 @@ hr {
 	color:black;
 }
 .choose2 .charTable > tbody > tr td{
-	width: 36px;
+	width: 29px;
 }
 .fedCase h3{
 	font-weight: bold;
@@ -3761,6 +3763,7 @@ hr {
 	.countryCase .block{
 		background: transparent;
 		display: none;
+		padding-left: 22px;
 	}
 
 	.countryCase .authQues{
@@ -3968,6 +3971,8 @@ hr {
 	input[type="radio"], input[type="checkbox"]{
 		width: 30px;
 		height: 30px;
+		float: left;
+		margin-right: 10px;
 	}
 	.processBtn{
 		width: 93%;
@@ -4201,9 +4206,9 @@ hr {
 
 	.notaryQuestion label {
 		position: relative;
-		top: 5px;
+		top: -5px;
 		font-weight: normal;
-		font-size: 30px;
+		font-size: 29px;
 		font-weight: bold;
 		font-family: 'Alegreya Sans';
 		color: #b32134;
@@ -4285,7 +4290,7 @@ hr {
 	}
 	.choose2 .charTable > tbody > tr span {
 		background: #dbdbdb;
-		width: 32px;
+		width: 30px;
 		margin-bottom: 13px;
 	}
 	.fedCase .images-container img{
@@ -4479,7 +4484,7 @@ hr {
 	.alabamaFormWithTel ul{
 		list-style: none;
 		padding: 0;
-		font-size: 30px!important;
+		font-size: 30px;
 		width: 75%;
 	}
 	.IssuedByState .telImg{
@@ -4531,8 +4536,8 @@ hr {
 	}
 	.choose2 {
 		margin-top: 1em;
-		padding: 0;
-		margin-left: 0;
+		/* padding: 0; */
+		padding-left: 23px;
 	}
 
 	.notaryQuestion p{
@@ -4624,7 +4629,7 @@ hr {
 		font-size: inherit;
 	}
 	.choose-countryState .charTable td,.choose-countryState .charTable td {
-		width: 37px;
+		/* width: 37px; */
 	}
 	.notaryQuestion .row:first-child .col-md-6:first-child img{
 		    width: 82%;
@@ -4944,7 +4949,7 @@ hr {
 
   .USDInstruction .fixedPos img,  .alabamaForm .fixedPos img,.alabamaFormWithTel .fixedPos img{
 	  width: 160px;
-  }
+	 }
   .orderForm .form{
 	  display: none;
   }
@@ -5374,7 +5379,11 @@ hr {
 		top: -14px;
 	}
 	.indexStyle .Exp-Bus span:nth-child(2){
-		font-size: 55px;
+		font-size: 53px;
+	}
+	.Exp-Bus .hint {
+    color: #191919;
+    font-size: 21px;
 	}
 	.first-par span:first-child {
 		font-size: 71px;
@@ -5411,13 +5420,13 @@ hr {
 		margin-top: 1em;
 	}
 	.indexStyle .block .choose-country {
-		width: 17%;
+		width: 19%;
 		margin: 0;
 		/* margin-left: 35px; */
-		margin-left: 31px;
+		margin-left: 16px;
 	}
 	.indexStyle .choose-country .col {
-		height: 44vh;
+		height: 46vh;
 	}
 	.states_table .col {
 		height: 63vh;
@@ -5434,7 +5443,7 @@ hr {
 	}
 }
 
-@media screen and (max-width:1830px){
+@media screen and (max-width: 1830px){
 	.nav-aside h1 {
 		font-size: 40px;
 	}
@@ -5523,6 +5532,9 @@ hr {
 	.choose-country .col {
 		height: 53vh;
 	}
+	.choose-countryState .col {
+		height: 72vh;
+	}
 	.states_table .col {
 		height: 75vh;
 	}
@@ -5585,6 +5597,9 @@ hr {
 	}
 	.fedCase .col-lg-9 .row:last-child img:nth-of-type(4){
 		width: 172px;
+	}
+	.authQues h5 {
+		font-size: 28px;
 	}
 }
 @media screen and (max-width:1700px){
@@ -5693,7 +5708,7 @@ hr {
 			font-size: 14px;
 	}
 	.choose-country .col {
-		height: 48vh;
+		height: 71vh;
 	}
 	.states_table .col {
 		height: 71vh;
@@ -5721,10 +5736,16 @@ hr {
 	.fixedPos {
 		/* position: relative; */
 	}
+	 .alabamaFormWithTel .fixedPos h3 img {
+		width: 120px;
+	}
 	#formStyle .col-md-4 ul {
 		/* padding: 0; */
 		/* margin-right: 0; */
-		width: 100%;
+		width: 78%;
+		font-size: 23px;
+		padding: 0;
+		list-style: none;
 	}
 	#formStyle .col-md-4 h3 {
 		font-size: 33px;
@@ -5733,16 +5754,25 @@ hr {
 	}
 	#formStyle .col-md-4 .row:first-child p{
 		margin-left:0;
-		font-size: 35px;
+		font-size: 26px;
 	}
 		#formStyle .col-lg-4 ul li{
 		font-size: 25px;
 		line-height: 1.2;
 		margin-bottom: 22px;
 	}
+	.authQues .contentInfo {
+		min-height: 75vh;
+		padding-top: 0;
+	}
+	
 }
 
 @media screen and (max-width:1600px){	
+
+	.authQues label {
+		top: 2px;
+	}
 	.indexStyle .block .choose-country {
 		width: 15%;
 		margin: 0;
@@ -5851,7 +5881,7 @@ hr {
 		height: 73vh;
 	}
 	.charTable > tbody > tr span {
-		width: 26px;
+		width: 25px;
 	}
 	.alabamaForm ul{
 		width: 86%;
@@ -5878,9 +5908,46 @@ hr {
 
 		margin-top: 4em;
 	}
+	.authQues .contentInfo {
+		min-height: 75vh;
+		padding-top: 0;
+	}
 }
 
 @media screen and (max-width: 1500px) {
+	.FBICase .title h3:first-child {
+		font-size: 13pc;
+		margin-left: 0;
+	}
+	.stateQuestion .row:first-child {
+		min-height: 90vh;
+	}
+	.FBICase .alert {
+		position: relative;
+		/* width: 400px; */
+		/* background: #cf093f4a; */
+		/* padding: 12px; */
+		/* color: #ffffff; */
+		border-radius: 6px;
+		/* border: 9px dashed #e6bc12; */
+		font-size: 21px;
+		/* width: 80%; */
+		display: block;
+		margin-top: 2em;
+		margin-bottom: 2em;
+		/* margin-left: 0; */
+	}
+	.FBICase .title h3:nth-child(2) {
+		margin: 0;
+		color: #cf093f;
+		line-height: 1;
+		font-size: 71px;
+	}
+	.FBICase .title img {
+		width: 116px;
+		top: 78px;
+		left: 36.9em;
+	}
 	.USPTOCase .content{
 		margin-top: 12em;	
 	}
@@ -5910,7 +5977,7 @@ hr {
 	}
 	.img-content img {
 		width: 96%;
-		height: 69vh;
+		height: 83vh;
 		top: -8px;
 		left: 17px;
 		position: relative;
@@ -5931,10 +5998,14 @@ hr {
 	.fixedPos {
 		/* position: relative; */
 	}
+	.USDInstruction .fixedPos h3 img, .alabamaForm .fixedPos h3 img, .alabamaFormWithTel .fixedPos h3 img {
+		width: 75px;
+	}
 	#formStyle .col-md-4 ul {
 		padding: 0;
 		margin-right: 0;
 		width: 100%;
+		font-size: 21px;
 	}
 	#formStyle .col-md-4 h3 {
 		font-size: 24px;
@@ -6037,9 +6108,9 @@ hr {
 		margin:0
 	  }
 	.indexStyle .fed-table, .indexStyle .personal_table, .indexStyle .Exp-Bus {
-	  width: 49%;
+	  /* width: 49%; */
 	  left: 0;
-	  margin-left: 0;
+	  /* margin-left: 5px; */
 	  float:left;
 	}
 	.indexStyle .choose-country{
@@ -6050,6 +6121,7 @@ hr {
 	}
 	.choose-countryState {
 	  margin:0;
+	  margin-top: 7em;
 	}
 	.B-doc,  .personal_table .table {
 	  margin-left: 1em;
@@ -6084,6 +6156,16 @@ hr {
 	.block .col-lg-10 {
 		width: 100%!important;
 	}
+	.charTable > tbody > tr > td {
+		width: 12%;
+	}
+	.stateQuestion .row:first-child h3 {
+		font-size: 22px;
+	}
+	.authQues .contentInfo {
+		min-height: 75vh;
+		padding-top: 0;
+	}
 }
 
 @media screen and (max-width: 1400px) {
@@ -6104,7 +6186,7 @@ hr {
 		position: relative;
 	} */
 	.notaryQuestion label {
-		font-size: 18px!important;
+		font-size: 27px;
 	}
 	.single-dovument-case-container img {
 		height: 343px;
@@ -6180,6 +6262,7 @@ hr {
 	  height: auto;
 	  position: relative;
 	}
+
 	.m-3,.m5,.m-5{
 	  left: 0;
 	}
@@ -6227,6 +6310,7 @@ hr {
 	}
 	.choose-countryState {
 	  margin:0;
+	  margin-top: 6em;
 	}
 	.B-doc,  .personal_table .table {
   margin-left: 1em;
@@ -6299,6 +6383,7 @@ hr {
     font-size: 14px;
     /* margin-top: 3px; */
  }
+
 	.first-par span:first-child {
 		font-size: 63px;
 	}
@@ -6368,14 +6453,19 @@ hr {
 	  float:left;
 	}
 	.choose-countryState {
-	  margin:0;
+	  /* margin:0; */
+	}
+	.choose2 {
+		margin-top: 1em;
+		/* padding: 0; */
+		padding-left: 0;
 	}
 	.B-doc,  .personal_table .table {
 		margin-left: 1em;
 
 	}
 	  .personal_table .table{
-		 margin-top: 5em;
+		 margin-top: 1em;
 		 }
 	.ml-2 {
 	  margin:0
@@ -6403,16 +6493,21 @@ hr {
 	.authQues h5 {
 		font-size: 21px;
 	}
-	
+	.notaryQuestion label {
+		font-size: 22px;
+	}
 }
 
 @media screen and (max-width: 1200px) {
+
 	.fedCase h3 {
 		margin-top: 71px;
 	}
 	.Exp-Bus .hint {
 		font-size: 18px;
 		text-align: center;
+		margin-top: 2em;
+		margin-bottom: 4em;
 	}
 	.IssuedByState .col-md-6:first-child p:nth-of-type(3) {
 		font-size: 18px;
@@ -6429,15 +6524,16 @@ hr {
 		font-size: 18px;
 	}
 	.notaryQuestion label {
-		font-size: 25px!important;
-		width: 86%;
-		top: 28px;
+		font-size: 20px;
+		width: 91%;
+
 		margin-bottom: 2em;
 		font-weight: bold;
+		float: left;
 		font-family: 'Alegreya Sans';
 	}
 	.bl-3 {
-		border-left:0;
+		/* border-left:0; */
 	}
 	.embassyForm .no-print .col-md-offset-3{
 		left: 0!important;
@@ -6461,9 +6557,9 @@ hr {
 		margin-left: 0;
 		position: relative;
 	}
-	.fixedPos {
-		position:relative
-    }
+	.embassy .fixedPos {
+		position:relative;
+		}
 	.block .col-lg-10 {
 		width: 100%!important;
 	}
@@ -6505,7 +6601,7 @@ hr {
 		 font-size: 35px;
 	}
 	.choose-country .col {
-		height: 48vh;
+		height: 63vh;
 	}
 	.indexStyle .Exp-Bus h2 span:last-child {
 		font-size: 4.5rem;
@@ -6521,13 +6617,13 @@ hr {
 		font-size: 4rem;
 	}
 	.first-par span:first-child {
-		font-size: 57px;
+		font-size: 55px;
 	}
 	.first-par span:last-child {
-		font-size: 44px;
+		font-size: 42px;
 	}
 	.text-OneDay span:last-child {
-		font-size: 58px;
+		font-size: 55px;
 		margin-top: 27px;
 		display: inline-block;
 	}
@@ -6558,10 +6654,10 @@ hr {
 		margin-left: 17px;
 	}
 	.B-doc .issued-text {
-		font-size: 15px;
+		font-size: 14px;
 	}
 	.united-text {
-		font-size: 22px;
+		font-size: 21px;
 	}
 	.showNonHag {
 		font-size: 14px;
@@ -6572,7 +6668,7 @@ hr {
 		display: inline-block;
 	}
 	.states_table .col {
-		height: 73vh;
+		height: 87vh;
 	}
 	.stateStyle h3{
 		font-size: 24px!important;
@@ -6585,10 +6681,34 @@ hr {
 		font-size: 20px;
 
 	}
-
+	.choose-countryState .col {
+		height: 79vh;
+		width: 62%;
+		margin: auto;
+		margin-bottom: 2em;
+	}
+	.choose-countryState .charTable{
+		text-align: center;
+		width: 69%;
+		margin: auto;
+	}
+	.img-content img {
+		display: none;
+	}
+	.embassyForm .fixedPos{
+		position: relative;
+	}
 }
 
 @media screen and (max-width: 1100px) {
+	.notaryQuestion label {
+		font-size: 27px;
+		width: 90%;
+		margin-bottom: 2em;
+		font-weight: bold;
+		float: left;
+		font-family: 'Alegreya Sans';
+	}
 	.goBack {
 		/* position: relative; */
 		top: 0;
@@ -6705,7 +6825,8 @@ hr {
 	  float:left;
 	}
 	.choose-countryState {
-	  margin:0;
+	  margin: 3em;
+	  /* overflow: hidden; */
 	}
 	.B-doc,  .personal_table .table {
 	  margin-left: 1em;
@@ -6746,8 +6867,10 @@ hr {
 	.fedxOption .col-md-12,.fedxOption .col-xs-12{
 		padding:0
 	}
-	.processBtn,.printBtn {
-		width: 100%;
+	#formStyle .col-md-4 .processBtn, .printBtn {
+		width: 87%;
+		font-size: 25px;
+		/* margin: auto; */
 	}
 	.countryCase .box {
 		width: 100%;
@@ -6755,16 +6878,16 @@ hr {
 		margin-top: 2em;
 		margin-bottom: 2em;
 	}
-	.fixedPos {
+	.embassyForm .fixedPos {
 		position: relative;
 	}
 	.authQues h4{
-		font-size: 19px!important;
+		/* font-size: 19px!important; */
 		font-weight: normal !important;
 	}
 	.authQues h3{
-		font-size: 23px;
-		font-weight: bold;
+		/* font-size: 23px; */
+		/* font-weight: bold; */
 	}
 	.embassyForm .fixedPos ul {
 		font-size: 24px;
@@ -6815,9 +6938,39 @@ hr {
 	.states_table .col {
 		height: 87vh;
 	}
+	.choose-countryState .col {
+		height: 71vh;
+	}
 }
 
 @media screen and (max-width: 1000px) {
+	.bl-3 {
+    border-left: 0;
+    margin-top: 4em;
+    border-top: 2px solid;
+    padding-top: 5em;
+}
+	.choose-country .smallFont {
+		font-size: 39px;
+		margin-top: 2em;
+	}
+	.fixedPos{
+		position:relative;
+	}
+	#formStyle .col-md-4 .row:first-child {
+		padding-top: 0;
+		min-height: auto;
+		margin-bottom: 5em;
+		/* margin: auto; */
+	}
+	.embassyForm .no-print label{
+		font-size:30px;
+		font-weight:normal
+	}
+	.choose-countryState .smallFont {
+		font-size: 32px;
+		margin-top: 2em;
+	}
 	#formStyle .col-lg-4 ul li {
 		font-size: 27px;
 
@@ -6842,7 +6995,8 @@ hr {
 	}
 	.exp-country p {
 		display: block;
-		font-size:20px
+		font-size: 11px;
+		display: none;
 	}
 	.exp-country p span{
 		font-size:25px
@@ -7079,7 +7233,7 @@ hr {
     font-size: 19px;
     }
     .united-text {
-		font-size: 29px;
+		font-size: 28px;
 	}
 	.text-OneDay span:nth-child(2) {
 		font-size: 87PX;
@@ -7134,6 +7288,12 @@ hr {
 	  margin: 0;
 	  float:left;
 	}
+	.choose2{
+	  width: 100%!important;
+	  padding: 37px;
+	  margin: 0;
+	  float:none;
+	}
 	.choose-countryState {
 	  margin:0;
 	}
@@ -7141,7 +7301,7 @@ hr {
 		margin-left: 1em;
 	}
 	.personal_table .table {
-		margin-top: 8em;
+		margin-top: 5em;
 	}
 	.states_table .col {
 		height: 83vh;
@@ -7164,6 +7324,9 @@ hr {
 	}
 	.choose-country .col {
 		height: 42vh;
+	}
+	.choose-country .col {
+		height: 62vh;
 	}
 	.indexStyle .Exp-Bus {
 		width: 52%;
@@ -7283,6 +7446,7 @@ hr {
 	}
 	.choose-countryState {
 	  margin:0;
+	  width: 100%;
 	}
 	.B-doc,  .personal_table .table {
 		margin-left: 0;
@@ -7307,6 +7471,9 @@ hr {
 	}
 	.choose-country .col {
 		height: 38vh;
+	}
+	.choose2 .col {
+		height:78vh;
 	}
 	.indexStyle .Exp-Bus {
 		width: 49%;
@@ -7460,9 +7627,20 @@ hr {
 	  margin: 0;
 	  float:left;
 	}
+		.choose2{
+	  width: 100%;
+	  /* padding: 37px; */
+	  margin: 0;
+	  float:left;
+	  padding: 0;
+	}
 	.choose-countryState {
 	  margin:0;
 	}
+	.choose-countryState .smallFont {
+    font-size: 22px;
+    margin-top: 2em;
+}
 	.B-doc,  .personal_table .table {
 		margin-left: 0;
 	}
@@ -7496,7 +7674,7 @@ hr {
 		margin-right: 2em;
 	}
 	.charTable > tbody > tr > td {
-		width: 61px;
+		width: 55px;
 	}
 
 	.indexStyle .block .choose-country {
@@ -7541,7 +7719,10 @@ hr {
 }
 
 @media screen and (max-width: 700px){
-
+	.exp-country p {
+		font-size: 21px;
+		display: block;
+	}
 	.exp-country {
 		/* width: 85%; */
 		height:80px;
@@ -7712,6 +7893,15 @@ hr {
 	  margin: 0;
 	  float:left;
 	}
+	.choose2{
+		width:100%;
+		padding: 0;
+	}
+	.choose-countryState .charTable {
+    text-align: center;
+    width: 100%;
+    margin: auto;
+}
 	.choose-countryState {
 	  margin:0;
 	}
@@ -7739,6 +7929,10 @@ hr {
 	}
 	.choose-country .col {
 		height: 38vh;
+	}
+	.choose2 .col {
+		height: 88vh;
+		width: 85%;
 	}
 	.indexStyle .Exp-Bus {
 		/* width: 86%; */
@@ -8096,4 +8290,3 @@ hr {
 
 
 }
-u
