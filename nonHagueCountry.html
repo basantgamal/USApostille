@@ -136,8 +136,8 @@
 											<img src="images/authentication-per.jpg">
 										</div>
 									</div>
-									<div class="row" style="position: relative;">
-										<a type="button" href="index.html"><img src="images/go-back-button1.png" class="goBack" style=" /* margin-top: 5em; */margin-bottom: 0;"></a>
+									<div class="row backBtnContainer" style="position: relative;">
+										<a type="button" href="index.html"><img src="images/go-back-button1.png" class="goBack" ></a>
 									</div>
 								</div>
 								
@@ -147,41 +147,21 @@
 							
 										<div class="states-group" id="States">
 											<h4>In which state was your document issued ?</h4>
-											<!-- <div class="states">
-										
-											
-													<a class="processBtn state-btn" data-target="stateQuestion">Al</a><a class="state-btn" href="/home/CountryInformation/alaska">AK</a><a class="state-btn" href="/home/CountryInformation/arizona">AZ</a><a class="state-btn" href="/home/CountryInformation/arkansas">AR</a><a class="state-btn" href="/home/CountryInformation/california">CA</a><a class="state-btn" href="/home/CountryInformation/colorado">CO</a><a class="state-btn" href="/home/CountryInformation/connecticut">CT</a><a class="state-btn" href="/home/CountryInformation/delaware">DE</a><a class="state-btn" href="/home/CountryInformation/florida">FL</a><a class="state-btn" href="/home/CountryInformation/georgia">GA</a>                           
-													<a class="state-btn" href="/home/CountryInformation/hawaii">HI</a><a class="state-btn" href="/home/CountryInformation/idaho">ID</a><a class="state-btn" href="/home/CountryInformation/illinois">IL</a><a class="state-btn" href="/home/CountryInformation/indiana">IN</a><a class="state-btn" href="/home/CountryInformation/iowa">IA</a><a class="state-btn" href="/home/CountryInformation/kansas">KS</a><a class="state-btn" href="/home/CountryInformation/kentucky">KY</a><a class="state-btn" href="/home/CountryInformation/louisiana">LA</a><a class="state-btn" href="/home/CountryInformation/maine">ME</a><a class="state-btn " data-target="contryQuestion">MD</a>                            
-													<a class="state-btn" href="/home/CountryInformation/massachusetts">MA</a><a class="state-btn" href="/home/CountryInformation/michigan">MI</a><a class="state-btn" href="/home/CountryInformation/minnesota">MN</a><a class="state-btn" href="/home/CountryInformation/mississippi">MS</a><a class="state-btn" href="/home/CountryInformation/missouri">MO</a><a class="state-btn" href="/home/CountryInformation/montana">MT</a><a class="state-btn" href="/home/CountryInformation/nebraska">NE</a><a class="state-btn" href="/home/CountryInformation/nevada">NV</a><a class="state-btn" href="/home/CountryInformation/new-hampshire">NH</a><a class="state-btn" href="/home/CountryInformation/new-jersey">NJ</a>                      
-													<a class="state-btn" href="/home/CountryInformation/new-mexico">NM</a><a class="state-btn" href="/home/CountryInformation/new-york">NY</a><a class="state-btn" href="/home/CountryInformation/north-carolina">NC</a><a class="state-btn" href="/home/CountryInformation/north-dakota">ND</a><a class="state-btn" href="/home/CountryInformation/ohio">OH</a><a class="state-btn" href="/home/CountryInformation/oklahoma">OK</a><a class="state-btn" href="/home/CountryInformation/oregon">OR</a><a class="state-btn" href="/home/CountryInformation/pennsylvania">PA</a><a class="state-btn" href="/home/CountryInformation/rhode-island">RI</a><a class="state-btn" href="/home/CountryInformation/south-carolina">SC</a>                               
-													<a class="state-btn" href="/home/CountryInformation/south-dakota">SD</a><a class="state-btn" href="/home/CountryInformation/tennessee">TN</a><a class="state-btn" href="/home/CountryInformation/texas">TX</a><a class="state-btn" href="/home/CountryInformation/utah">UT</a><a class="state-btn" href="/home/CountryInformation/vermont">VT</a><a class="state-btn" href="/home/CountryInformation/virginia">VA</a><a class="state-btn" href="/home/CountryInformation/washington">WA</a><a class="state-btn" href="/home/CountryInformation/west-virginia">WV</a><a class="state-btn" href="/home/CountryInformation/wisconsin">WI</a><a class="state-btn" href="/home/CountryInformation/wyoming">WY</a>                              
-													
-													<button type="button" class="state-btn yellow-btn" onclick="window.location='/Home/CountryInformation2'">DC</button>
-													<button type="button" class="processBtn state-btn  red-btn  fedral" data-target="USDInstruction">Federal Document</button>
-													<button type="button" class="state-btn yellow-btn" onclick="window.location='/Home/CountryInformation4'">PR</button>
-													<button type="button" class="state-btn yellow-btn" onclick="window.location='/Home/CountryInformation5'">VI</button>
-											
-											</div> -->
 											<div class="states">
-										
-											
-												<a class="processBtn state-btn" data-target="stateQuestion" style="    margin-right: 19px;
-												margin-left: 16px;">Al</a><a class="state-btn" href="/home/CountryInformation/alaska">AK</a><a class="state-btn" href="/home/CountryInformation/arizona">AZ</a><a class="state-btn" href="/home/CountryInformation/arkansas">AR</a><a class="state-btn" href="/home/CountryInformation/california">CA</a><a class="state-btn" href="/home/CountryInformation/colorado">CO</a><a class="state-btn" href="/home/CountryInformation/connecticut">CT</a><a class="state-btn" href="/home/CountryInformation/delaware">DE</a><a class="state-btn" href="/home/CountryInformation/florida">FL</a><a class="state-btn" href="/home/CountryInformation/georgia">GA</a>                           
+
+												<a class="processBtn state-btn" data-target="stateQuestion" style="margin-right: 19px;margin-left: 16px;">Al</a><a class="state-btn" href="/home/CountryInformation/alaska">AK</a><a class="state-btn" href="/home/CountryInformation/arizona">AZ</a><a class="state-btn" href="/home/CountryInformation/arkansas">AR</a><a class="state-btn" href="/home/CountryInformation/california">CA</a><a class="state-btn" href="/home/CountryInformation/colorado">CO</a><a class="state-btn" href="/home/CountryInformation/connecticut">CT</a><a class="state-btn" href="/home/CountryInformation/delaware">DE</a><a class="state-btn" href="/home/CountryInformation/florida">FL</a><a class="state-btn" href="/home/CountryInformation/georgia">GA</a>                           
 												<a class="state-btn" href="/home/CountryInformation/hawaii">HI</a><a class="state-btn" href="/home/CountryInformation/idaho">ID</a><a class="state-btn" href="/home/CountryInformation/illinois">IL</a><a class="state-btn" href="/home/CountryInformation/indiana">IN</a><a class="state-btn" href="/home/CountryInformation/iowa">IA</a><a class="state-btn" href="/home/CountryInformation/kansas">KS</a><a class="state-btn" href="/home/CountryInformation/kentucky">KY</a><a class="state-btn" href="/home/CountryInformation/louisiana">LA</a><a class="state-btn" href="/home/CountryInformation/maine">ME</a><a class="state-btn " data-target="contryQuestion">MD</a>                            
 												<a class="state-btn" href="/home/CountryInformation/massachusetts">MA</a><a class="state-btn" href="/home/CountryInformation/michigan">MI</a><a class="state-btn" href="/home/CountryInformation/minnesota">MN</a><a class="state-btn" href="/home/CountryInformation/mississippi">MS</a><a class="state-btn" href="/home/CountryInformation/missouri">MO</a><a class="state-btn" href="/home/CountryInformation/montana">MT</a><a class="state-btn" href="/home/CountryInformation/nebraska">NE</a><a class="state-btn" href="/home/CountryInformation/nevada">NV</a><a class="state-btn" href="/home/CountryInformation/new-hampshire">NH</a><a class="state-btn" href="/home/CountryInformation/new-jersey">NJ</a>                      
 												<a class="state-btn" href="/home/CountryInformation/new-mexico">NM</a><a class="state-btn" href="/home/CountryInformation/new-york">NY</a><a class="state-btn" href="/home/CountryInformation/north-carolina">NC</a><a class="state-btn" href="/home/CountryInformation/north-dakota">ND</a><a class="state-btn" href="/home/CountryInformation/ohio">OH</a><a class="state-btn" href="/home/CountryInformation/oklahoma">OK</a><a class="state-btn" href="/home/CountryInformation/oregon">OR</a><a class="state-btn" href="/home/CountryInformation/pennsylvania">PA</a><a class="state-btn" href="/home/CountryInformation/rhode-island">RI</a><a class="state-btn" href="/home/CountryInformation/south-carolina">SC</a>                               
 												<a class="state-btn" href="/home/CountryInformation/south-dakota">SD</a><a class="state-btn" href="/home/CountryInformation/tennessee">TN</a><a class="state-btn" href="/home/CountryInformation/texas">TX</a><a class="state-btn" href="/home/CountryInformation/utah">UT</a><a class="state-btn" href="/home/CountryInformation/vermont">VT</a><a class="state-btn" href="/home/CountryInformation/virginia">VA</a><a class="state-btn" href="/home/CountryInformation/washington">WA</a><a class="state-btn" href="/home/CountryInformation/west-virginia">WV</a><a class="state-btn" href="/home/CountryInformation/wisconsin">WI</a><a class="state-btn" href="/home/CountryInformation/wyoming">WY</a>                              
-												
-												<!-- <button type="button" class="state-btn yellow-btn" onclick="window.location='/Home/CountryInformation2'">DC</button> -->
 												<button type="button" class="state-btn yellow-btn" onclick="window.location='/Home/CountryInformation4'">PR</button>
 												<button type="button" class=" state-btn  red-btn  fedral" d="">Districit of Columbia</button>
-												<!-- <button type="button" class="state-btn yellow-btn" onclick="window.location='/Home/CountryInformation4'">PR</button> -->
 												<button type="button" class="state-btn yellow-btn" onclick="window.location='/Home/CountryInformation5'">VI</button>
 										
 											</div>
-											<h3 >If your document was issued by a federal entity, please click on “Federal Document” button above. </h3>
+											<!-- <h3 >If your document was issued by a federal entity, please click on “Federal Document” button above. </h3> -->
 										</div>
-										<div class="row">
+										<div class="row backBtnContainer">
 											<div class="col-xs-12 text-left">
 												<a type="button" class="backBtn" data-target="authQues"><img src="images/go-back-button1.png" class="goBack"></a>
 											</div>
@@ -194,7 +174,6 @@
 					
 									<h1>
 										Please choose your case 
-
 									</h1>
 									<div class="row">
 										<div class="col-md-6 ">
@@ -227,11 +206,9 @@
 											</p>
 										</div>
 									</div>
-									<div class="row" st="">
+									<div class="row backBtnContainer" >
 										<div class="col-xs-12 text-left">
-											<a type="button" class="backBtn" data-target="stateQuestion"><img src="images/go-back-button1.png" class="goBack" style="    width: 140px;
-												position: absolute;
-												top: 71px;"></a>
+											<a type="button" class="backBtn" data-target="stateQuestion"><img src="images/go-back-button1.png" class="goBack" ></a>
 										</div>
 									</div>
 								</div>
@@ -245,7 +222,7 @@
 											</h2>
 
 											<h5>Example of a certification is displied on the right. <img src="images/arrowRight.gif" ></h5>
-											<div class="row radioContainer" style="margin-top: 4em;">
+											<div class="row radioContainer">
 												<div class="col-md-4 form-group">
 													<input type="checkbox" class="checkProcess" data-target="USDInstruction">
 													<label for="yesCheck">Yes</label>
@@ -269,7 +246,7 @@
 										</div>
 									
 									</div>
-									<div class="row" >
+									<div class="row backBtnContainer" >
 										<a type="button" class="backBtn" data-target="ChooseState"><img src="images/go-back-button1.png" class="goBack"></a>
 									</div>
 					
@@ -345,7 +322,7 @@
 												<p >If you a question about your document,<br> call (202) 485-8000 .</p>
 											</div>
 
-										<div class="row">
+										<div class="row backBtnContainer">
 											<a type="button" class="backBtn" data-target="stateQuestion"><img src="images/go-back-button1.png" class="goBack"></a>
 										</div>
 
@@ -1234,13 +1211,13 @@
 									<link rel="stylesheet" href="./css/alabama.css">
 									<div class="row ">
 										<div class="col-md-4 fixedPos">
-											<h2 style="font-size: 42px;font-weight: bold; font-family: 'Alegreya Sans'; color: #b32134; width: 90%; margin: auto;text-align: center;">A document issued and signed by the state of Alabama</h2>
+											<h2 >A document issued and signed by the state of Alabama</h2>
 
 											<div class="row" style="margin-bottom: 73px;">
-												<ul style=" margin-bottom: 50px; margin: 0; width: 100%; display: block;font-size: 22px;">
-													<li style="/* width: 73%; */ margin-top: 55px;">The state of Alabama fee is $12 per document. 
+												<ul>
+													<li>The state of Alabama fee is $12 per document. 
 													</li>
-													<li style="/* width: 78%; */margin-bottom: 2em;">
+													<li>
 														The estimate processing time is 5 b. days
 													</li>
 												</ul>
@@ -1252,7 +1229,7 @@
 												<button class="btn btn-primary processBtn" data-target="fedxOption">Print &amp; Proceed</button>
 											</div>
 									
-											<div class="row">
+											<div class="row backBtnContainer">
 												<a type="button" class="backBtn" data-target="ChooseState" style="top: 6em;"><img src="images/go-back-button1.png" class="goBack"></a>
 											</div>
 										</div>
@@ -1542,7 +1519,7 @@
 												<button class="btn btn-primary processBtn" data-target="fedxOption">Print &amp; Proceed</button>
 												<p>If you a question about your document,<br> call the state office (123) 456-7890</p>
 											</div>
-											<div class="row">
+											<div class="row backBtnContainer">
 												<a type="button" class="backBtn" data-target="notaryQuestion"><img src="images/go-back-button1.png" class="goBack"></a>
 											</div>
 
@@ -2119,7 +2096,7 @@
 										</div>
 									
 										<!-- <h4 class="fill-form">Please fill the form ..</h4> -->
-										<div class="row >
+										<div class="row" >
 											<div class="col-md-12">
 												<form class="">
 													<div class="p-12 radioContainer">
@@ -2444,19 +2421,6 @@
 									</div>
 								
 								</div>
-<!-- 
-								<p>
-									• Affidavit	• Copy of Articles of Organization	• Copy of Certificate of existence
-									• Agency Agreement	• Copy of Certificate of Amendment	• Copy of Certificate of Incumbency
-									• Assignment	• Copy of Certificate of Good Standing	• Copy of Patent Assignment
-									• Business Letter	• Copy of Certificate of Incorporation	• Copy of Trademark Assignment
-									• Certificate of Status	• Copy of Certificate of Merger	• Technical Data Sheet
-									• Power of Attorney	• Copy of Certificate of Registration	• Certificate of Free Sale not Issued By FDA
-									• Distributor Agreement	• Copy of Company Bylaws	• Certificate of Analysis
-									• Letter of Authorization	• Copy of Board Resolution	• Copy of an ISO Certificate
-									• Copy of Articles of Incorporation	• Copy of Business License
-								</p> 
--->
 
 								<div class="block fedxEditForm" style="display: none;">
 						
@@ -2693,14 +2657,7 @@
 											<a type="button" class="backBtn" data-target="authQues"><img src="images/go-back-button1.png" class="goBack"></a>
 										</div>
 									</div>
-									<h2 style="    text-align: center;
-									font-size: 48px;
-									/* font-weight: bold; */
-									/* margin-top: 8em; */
-									/* width: 60%; */
-									margin-top: 2em;
-									/* margin: auto; */
-									color: #79130e;">Thank you for using United States Apostille Services</h2>
+									<h2 >Thank you for using United States Apostille Services</h2>
 								</div>
 
 								<!-- DON'T USE -->

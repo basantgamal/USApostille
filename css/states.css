@@ -487,8 +487,10 @@
 	  line-height: 39px;
 	}
 	.states .fedral {
-	  width: 66%;
-	  background: #11144a!important;
+	  width: 56%;
+	  background: #f5da75!important;
+	  font-size: 37px;
+	  color: black;
 	}
   }
   
@@ -525,8 +527,8 @@
 	  line-height: 39px;
 	}
 	.states .fedral {
-	  width: 31%;
-	  background: #11144a!important;
+	  width: 44%;
+	  /* background: #11144a!important; */
 	}
   }
   
@@ -560,7 +562,7 @@
 	  line-height: 39px;
 	}
 	.states .fedral {
-	  width: 65%;
+	  width: 74%;
 	  background: #11144a!important;
 	}
   }
@@ -601,7 +603,7 @@
 	  background: #11144a!important;
 	}
 	.states .fedral {
-	  width: 31%;
+	  width: 45%;
 	}
   
   }
@@ -656,7 +658,7 @@
 	  line-height: 39px;
 	}
 	.states .fedral {
-	  width: 377px;
+	  width: 52%;
 	  background: #11144a!important;
 	}
   }
@@ -677,9 +679,10 @@
 	  height: 65px;
 	}
 	.states .fedral {
-	  width: 11%;
+	  width: 27%;
 	  overflow: hidden;
-	  height: 64px;
+	  height: 74px;
+	  border: 4px solid #dac36d;
 	}
   }
   @media screen and (max-width:900px){
@@ -722,15 +725,15 @@
 	  width: 10%;
   }
 	.states .fedral {
-	  width: 33%;
+	  width: 49%;
 	}
   }
   @media screen and (max-width:600px){
 	.states .processBtn{
 	  
-  width: 18%;
+width: 17%;
 	  
-  height: 57px;
+height: 60px;
 	}
 	.states .fedral{
 	  

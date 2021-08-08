@@ -766,10 +766,13 @@
 		background: #101348;
 		color: #ffffff;
 		border: 3px solid #f5da75;
-		font-size: 18px;
+		font-size: 31px;
 		border-radius: 5px;
+		width: 200px;
 		}
-	  
+	  .FDACase .btn{
+	  	background:black
+	  }
 	  .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
 		background: #7b0606 !important;
 		border-color: #7b0606 !important;
@@ -1777,6 +1780,7 @@
 	text-align: center;
 	padding: 7px;
 	border-radius: 21px;
+	font-size: 16px;
 	}
   .grid-table {
 	display: flex
@@ -2045,30 +2049,33 @@
 	display: inline-block;
 	margin-bottom: 0px;
 	font-size: 92px;
-	color: #750d10;
+	color: #b32134;
 	font-weight: bold;
 	/* border-radius: 6px; */
-	margin-top: 41px;
+	/* margin-top: 41px; */
 	/* border: 3px solid; */
 	text-transform: uppercase;
 	}
   
   .panel-1{
 	/* margin-left: 71px; */
-	/* background: #fcfcfc; */
-	/* margin: 22px; */
-	padding: 15px;
+	background: #fcfcfc;
+	margin: 22px;
+	padding: 18px;
 	text-align: center;
 	margin-top: 34px;
 	margin: auto;
-	/* box-shadow: -1px 1px 4px gainsboro; */
+	box-shadow: -1px 1px 4px gainsboro;
+	display: inline-block;
 	}
   
   .panel-1 label{
-	color: #11144a;
-	font-size: 24px;
-	margin-top: -2em;
+	color: #b32134;
+	font-size: 71px;
+	/* margin-top: -2em; */
 	margin-bottom: 16px;
+	font-weight: bold;
+	font-family: 'Poppins';
 	}
   
   .step_div{
@@ -2307,12 +2314,23 @@
   }
   .panel-1 .btn-primary{
 	width: 100%;
-	font-size: 36px;
+	font-size: 50px;
 	white-space: pre-wrap;
 	border-radius: 100px;
-	padding: 45px 42px;
+	/* padding: 45px 42px; */
+	border: 0;
+	background: none;
+	color: #608aea;
+	box-shadow: none;
+	line-height: 1;
+	font-family: 'Poppins';
+	font-weight: bold;
 	}
-  
+  .panel-1 .btn-primary:hover,.panel-1 .btn-primary:visited{
+  	background:none!important;
+  	color:blue;
+  	text-decoration: underline;
+  }
   .col-3{
 	height: 70vh;
   }
@@ -4065,7 +4083,9 @@ hr {
 	}
 		.states .fedral {
 		width: 64%;
-		background: #11144a!important;
+		background: #ffe583!important;
+		color: #000000;
+		border-color: #741311;
 	}
 	.first-par span{
 		font-size: 75px;
@@ -4720,7 +4740,7 @@ hr {
 	.notaryQuestion .image-container2 img:nth-child(1){
 	z-index: 6;
 	top: -4em;
-	left: 21em;
+	left: 53%;
 	}
 	.notaryQuestion .image-container2 img:nth-child(2){
 	top: 12em;
@@ -4729,7 +4749,7 @@ hr {
 	}
 	.notaryQuestion .image-container2 img:nth-child(3){
 	top: 1em;
-	left: 8em;
+	left: 23%;
 	z-index: 5;
 	}
 
@@ -4878,12 +4898,13 @@ hr {
 		object-fit: cover;
 	}
 	.image-container3 img:nth-child(2){
-		top: 4em;
-		right: 8em;
+		top: 12%;
+		left: 29%;
 		z-index: 3;
 	}
 	.image-container3 img:nth-child(3){
 		top: 0em;
+		left: 0;
 	}
 	.yellow-btn{
 		background-color: #f5da75;
@@ -5061,29 +5082,32 @@ hr {
   }
   .FBICase .title h3:first-child{
   	 margin: 0;
-	font-size: 18pc;
-	display: inline-block;
-	color: #004791;
-	line-height: 1;
-	position: relative;
-	margin-left: 127px;
+  	 font-size: 17pc;
+  	 display: inline-block;
+  	 color: #004791;
+  	 line-height: 1;
+  	 position: relative;
+  	 margin-left: 127px;
   }
   .FBICase .title h3:nth-child(2){
 	margin: 0;
 	color: #cf093f;
 	line-height: 1;
-	font-size: 101px;
+	font-size: 93px;
 	/* text-align: right; */
 	position: relative;
 	/* top: -41px; */
 	/* left: 5.2em; */
-  }
+	display: inline-flex;
+	justify-content: center;
+	}
   .FBICase .title img{
 	position:
 	absolute;
 	width: 143px;
-	top: 93px;
-	left: 49.9em;
+	/* top: 93px; */
+	/* left: 88px; */
+	top: -133px;
 	}
   .FBICase .alert{
 	position: relative;
@@ -5223,7 +5247,7 @@ hr {
 	margin: 0;
 	color: #cf093f;
 	line-height: 1;
-	font-size: 93px;
+	font-size: 77px;
 	text-align: right;
 	position: relative;
 	top: 35px;
@@ -5325,6 +5349,129 @@ hr {
 }
 
 
+.personal_table .table tbody tr:first-child td:first-child span:first-child{
+   font-size: 30px;
+	/* position: absolute; */
+	width: 27px;
+} 
+
+.personal_table .table tbody tr:first-child td:first-child{
+
+}
+.personal_table .table tbody tr:first-child{
+ background: #f8dca7;
+}
+
+
+
+.personal_table .table tbody tr:nth-child(2) td:first-child span:first-child{
+   font-size: 30px;
+	/* position: absolute; */
+	width: 27px;
+}
+.personal_table .table tbody tr:nth-child(2) td:first-child {
+	font-size: 22px;
+}
+
+
+
+.personal_table .table tbody tr:nth-child(2) {
+	background: #d6ffd6;
+}
+
+
+.personal_table .table tbody tr:nth-child(3) {
+	background: #f2f2cf;
+}
+
+.personal_table .table tbody tr:nth-child(3) td:first-child span:first-child{
+   font-size: 26px;
+	/* position: absolute; */
+	width: 27px;
+}
+.personal_table .table tbody tr:last-child td{
+
+	background: #11144a;
+	color: white;
+	font-size: 17px;   
+	height: 36px; 
+	line-height: 35px;
+													
+}
+.nonHag span{
+	font-size: 56px;
+}
+.hag {
+	display: none;
+	font-size: 54px;
+}
+
+
+.pricTimline .btn-primary{
+ 	width: 26%;
+	margin-right: 78px;
+	font-size: 33px;
+	text-transform: capitalize;
+	margin-top: 30px;
+}
+
+
+.notaryQuestion .col-md-6:first-child img{
+	width: 82%;
+}
+.alabamaForm ul{
+	margin-bottom: 50px; margin: 0; width: 100%; display: block;font-size: 22px;
+}
+.alabamaForm h2{
+  font-size: 42px;font-weight: bold; font-family: 'Alegreya Sans'; color: #b32134; width: 90%; margin: auto;text-align: center;
+}
+.notification h2{
+   text-align: center;
+	font-size: 48px;
+	/* font-weight: bold; */
+	/* margin-top: 8em; */
+	/* width: 60%; */
+	margin-top: 2em;
+	/* margin: auto; */
+	color: #79130e;
+}
+
+.choose3 .charTable > tbody > tr td{width: 3.4%;}
+.expCountries2 h3{color: #b32134;font-size: 53px;font-weight: normal;margin-top: 11px;padding-bottom: 10px;}
+
+.expCountries2 h2{/* color: #101348; */margin-bottom: 36px;font-size: 42px;}
+
+
+.expCountries1 h3{
+	color: #b32134;  font-size: 36px;	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* Responsive */
@@ -5349,8 +5496,8 @@ hr {
 		font-size: 71px;
 		text-transform: capitalize;
 	}
-	.choose-country h3 span {
-		font-size: 36px;
+	.choose-country .nonHag span {
+		font-size: 59px;
 	}
 	.indexStyle .indexStyle .indexStyle .block .col-lg-10 {
 		margin: 0;
@@ -5382,9 +5529,9 @@ hr {
 		font-size: 53px;
 	}
 	.Exp-Bus .hint {
-    color: #191919;
-    font-size: 21px;
-	}
+    /* color: #191919; */
+    font-size: 25px;
+ }
 	.first-par span:first-child {
 		font-size: 71px;
 	}
@@ -5413,7 +5560,7 @@ hr {
 		margin: 0;
 	}
 	.showNonHag {
-		font-size: 21px;
+		font-size: 24px;
 	}
 	.personal_table .table {
 		margin-left: 14px;
@@ -5723,6 +5870,7 @@ hr {
 	}
 	.ChooseState h4 {
 		font-size: 38px;
+		margin-top: 3em;
 	}
 	.ChooseState{
 		margin-top: 3em;
@@ -5765,7 +5913,17 @@ hr {
 		min-height: 75vh;
 		padding-top: 0;
 	}
-	
+	.FBICase .title h3:first-child{
+		font-size: 192px;
+	}
+	.FBICase .title h3:nth-child(2){
+		font-size: 83px;
+	}
+	.FBICase .title img {
+		width: 102px;
+		/* top: 65px; */
+		/* left: 63%; */
+	}
 }
 
 @media screen and (max-width:1600px){	
@@ -5922,31 +6080,39 @@ hr {
 	.stateQuestion .row:first-child {
 		min-height: 90vh;
 	}
+	.FBICase table {
+		width:95%;
+	}
+	.FBICase .alert2{
+		/* margin:0; */
+		width: 94%;
+	}
 	.FBICase .alert {
-		position: relative;
+		/* position: relative; */
 		/* width: 400px; */
 		/* background: #cf093f4a; */
 		/* padding: 12px; */
 		/* color: #ffffff; */
-		border-radius: 6px;
+		/* border-radius: 6px; */
 		/* border: 9px dashed #e6bc12; */
 		font-size: 21px;
-		/* width: 80%; */
-		display: block;
-		margin-top: 2em;
-		margin-bottom: 2em;
-		/* margin-left: 0; */
+		width: 100%;
+		/* display: block; */
+		/* margin-top: 2em; */
+		margin-bottom: 0;
+		margin-left: 0;
 	}
 	.FBICase .title h3:nth-child(2) {
 		margin: 0;
 		color: #cf093f;
 		line-height: 1;
-		font-size: 71px;
+		font-size: 98px;
+		text-align: center;
 	}
 	.FBICase .title img {
 		width: 116px;
-		top: 78px;
-		left: 36.9em;
+		/* top: 78px; */
+		/* left: 36.9em; */
 	}
 	.USPTOCase .content{
 		margin-top: 12em;	
@@ -6166,6 +6332,8 @@ hr {
 		min-height: 75vh;
 		padding-top: 0;
 	}
+
+
 }
 
 @media screen and (max-width: 1400px) {
@@ -6296,7 +6464,7 @@ hr {
 	  padding: 12px;
 	}
   
-	.fed-table,.personal_table,.Exp-Bus {
+	#indexStyle .fed-table, #indexStyle .personal_table, #indexStyle .Exp-Bus {
 	  width: 49%;
 	  left: 0;
 	  margin-left: 0;
@@ -6359,11 +6527,13 @@ hr {
 	.embassyForm .fixedPos p{
 				font-size: 38px;
 				text-align: center;
+				margin-left: 0;
 	}
 		#formStyle .col-lg-4 ul{
 		padding: 0;
 		width: 100%;
-		margin-top: 4em;
+		margin-top: 5em;
+		text-align: left;
 	}
 		#formStyle .col-lg-4 ul li{
 			font-size: 20px;
@@ -6440,7 +6610,7 @@ hr {
 	  padding: 12px;
 	}
   
-	.fed-table,.personal_table,.Exp-Bus {
+	.fed-table, .personal_table, #indexStyle .Exp-Bus {
 	  width: 49%;
 	  left: 0;
 	  margin-left: 0;
@@ -6499,7 +6669,24 @@ hr {
 }
 
 @media screen and (max-width: 1200px) {
+	.stateQuestion .row:first-child {
+		padding: 0;
+	}
+	.certicatesImg img {
+		width: 330px;
+	}
+	.businessDoc .box {
+		width: 76%;
 
+	}
+	.certicatesImg img:nth-child(4) {
+		top: 18em;
+		right: 5em;
+	}
+	.certicatesImg img:nth-child(3) {
+		top: 22em;
+		right: 11em;
+	}
 	.fedCase h3 {
 		margin-top: 71px;
 	}
@@ -6525,8 +6712,7 @@ hr {
 	}
 	.notaryQuestion label {
 		font-size: 20px;
-		width: 91%;
-
+		width: 86%;
 		margin-bottom: 2em;
 		font-weight: bold;
 		float: left;
@@ -6541,6 +6727,8 @@ hr {
 	#formStyle .col-lg-4 ul li {
 		font-size: 37px;
 		text-align: center;
+		/* margin-top: 3em; */
+		margin: 0;
 	}
 	#formStyle .col-lg-4 ul li br{
 		display:none;
@@ -6552,6 +6740,7 @@ hr {
 		width:300px;
 		font-size:20px;
 		display: block;
+		/* margin: 0; */
 	}
 	.embassyForm .scrolling {
 		margin-left: 0;
@@ -6812,7 +7001,7 @@ hr {
 	  padding: 12px;
 	}
   
-	.fed-table,.personal_table,.Exp-Bus {
+	.fed-table, .personal_table, #indexStyle .Exp-Bus {
 	  width: 49%;
 	  left: 0;
 	  margin-left: 0;
@@ -6973,10 +7162,11 @@ hr {
 	}
 	#formStyle .col-lg-4 ul li {
 		font-size: 27px;
-
+		text-align: left;
 	}
 	.embassyForm .col-lg-4 .row:first-child {
     min-height: auto;
+    margin-bottom: 5em;
 }
 	.single-dovument-case-container img {
 		height: 60vh;
@@ -7134,7 +7324,7 @@ hr {
 	  padding: 12px;
 	}
   
-	.fed-table,.personal_table,.Exp-Bus {
+	.fed-table, .personal_table, #indexStyle .Exp-Bus {
 	  width: 49%;
 	  left: 0;
 	  margin-left: 0;
@@ -7276,7 +7466,7 @@ hr {
 	  padding: 12px;
 	}
   
-	.fed-table,.personal_table,.Exp-Bus {
+	.fed-table, .personal_table, #indexStyle .Exp-Bus {
 	  width: 49%;
 	  left: 0;
 	  /* margin-left: 0; */
@@ -7432,7 +7622,7 @@ hr {
 	  padding: 0;
 	}
   
-	.fed-table,.personal_table,.Exp-Bus {
+	.fed-table, .personal_table, #indexStyle .Exp-Bus {
 	  width: 49%;
 	  left: 0;
 	  margin-left: 0;
@@ -7615,7 +7805,7 @@ hr {
 	  padding: 0;
 	}
   
-	.fed-table,.personal_table,.Exp-Bus {
+	.fed-table, .personal_table,  #indexStyle .Exp-Bus {
 	  width: 49%;
 	  left: 0;
 	  margin-left: 0;
@@ -7881,7 +8071,7 @@ hr {
 	  margin: auto;
 	}
   
-	.fed-table,.personal_table,.Exp-Bus {
+	.fed-table, .personal_table, #indexStyle .Exp-Bus {
 	  width: 49%;
 	  left: 0;
 	  margin-left: 0;
