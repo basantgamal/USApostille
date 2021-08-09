@@ -1645,6 +1645,12 @@
 	font-weight: 500;
 	padding: 12px 7px;
 	}
+	.choose-country .col td img{
+		width: 23px;
+		position: relative;
+		top: -2px;
+		margin-right: 12px;
+	}
   .choose-country .col::-webkit-scrollbar-track
   {
 	  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
@@ -2156,13 +2162,14 @@
 	position: relative;
 	display: block;
 	padding: 0px 67px 0px 15px;
-	font-size: 41px;
+	font-size: 53px;
 	line-height: 77px;
 	/* background: rgb(218 218 218); */
 	border-radius: 4px;
 	cursor: pointer;
 	margin: auto;
-	color: #1d2063;
+	color: #b32134;
+	font-weight: bold;
 	margin-bottom: 6px;
 	border: 5px solid #808080ab;
 	text-align: left;
@@ -2177,8 +2184,8 @@
 		top: 50%;
 		right: 25px;
 		margin-top: -3px;
-		border-bottom: 6px solid rgb(178, 41, 41);
-		border-right: 6px solid rgb(177, 41, 41);
+		border-bottom: 6px solid rgb(16 19 72);
+		border-right: 6px solid rgb(16 19 72);
 		transform: rotate(45deg) translateY(-50%);
 		transition: all 0.4s ease-in-out 0s;
 		transform-origin: 50% 0px;
@@ -2202,7 +2209,7 @@
 	border-radius: 4px;
 	box-sizing: border-box;
 	box-shadow: rgba(167, 167, 167, 0.07) 1px -1px 4px 4px;
-	background: rgb(255, 255, 255);
+	background: rgb(255 255 255);
 	transition: all 0.4s ease-in-out 0s;
 	opacity: 0;
 	visibility: hidden;
@@ -2249,13 +2256,13 @@
   
   .custom-option {
 	position: relative;
-	background: #ffffff;
+	background: #ece0e2;
 	display: block;
 	padding: 0px 17px;
 	border-bottom: 1px solid rgb(181, 181, 181);
 	font-size: 40px;
 	font-weight: 600;
-	line-height: 42px;
+	line-height: 39px;
 	color: black;
 	text-align: left;
 	cursor: pointer;
@@ -2278,7 +2285,7 @@
 		color: #252525;
 	}
   .docs .custom-options{
-	max-height: 18vh;
+	max-height: 21vh;
 	overflow-y: auto;
 	}
   .choose-country .col td:hover{
@@ -2822,6 +2829,12 @@ label.vacation.transportAccount.packageShipped{
 	object-position: center;
 	border: 6px solid #d1d1d1;
 	}
+	.step1 img{
+		width: 183px;
+		height:auto;
+		border: 0;
+		margin-top: 2em;
+	}
 .clearfix {
 	clear: both;
 }
@@ -2878,6 +2891,9 @@ label.vacation.transportAccount.packageShipped{
 	border: 7px solid #b32134;
 	margin-top: -1px;
 }
+.step1{
+	 background:#ece0e2
+}
 .step1 label{
 	font-size: 22px;
 	margin-left: 12px;
@@ -2885,9 +2901,10 @@ label.vacation.transportAccount.packageShipped{
 }
 .step1 
 	p{
-	font-size: 40px;
+	font-size: 26px;
 	font-weight: normal;
 	text-align: left;
+	margin-top: 0em;
 }
 .single-dovument-case-container .overlay{
 	display: none;
@@ -3255,7 +3272,7 @@ hr {
 	color:black;
 }
 .choose2 .charTable > tbody > tr td{
-	width: 29px;
+	width: 37px;
 }
 .fedCase h3{
 	font-weight: bold;
@@ -3757,6 +3774,9 @@ hr {
 	.choose-country .smallFont{
 		font-size: 18px;
 	}
+	.choose2 .smallFont{
+		font-size: 24px;
+	}
 	.choose-country .col td a{
 		color: black;
 		font-size: 15px;
@@ -3955,8 +3975,9 @@ hr {
 		color: black;
 	}
 	#formStyle h2,.embassyForm h2,.alabamaForm h2{
-		margin-top: 1em;
+		/* margin-top: 1em; */
 		padding-top: 26px;
+		margin-bottom: 2em;
 	}
 	.paymentMethod{
 		margin-top: 3em;
@@ -4470,9 +4491,9 @@ hr {
 	
 	
 	 .custom-select-trigger {
-		border: 1px solid #808080ab;
+		border: 5px solid #101348;
 		line-height: 60px;
-	 }
+		}
 	.pricelstdiv p {
 		line-height: 59px;
 		display: flex;
@@ -4706,7 +4727,7 @@ hr {
 		padding-left: 13px;
 		line-height: 1;
 		color: #8e8e8e9e;
-		font-family: 'Alegreya Sans';
+		/* font-family: 'Alegreya Sans'; */
 	}
 	.arabStamp .perDoc{
 		font-size: 20px;
@@ -5075,14 +5096,15 @@ hr {
 	  margin: 0;
   }
   .FBICase{
-	/* margin-top: 5em; */
+	margin-top: 4em;
 	}
   .FBICase .title{
 	  position: relative;
-  }
+	  margin-bottom: 6em;
+	 }
   .FBICase .title h3:first-child{
   	 margin: 0;
-  	 font-size: 17pc;
+  	 font-size: 12pc;
   	 display: inline-block;
   	 color: #004791;
   	 line-height: 1;
@@ -5093,7 +5115,7 @@ hr {
 	margin: 0;
 	color: #cf093f;
 	line-height: 1;
-	font-size: 93px;
+	font-size: 84px;
 	/* text-align: right; */
 	position: relative;
 	/* top: -41px; */
@@ -5156,13 +5178,13 @@ hr {
 	font-size: 50px;
 	}
   .fedCase .table td:first-child span,.FBICase .table td:nth-child(2) span{
-		font-size: 50px;
-		font-weight: bold;
-		color: #d4cdcd;
+		font-size: 33px;
+		/* font-weight: bold; */
+		color: #757575;
 		display: inherit;
-		margin-left:36px;
+		margin-left: 15px;
 	}
-   .fedCase .table  tr:nth-child(3) td:first-child span{margin-left: 60px;}
+   .fedCase .table  tr:nth-child(3) td:first-child span{margin-left: 41px;}
 
   .fedCase .table td:first-child p{
 	position: relative;
@@ -5446,11 +5468,31 @@ hr {
 	color: #b32134;  font-size: 36px;	
 }
 
+.companyType ul{list-style: none;}
+.companyType ul li{
+	padding: 12px;
+	font-size: 21px;
+	background: #f0f0f0;
+	margin-bottom: 7px;
+	border-left: 4px solid  #b32134;
+}
+.busDetails ul li{
+	padding: 12px;
+	font-size: 19px!important;
+	background: #f0f0f0;
+	margin-bottom: 7px;
+	border-left: 4px solid  #b32134;
+}
 
-
-
-
-
+.companyType h3{
+	font-size: 3em;
+	text-align: center;
+	margin-bottom: 1em;
+}
+.choose2 .charTable{
+	display: flex;
+	justify-content: center;
+}
 
 
 
@@ -5530,7 +5572,7 @@ hr {
 	}
 	.Exp-Bus .hint {
     /* color: #191919; */
-    font-size: 25px;
+    font-size: 19px;
  }
 	.first-par span:first-child {
 		font-size: 71px;
@@ -5584,9 +5626,10 @@ hr {
 		font-weight: normal;
 		/* font-size: 38px!important; */
 		padding: 0;
-		font-size: 37px;
-		margin-top: 2em;
+		font-size: 23px;
+		/* margin-top: 2em; */
 		list-style: none;
+		margin-bottom: 26px;
 	}
 }
 
@@ -8479,4 +8522,13 @@ hr {
 	}
 
 
+}
+.busDetails h3 {
+    font-size: 3em;
+    text-align: left;
+    margin-bottom: 7px!important;
+    font-size: 24px!important;
+    color: #b32134;
+    margin-top: 16px!important;
+    margin-left: 12px!important;
 }

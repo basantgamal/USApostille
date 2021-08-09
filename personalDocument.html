@@ -154,11 +154,11 @@
 											<h5>Example of a certification is displied on the right. <img src="images/arrowRight.gif" ></h5>
 											<div class="row radioContainer" style="margin-top: 4em;">
 												<div class="col-md-4 form-group">
-													<input type="checkbox" class="processBtn" data-target="USDInstruction">
+													<input type="checkbox" class="processBtn" data-target="orderForm">
 													<label for="yesCheck">Yes</label>
 												</div>
 												<div class="col-md-4  form-group">
-													<input type="checkbox" class="checkProcess" data-target="IssuedByState">
+													<input type="checkbox" class="checkProcess" data-target="alabamaForm">
 													<label for="noCheck">No</label>
 												</div>
 											</div>
@@ -976,26 +976,30 @@
 
 
 
-
 								<div class="block alabamaForm " style="display: none;" id="formStyle">
 									<link rel="stylesheet" href="./css/alabama.css">
 									<div class="row ">
 										<div class="col-md-4 fixedPos">
-											<div class="row">
-												<ul >
-													<li>The state of Alabama fee is $2 per document. 
+											<h2>A document issued and signed by the state of Alabama</h2>
+
+											<div class="row" style="margin-bottom: 73px;">
+												<ul>
+													<li>The state of Alabama fee is $12 per document. 
 													</li>
 													<li>
-														The estimate processing time is 5 business days. 
+														The estimate processing time is 5 b. days
 													</li>
 												</ul>
-											
-												<h3>Please fill the form <img src="images/arrowRight.gif" ></h3>
-												<button class="btn btn-primary processBtn" data-target="fedxOption" >Print &amp; Proceed</button>
+												<p style="font-size: 21px; margin: 0;">
+													If this is your first time requesting certification or apostille, we highly advise you to contact the Secretary of State help desk <br>@ (123) 456-7890. 
+													Please describe your document, state the name of signer on it, and the date of issuing. 
+													The representative will confirm  that the document is ready to be shipped. </p>
+												<h3>Please fill the form <img src="images/arrowRight.gif"></h3>
+												<button class="btn btn-primary processBtn" data-target="fedxOption">Print &amp; Proceed</button>
 											</div>
 									
-											<div class="row">
-												<a type="button" class="backBtn" data-target="stateQuestion"><img src="images/go-back-button1.png" class="goBack"></a>
+											<div class="row backBtnContainer">
+												<a type="button" class="backBtn" data-target="notaryQuestion" style="top: 3em;"><img src="images/go-back-button1.png" class="goBack"></a>
 											</div>
 										</div>
 										<div class="col-md-8 col-md-offset-4 pmw-0 overScroll">
@@ -1265,7 +1269,6 @@
 										</div>
 									</div>
 								</div>
-
 
 
 								<div class="block fedxOption" style="display: none;">
@@ -1966,7 +1969,184 @@
 									</section>
 								</div>
 
-							
+								<div class="block orderForm" style="display: none;">
+									<h2 style="font-weight: bold;color: #101348;margin-bottom: 35px;font-size: 59px;">United State Apostile</h2>
+									<h3 style="
+									font-size: 49px;
+									font-weight: bold;
+									color: #848181;
+									margin-bottom: 0;
+									">Application for Expidited Service for a Fedral document </h3>
+									<div class="block-content">
+										<!-- <h4 class="fill-form">Please fill the form ..</h4> -->
+										<div class="row contentInfo">
+											<div class="">
+												<form class="">
+													<div class="p-12 radioContainer" style="font-weight: bold;">
+														<div class="row">
+															<div class="col-md-6  " style="
+															margin-top: 30px;
+															color: #b32134;
+															padding: 0;
+															font-size: 34px;
+															">
+																<span style="
+																display: inline-block;
+																margin-right: 20px;
+																/* font-size: 25px; */
+																">Request number: 1321321</span>
+																<span style="
+																display: inline-block;
+																margin-right: 20px;
+																/* font-size: 28px; */
+																">June 17-2021</span>
+															</div>
+													
+														</div>
+														<div class="row" style="margin-bottom: 2em;">
+															<p style="font-size: 34px;color: #7f7c7c;font-weight: bold;font-family: inherit;">Processing time is <b style="    color: #b32134;
+																font-size: 57px;">24</b> business days <span style="display: inline-block;margin-left: 259px;color: #0a64118f;font-weight: bold;font-size: 57px;">$50 per documet</span></p>
+														</div>
+														<div class="row">
+															<div class="col-md-5" style=" padding: 0; ">
+																<label style="
+															 font-size: 29px;
+															 font-family: 'Poppins';
+															 /* font-weight: bold; */
+															 display: flex;
+															 align-items: center;
+															 height: 79px;
+															">How many document do you have? </label>
+															</div>
+												
+															<div class="col-md-2" style="margin-left: -82px;margin-right: 76px;">
+																<div class="custom-select-wrapper"><select class="form-select custom-select country docs" aria-label="Default select example" placeholder="0" style="display: none;">
+																	<option value="0">0</option>
+																	<option value="1">1</option>
+																	<option value="2">2</option>
+																	<option value="3">3</option>
+																	<option value="2">4</option>
+																	<option value="3">5</option>
+																	<option value="2">6</option>
+																	<option value="3">7</option>
+				
+																	<option value="3">8</option>
+																	<option value="2">9</option>
+																	<option value="3">10</option>
+																</select>
+															</div>
+															</div>
+															<div class="col-md-5 form" style=""> 
+																<p style="
+																font-size: 52px;
+																color: #76a87a;
+																font-weight: bold;
+																margin-bottom: 1em;
+																">
+																 Your total fee is $120
+																 </p>
+															</div>
+														</div>
+													<div class="form" style="">
+														<div class="form-row ">
+															<div class="form-group col-md-2" style=" padding: 0;">
+																<label for="firstName">First Name</label>
+																<input type="email" class="form-control" id="firstName" placeholder="first name">
+															</div>
+															<div class="form-group col-md-2" style="padding-right:0">
+																<label for="lastName">Last Name</label>
+																<input type="password" class="form-control" id="lastName" placeholder="last name">
+															</div>
+													
+															<div class="form-group col-md-2" style="padding-right:0">
+																<label for="tel">Cell Phone <span>(optional)</span></label>
+																<input type="password" class="form-control" id="tel" placeholder="Cell Phone">
+															</div>
+															<div class="form-group col-md-6" style="">
+																<label for="inputEmail4">Email</label>
+																<input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+															</div>
+														</div>
+														<div class="form-row">
+															<div class="form-group col-md-3" style="padding: 0;">
+																<label for="companyName">Company Name</label>
+																<input type="text" class="form-control" id="companyName" placeholder="company name" style="/* padding: 0; */">
+															</div>
+															<div class="form-group col-md-3">
+																<label for="tel">Company Phone </label>
+																<input type="password" class="form-control" id="tel" placeholder="Cell Phone">
+															</div>
+												
+													
+															<div class="form-group col-md-6" style="padding-left: 0;">
+																<label for="inputAddress">Address <span class="outUSA" style="font-size: 20px; display: inline;">1</span></label>
+																<input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+															</div>
+														</div>
+														<div class="form-row">
+																 
+															<div class="form-group col-md-6 outUSA" style="padding-left: 0px; display: block;">
+																<label for="inputAddress">Address 2</label>
+																<input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+															</div>
+															<div class="form-group col-md-1" style="padding: 0;">
+																<label for="inputZip">Zip<span>(optional)</span></label>
+																<input type="text" class="form-control" id="inputZip">
+										
+															</div>
+													
+															<div class="form-group col-md-5 inUSA" style="display: none;">
+																<label for="inputCity">City</label>
+																<input type="text" class="form-control" id="inputCity">
+															</div>
+															<div class="form-group col-md-3 outUSA" style="display: block;">
+																<label for="inputCity">Country</label>
+																<input type="text" class="form-control" id="inputCity">
+															</div>
+															<div class="form-group col-md-3 inUSA" style="padding-left: 0px; display: none;">
+																<label for="inputState">State</label>
+																<select id="inputState" class="form-control">
+																	<option selected="">Choose...</option>
+																	<option>...</option>
+																</select>
+															</div>
+															<div class="form-group col-md-1 inUSA" style="display: none;">
+															
+															</div>
+															<div class="col-md-2 checkOut">
+																<div class="form-check">
+																	<input class="form-check-input" type="checkbox" value="" id="OutUSA">
+																	<label class="form-check-label" for="OutUSA" style="font-size: 18px;">
+																		Out Of USA
+																	</label>
+																</div>
+														</div>
+														
+														</div>
+													</div>
+											
+														<br>
+											
+													</div>
+											
+												</form>
+											</div>
+									
+										</div>
+										<div class="row">
+											<div class="col-xs-6">
+												<a type="button" class="backBtn" data-target="notaryQuestion"><img src="images/go-back-button1.png" class="goBack"></a>
+								
+											</div>
+											<div class="col-xs-6 form" style="">
+												<div class="text-right">								
+													<a type="button" class="btn btn-primary " data-target="fedxOption" style="width: 300px;font-size: 25px;" href="price&Timline.html">Proceed</a>
+												</div>
+											</div>
+										
+										</div>
+									</div>
+								</div>
 							</div>
 					
 						  </div>	
@@ -1996,14 +2176,14 @@
 		<script src="js/jquery.countTo.js"></script>
 		
 		<!-- Main -->
-		<script src="js/main.js"></script>
+	
 		
 		<script src="js/customDropdown.js"></script>
 		<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/imask/3.4.0/imask.min.js"></script> -->
 
 		<script src="js/creditCard.js"></script>
 
-
+		<script src="js/main.js"></script>
 
 
 
