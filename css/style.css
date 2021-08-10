@@ -1941,6 +1941,13 @@
   .fed-table .table > tbody > tr > td a{
 	color: black;
   }
+    .fed-table .table > tbody > tr > td a img{
+	width: 29px;
+	position:relative;
+	top: -4px;
+	margin-right:12px;
+	/* border-radius:2px; */
+	}
   
   .fed-table .table > tbody > tr > td a span{
 	display: none;
@@ -2162,13 +2169,13 @@
 	position: relative;
 	display: block;
 	padding: 0px 67px 0px 15px;
-	font-size: 53px;
+	font-size: 41px;
 	line-height: 77px;
 	/* background: rgb(218 218 218); */
 	border-radius: 4px;
 	cursor: pointer;
 	margin: auto;
-	color: #b32134;
+	color: #1d2063;
 	font-weight: bold;
 	margin-bottom: 6px;
 	border: 5px solid #808080ab;
@@ -2209,7 +2216,7 @@
 	border-radius: 4px;
 	box-sizing: border-box;
 	box-shadow: rgba(167, 167, 167, 0.07) 1px -1px 4px 4px;
-	background: rgb(255 255 255);
+	background: rgb(255, 255, 255);
 	transition: all 0.4s ease-in-out 0s;
 	opacity: 0;
 	visibility: hidden;
@@ -2256,13 +2263,13 @@
   
   .custom-option {
 	position: relative;
-	background: #ece0e2;
+	background: #f5e9eb;
 	display: block;
 	padding: 0px 17px;
 	border-bottom: 1px solid rgb(181, 181, 181);
 	font-size: 40px;
 	font-weight: 600;
-	line-height: 39px;
+	line-height: 42px;
 	color: black;
 	text-align: left;
 	cursor: pointer;
@@ -2285,7 +2292,7 @@
 		color: #252525;
 	}
   .docs .custom-options{
-	max-height: 21vh;
+	max-height: 18vh;
 	overflow-y: auto;
 	}
   .choose-country .col td:hover{
@@ -2809,7 +2816,15 @@ label.vacation.transportAccount.packageShipped{
 .docDetails .step4 {
     margin-top: 2em;
 }
-
+.single-dovument-case-container .step1 img{
+    width: 189px;
+    height: 184px;
+    border: 0;
+    margin-top: 12px;
+    border: 2px solid gray;
+    object-fit: contain;
+    background: white;
+}
 .embassy .goBack {
     width: 140px;
     margin-bottom: 2em;
@@ -2828,12 +2843,7 @@ label.vacation.transportAccount.packageShipped{
 	object-fit: cover;
 	object-position: center;
 	border: 6px solid #d1d1d1;
-	}
-	.step1 img{
-		width: 183px;
-		height:auto;
-		border: 0;
-		margin-top: 2em;
+	/* margin-top: 12px; */
 	}
 .clearfix {
 	clear: both;
@@ -2875,6 +2885,7 @@ label.vacation.transportAccount.packageShipped{
 	margin-bottom: 12px;
 	/* margin-top: 38px; */
 	text-transform: capitalize;
+	text-align: center;
 }
 .expService h3{
 	font-size: 39px;
@@ -2891,8 +2902,30 @@ label.vacation.transportAccount.packageShipped{
 	border: 7px solid #b32134;
 	margin-top: -1px;
 }
-.step1{
-	 background:#ece0e2
+.document-case:nth-child(1) .step1{
+	background: #f5e9eb;
+}
+.document-case:nth-child(2) .step1{
+	background: #fdfdff;
+}
+.document-case:nth-child(3) .step1{
+	background: #f8fdfe;
+}
+.document-case:nth-child(4) .step1{
+	background: #fefdf8;
+}
+
+.document-case:nth-child(1) .step1 .custom-option {
+    background: #f5e9eb;
+}
+.document-case:nth-child(2) .step1 .custom-option {
+	background: #fdfdff;
+}
+.document-case:nth-child(3) .step1 .custom-option {
+	background: #f8fdfe;
+}
+.document-case:nth-child(4) .step1 .custom-option {
+	background: #fefdf8;
 }
 .step1 label{
 	font-size: 22px;
@@ -2904,7 +2937,6 @@ label.vacation.transportAccount.packageShipped{
 	font-size: 26px;
 	font-weight: normal;
 	text-align: left;
-	margin-top: 0em;
 }
 .single-dovument-case-container .overlay{
 	display: none;
@@ -2914,6 +2946,7 @@ label.vacation.transportAccount.packageShipped{
 	height: 100%;
 	left: 0px;
 	right: 15px;
+	top: 0;
 	background: #dedede87;
 	bottom: 0;
 }
@@ -3266,13 +3299,13 @@ hr {
 	margin-top: 12em;
 }
 .expCountries .choose-country .col{
-	height: 67vh;
+	height: 77vh;
 }
 .exp-country a{
 	color:black;
 }
 .choose2 .charTable > tbody > tr td{
-	width: 37px;
+	width: 29px;
 }
 .fedCase h3{
 	font-weight: bold;
@@ -3383,7 +3416,7 @@ hr {
 }
 .certicatesImg img:nth-child(2){
 	top: 7em;
-	right: 11em;
+	right: 13em;
 	z-index: 2;
 	animation-duration: 1s;
 	animation-delay:1s;
@@ -3396,8 +3429,8 @@ hr {
 	animation-delay:2s;
 }
 .certicatesImg img:nth-child(4){
-	top: 23em;
-	right: 5em;
+	top: 18em;
+	right: -1em;
 	z-index: 3;
 	border: 3px solid;
 	animation-duration: 1s;
@@ -3774,9 +3807,6 @@ hr {
 	.choose-country .smallFont{
 		font-size: 18px;
 	}
-	.choose2 .smallFont{
-		font-size: 24px;
-	}
 	.choose-country .col td a{
 		color: black;
 		font-size: 15px;
@@ -3934,7 +3964,7 @@ hr {
 		width: 45px;
 	}
 	.authQues  label {
-		top: 13px;
+		top: 4px;
 		font-size: 33px;
 		position: relative;
 		left: 10px;
@@ -4101,9 +4131,10 @@ hr {
 		/* border: 0; */
 		border-radius: 6px;
 		width: 8%;
+		margin: 9px 13px;
 	}
 		.states .fedral {
-		width: 64%;
+		width: 56%;
 		background: #ffe583!important;
 		color: #000000;
 		border-color: #741311;
@@ -4491,7 +4522,7 @@ hr {
 	
 	
 	 .custom-select-trigger {
-		border: 5px solid #101348;
+		border: 4px solid #101348;
 		line-height: 60px;
 		}
 	.pricelstdiv p {
@@ -5459,13 +5490,15 @@ hr {
 }
 
 .choose3 .charTable > tbody > tr td{width: 3.4%;}
-.expCountries2 h3{color: #b32134;font-size: 53px;font-weight: normal;margin-top: 11px;padding-bottom: 10px;}
+.expCountries2 h3{color: #b32134;/* font-size: 53px; */font-weight: normal;margin-top: 11px;padding-bottom: 10px;color: #101348;font-size: 36px;margin-bottom: 2em;font-weight: bold;}
 
 .expCountries2 h2{/* color: #101348; */margin-bottom: 36px;font-size: 42px;}
 
 
 .expCountries1 h3{
-	color: #b32134;  font-size: 36px;	
+	color: #b32134;
+	font-size: 36px;
+	margin-bottom: 2em;
 }
 
 .companyType ul{list-style: none;}
@@ -5476,24 +5509,17 @@ hr {
 	margin-bottom: 7px;
 	border-left: 4px solid  #b32134;
 }
-.busDetails ul li{
-	padding: 12px;
-	font-size: 19px!important;
-	background: #f0f0f0;
-	margin-bottom: 7px;
-	border-left: 4px solid  #b32134;
-}
 
 .companyType h3{
 	font-size: 3em;
 	text-align: center;
 	margin-bottom: 1em;
 }
-.choose2 .charTable{
-	display: flex;
-	justify-content: center;
-}
 
+.expCountries2 .col::-webkit-scrollbar-thumb {
+    -webkit-box-shadow: inset 0 0 6px rgb(0 0 0 / 30%);
+    background-color: gold;
+}
 
 
 
@@ -5634,6 +5660,9 @@ hr {
 }
 
 @media screen and (max-width: 1830px){
+	.busDetails h2 {
+		font-size: 35px;
+	}
 	.nav-aside h1 {
 		font-size: 40px;
 	}
@@ -5791,6 +5820,7 @@ hr {
 	.authQues h5 {
 		font-size: 28px;
 	}
+	
 }
 @media screen and (max-width:1700px){
 	.Exp-Bus .hint {
@@ -5967,6 +5997,7 @@ hr {
 		/* top: 65px; */
 		/* left: 63%; */
 	}
+	
 }
 
 @media screen and (max-width:1600px){	
@@ -6113,6 +6144,7 @@ hr {
 		min-height: 75vh;
 		padding-top: 0;
 	}
+	
 }
 
 @media screen and (max-width: 1500px) {
@@ -6558,10 +6590,13 @@ hr {
 		width: 99%;
 		font-size: 20px!important;
 	}
-
+	.busDetails h2 {
+		font-size: 35px;
+	}
 }
 
 @media screen and (max-width: 1300px) {
+
 	.embassyForm .fixedPos h3{
 		margin:0;
 		font-size: 22px;
@@ -7760,22 +7795,24 @@ hr {
 	}
 	.certicatesImg img:nth-child(2){
 		top: 6em;
-		right: 8em;
+		right: 6em;
 		z-index: 2;
 		animation-duration: 1s;
 		animation-delay:1s;
 	}
 	.certicatesImg img:nth-child(3){
 		top: 16em;
-		right: 10em;
+		right: 6em;
 	}
 	.busDetails h2{
-		position:relative;;
+		position:relative;
+		font-size: 38px;
 	}
 	.busDetails h2 span {
 		display:block;
 		position:absolute;
-        right:12px;
+		right:12px;
+		top: 1em;
 	}
 	.certicatesImg img:nth-child(4){
 		top: 12em;
@@ -8523,12 +8560,113 @@ hr {
 
 
 }
-.busDetails h3 {
-    font-size: 3em;
-    text-align: left;
-    margin-bottom: 7px!important;
-    font-size: 24px!important;
-    color: #b32134;
-    margin-top: 16px!important;
-    margin-left: 12px!important;
+
+
+.btn.charOfCountry {
+    background: black;
+    color: white;
+    font-weight: bold;
+    width: 85px;
+    cursor: default;
+    z-index: 2;
+    position: relative;
+    border-color: black;
+}
+
+button.btn.btn-danger.btn-responsive.hagbor:hover {
+    background: rgb(0, 44, 105);
+    border-color: rgb(0, 44, 105);
+    color: white !important;
+}
+
+.btn.otherCountriesButton {
+    background: rgb(0, 0, 0);
+    border-color: rgb(0, 44, 105);
+    width: 220px;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 600;
+    height: 42px;
+    line-height: 28px;
+    color: white;
+}
+.legcou-tbl .btn {
+    font-size: 17px;
+    padding: 6px 0px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(0, 44, 105);
+    outline: 0px;
+    border-radius: 5px;
+    width: 109px;
+    margin-right: 4px;
+}
+.legcou-tbl .btn {
+    font-size: 17px;
+    padding: 7px 3px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(0, 44, 105);
+    outline: 0px;
+    border-radius: 5px;
+    width: 157px;
+    margin-right: 4px;
+}
+.btn.nonhagbor {
+    border: 2px solid rgb(193, 0, 25);
+    background-color: rgb(255, 248, 224);
+    color: black;
+    font-size: 16px;
+}
+.legcou-tbl .nonhagbor:hover {
+    font-weight: 500;
+    color: white;
+    background-color: rgb(193, 0, 25) !important;
+    border-color: rgb(193, 0, 25) !important;
+}
+
+.btn.charOfCountry {
+    background: #c3ffd5;
+    /* color: white; */
+    /* font-weight: normal; */
+    width: 130px;
+    cursor: default;
+    z-index: 2;
+    position: relative;
+    border-color: #c3ffd5;
+    font-family: 'Poppins';
+}
+.btn.charOfCountry:hover {
+    background: #79f9c4!important;
+    border-color: #4df7b0!important;
+}
+.btn.charOfCountry::after {
+    width: 0px;
+    height: 0px;
+    content: "";
+    position: absolute;
+    top: 0px;
+    z-index: 1;
+    right: -25px;
+    border-top: 18px solid transparent;
+    border-bottom: 22px solid transparent;
+    border-left: 24px solid #c3ffd5;
+}
+.legcou-tbl tr td {
+    padding: 4px!important;
+    border: 0!important;
+}
+#CountriesDiv{
+	/* margin-top:25px; */
+	margin-left:20px;
+}
+#CountriesDiv .hagbor:hover{
+	background-color: rgb(0, 44, 105)!important;
+	border-color: gold!important;
+}
+#moreCountries{
+	background-color: #b32134;
+	color: #ffffff;
+	font-weight: normal;
+	border-color: #b32134;
 }
