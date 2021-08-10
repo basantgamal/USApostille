@@ -2777,7 +2777,8 @@ label.vacation.transportAccount.packageShipped{
 	font-size: 50px;
 	text-align: center;
 	font-family: 'Alegreya Sans';
-	margin-bottom: 1em;
+	margin-top: 1em;
+	margin-bottom: 12px;
 	font-weight: bold;
 }
 .stickyPos{
@@ -2817,14 +2818,26 @@ label.vacation.transportAccount.packageShipped{
     margin-top: 2em;
 }
 .single-dovument-case-container .step1 img{
-    width: 189px;
-    height: 184px;
+    width: 127px;
+    height: 174px;
     border: 0;
     margin-top: 12px;
     border: 2px solid gray;
     object-fit: contain;
     background: white;
+    object-position: center!important;
 }
+.single-dovument-case-container:nth-child(1) .step1 img{
+    width: 186px;
+    height: 167px;
+    border: 0;
+    margin-top: 12px;
+    border: 2px solid gray;
+    object-fit: contain;
+    background: white;
+    object-position: center!important;
+}
+
 .embassy .goBack {
     width: 140px;
     margin-bottom: 2em;
@@ -2849,7 +2862,7 @@ label.vacation.transportAccount.packageShipped{
 	clear: both;
 }
 .single-dovument-case-container .caseLabel{
-	font-size: 23px;
+	font-size: 22px;
 	align-items: center;
 	font-weight: normal;
 	width: 100%;
@@ -2860,6 +2873,7 @@ label.vacation.transportAccount.packageShipped{
 	margin-top: -35px;
 	height: 83px;
 	display: flex;
+	color: black;
 }
 .single-dovument-case-container{
 	text-align: center;
@@ -2878,18 +2892,29 @@ label.vacation.transportAccount.packageShipped{
 	margin-top: 20px;
 	margin-right: 20px;
 }
-.expService h2{
-	font-size: 75px;
+.corpDoc  h1{
+	font-size: 51px;
 	font-weight: bold;
 	color: #b32134;
 	margin-bottom: 12px;
 	/* margin-top: 38px; */
 	text-transform: capitalize;
 	text-align: center;
+	/* margin-top: -1em; */
 }
+.corpDoc  h2{
+	text-align: center;
+	font-size: 18px;
+	/* width: 50%; */
+	/* margin: auto; */
+}
+
+h2 {}
 .expService h3{
-	font-size: 39px;
+	font-size: 25px;
 	text-transform: capitalize;
+	margin-bottom: 33px;
+	color: blue;
 }
 .expService h3 b{
 	color: #b32134;
@@ -2906,7 +2931,7 @@ label.vacation.transportAccount.packageShipped{
 	background: #f5e9eb;
 }
 .document-case:nth-child(2) .step1{
-	background: #fdfdff;
+	background: #f4f4fe;
 }
 .document-case:nth-child(3) .step1{
 	background: #f8fdfe;
@@ -3824,9 +3849,14 @@ hr {
 	}
 	.countryCase h3{
 		font-size: 26px;
-		margin-bottom: -2px;
-		color: #b32134;
+		margin-bottom: 23px;
+		color: #0014ff;
 		font-weight: 500;
+		text-align: center;
+		font-weight: normal;
+	}
+	.notaryQuestion h3 b{
+		color: #b32134;
 	}
 	.countryCase .block{
 		background: transparent;
@@ -3884,6 +3914,7 @@ hr {
 		color: #11144a;
 		line-height: 1.5;
 		line-height: 1.2;
+		text-align: left;
 	}
 	.authQues h5{
 		font-size: 30px;
@@ -4042,6 +4073,7 @@ hr {
 		height: 30px;
 		float: left;
 		margin-right: 10px;
+		/* opacity: 0; */
 	}
 	.processBtn{
 		width: 93%;
@@ -4278,14 +4310,20 @@ hr {
 
 	.notaryQuestion label {
 		position: relative;
-		top: -5px;
+		top: 0px;
 		font-weight: normal;
-		font-size: 29px;
+		font-size: 26px;
 		font-weight: bold;
-		font-family: 'Alegreya Sans';
-		color: #b32134;
+		/* font-family: 'Alegreya Sans'; */
+		color: #101348;
+		/* text-align: center; */
+		width: 94%;
 	}
-
+	.notaryQuestion input{
+		/* opacity:0; */
+		/* width: 12px; */
+		/* position: absolute; */
+	}
 	.notaryQuestion .image-container img:first-child{width: 328px;}
 	.notaryQuestion .image-container img:nth-child(2){
 		width: 264px;
@@ -4349,7 +4387,23 @@ hr {
 	}
 	.notaryQuestion h1{
 		font-size: 7rem;
+		font-size: 51px;
+		font-weight: bold;
+		color: #b32134;
+		margin-bottom: 60px;
+		/* margin-top: 38px; */
+		text-transform: capitalize;
+		text-align: center;
 	}
+	.notaryQuestion h4 {
+		font-size: 50px;
+		text-align: center;
+		font-family: 'Alegreya Sans';
+		margin-top: 0em;
+		margin-bottom: 12px;
+		font-weight: bold;
+	}
+
 	.notaryQuestion h1::before,
 	.notaryQuestion h1::after {
 		border-top: .3rem solid #d0d0d0;
@@ -4533,9 +4587,8 @@ hr {
 		font-size: 20px;
 	}
 	.expService {
-		display: flex;
-		align-items: center;
-	
+		/* display: flex; */
+		/* align-items: center; */
 	}
 	.pricelstdiv .btn{
 		width: 300px;
@@ -4780,7 +4833,8 @@ hr {
 	}
 	.notaryQuestion .image-container2{
 		position: relative;
-		height: 54vh;
+		height: 45vh;
+		background: #faf9f9;
 	}
 	.notaryQuestion .image-container2 img{
 		position: absolute;
@@ -4791,13 +4845,13 @@ hr {
 	}
 	.notaryQuestion .image-container2 img:nth-child(1){
 	z-index: 6;
-	top: -4em;
-	left: 53%;
+	top: 1em;
+	left: 46%;
 	}
 	.notaryQuestion .image-container2 img:nth-child(2){
-	top: 12em;
+	top: 5em;
 	z-index: 5;
-	left: 0em;
+	left: 3em;
 	}
 	.notaryQuestion .image-container2 img:nth-child(3){
 	top: 1em;
@@ -4935,7 +4989,9 @@ hr {
 	}
 	.image-container3{
 		position: relative;
-		height: 53vh;
+		height: 45vh;
+		background: #faf9f9;
+		/* margin-top: 26px; */
 	}
 	.image-container3 img{
 		position: absolute;
@@ -4944,14 +5000,15 @@ hr {
 		border-radius: 6px;
 	}
 	.image-container3 img:nth-child(1){
-		top: 12em;
+		top: 4em;
 		height: 35vh;
-		right: 0;
+		right: 65px;
 		object-fit: cover;
+		z-index: 4;
 	}
 	.image-container3 img:nth-child(2){
-		top: 12%;
-		left: 29%;
+		top: 5%;
+		left: 6%;
 		z-index: 3;
 	}
 	.image-container3 img:nth-child(3){
@@ -8603,13 +8660,13 @@ button.btn.btn-danger.btn-responsive.hagbor:hover {
 }
 .legcou-tbl .btn {
     font-size: 17px;
-    padding: 7px 3px;
+    padding: 5px 3px;
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
     border: 2px solid rgb(0, 44, 105);
     outline: 0px;
     border-radius: 5px;
-    width: 157px;
+    width: 120px;
     margin-right: 4px;
 }
 .btn.nonhagbor {
@@ -8626,19 +8683,30 @@ button.btn.btn-danger.btn-responsive.hagbor:hover {
 }
 
 .btn.charOfCountry {
-    background: #c3ffd5;
-    /* color: white; */
+    height: 38px;
+    background: #92d2ff7d;
+    /* color: #f5da75; */
     /* font-weight: normal; */
-    width: 130px;
+    width: 73%;
     cursor: default;
     z-index: 2;
     position: relative;
-    border-color: #c3ffd5;
+    border-color: #a4daff;
     font-family: 'Poppins';
+    font-size: 18px;
+}
+.btn.charOfCountry span{
+	font-size: 32px;
+	position: absolute;
+	top: -6px;
+	width: 100%;
+	text-align: center;
+	left: 0;
+	font-weight: normal;
 }
 .btn.charOfCountry:hover {
-    background: #79f9c4!important;
-    border-color: #4df7b0!important;
+    background: #a4daff!important;
+    border-color: #c9e9ff!important;
 }
 .btn.charOfCountry::after {
     width: 0px;
@@ -8648,12 +8716,12 @@ button.btn.btn-danger.btn-responsive.hagbor:hover {
     top: 0px;
     z-index: 1;
     right: -25px;
-    border-top: 18px solid transparent;
-    border-bottom: 22px solid transparent;
-    border-left: 24px solid #c3ffd5;
+    border-top: 17px solid transparent;
+    border-bottom: 19px solid transparent;
+    border-left: 24px solid #a4daff;
 }
 .legcou-tbl tr td {
-    padding: 4px!important;
+    padding: 5px!important;
     border: 0!important;
 }
 #CountriesDiv{
@@ -8668,5 +8736,22 @@ button.btn.btn-danger.btn-responsive.hagbor:hover {
 	background-color: #b32134;
 	color: #ffffff;
 	font-weight: normal;
+	font-size: 14px;
 	border-color: #b32134;
+}
+.notaryQuestion .step1,.notaryQuestion .step2,.notaryQuestion .step3,.notaryQuestion .step4,.notaryQuestion .step5{
+	/* border:0 */
+	width: 83%;
+	margin: auto;
+	margin-bottom: 17px;
+	text-align: center;
+}
+.case h2{
+	font-size: 23px;
+	text-align: center;
+	color: black;
+	font-weight: bold;
+}
+#CountriesDiv {
+	margin-top: 25px;
 }

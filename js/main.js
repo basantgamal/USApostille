@@ -402,11 +402,6 @@
 			
 		}))
 
-		// $('.showDocument').click(function(){
-		// 	$(this).parents('.single-dovument-case-container').find('.step1').hide();
-		// 	$(this).parents('.single-dovument-case-container').find('.step2').show();
-
-		// })
 		$(".document-case  .block .custom-option").on("click", (function(){
 			let tar = $(this).parents('.block').attr("data-target");
 			console.log(tar)
@@ -421,6 +416,37 @@
 			}
 		}))
 
+		$('.hagCountry .caseLabel').on("click", (function(){
+			let tar = $(this).attr("data-target");
+			if (tar != "") {
+				$('.Imagecontainer').show();
+				$('.steps').hide();
+				$(this).parents('.case').find('.Imagecontainer').hide();
+				$(this).parents('.case').find('.steps').show();
+				console.log(tar)
+				$(this).parents('.case').find('.' + tar).show();
+				$(this).parents('.case').find('.overlay').hide();
+			}
+
+			
+		}))
+
+
+
+		$(".case  .block .custom-option").on("click", (function(){
+			let tar = $(this).parents('.block').attr("data-target");
+			console.log(tar)
+			if (tar != "") {
+				$('.Imagecontainer  .overlay').show();
+				$('.steps').hide();
+				$('.steps .block').hide();
+				
+				$(this).parents('.case').find('.Imagecontainer ').hide();
+				$(this).parents('.case').find('.steps').show();
+				$(this).parents('.case').find('.' + tar).show();
+				$(this).parents('.case').find('.overlay').hide();
+			}
+		}))
 
 		$("#OutUSA").on("click", (function(){
 			if ($(this).is(':checked')) {
