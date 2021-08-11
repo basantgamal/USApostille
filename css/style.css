@@ -6081,6 +6081,7 @@ button.btn.btn-danger.btn-responsive.hagbor:hover {
 }
 
 @media screen and (max-width: 1830px){
+
 	.busDetails h2 {
 		font-size: 35px;
 	}
@@ -6188,7 +6189,7 @@ button.btn.btn-danger.btn-responsive.hagbor:hover {
 		font-size: 20px;
 		color: #f5da70;
 	}
-	.block .col-lg-10 {
+	.indexStyle .block .col-lg-10 {
 		width: 85%;
 	}
 }
@@ -6204,7 +6205,20 @@ button.btn.btn-danger.btn-responsive.hagbor:hover {
 	.stateQuestion h5 {
 		font-size: 29px;
 	}
-
+	.countryTable h4{
+		display: block;
+		height: auto;
+		font-size: 49px;
+		text-align: center;
+		font-weight: bold;
+		margin-top: 2em;
+	}
+	#CountriesDiv{
+		margin-bottom:4em
+	}
+	.countryTable h4 img{
+		display: none;
+	}
 }
 @media screen and (max-width:1600px ) and (min-width:1000px){
 	.fedCase{
@@ -6554,6 +6568,9 @@ button.btn.btn-danger.btn-responsive.hagbor:hover {
 	.single-dovument-case-container .caseLabel{
 		font-size: 19px!important;
 	}
+	.countryTable .col-lg-2{
+        width:100%;
+	}
 	.block .col-lg-10 {
 		width: 100%!important;
 	}
@@ -6569,20 +6586,7 @@ button.btn.btn-danger.btn-responsive.hagbor:hover {
 }
 
 @media screen and (max-width: 1500px) {
-	.countryTable h4{
-		display: block;
-		height: auto;
-		font-size: 49px;
-		text-align: center;
-		font-weight: bold;
-		margin-top: 2em;
-	}
-	#CountriesDiv{
-		margin-bottom:4em
-	}
-	.countryTable h4 img{
-		display: none;
-	}
+
 	.FBICase .title h3:first-child {
 		font-size: 13pc;
 		margin-left: 0;
@@ -8982,3 +8986,5 @@ button.btn.btn-danger.btn-responsive.hagbor:hover {
 
 
 }
+
+
