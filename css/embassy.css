@@ -624,6 +624,7 @@ img{
 #embassy {
 	font-family: Arial, Helvetica, sans-serif;
 	width: 860px;
+	margin-left: 111px;
 }
 
 #embassy h1, #embassy h2, #embassy h3, #embassy h4, #embassy h5, #embassy label {

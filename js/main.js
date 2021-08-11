@@ -416,7 +416,7 @@
 			}
 		}))
 
-		$('.hagCountry .caseLabel').on("click", (function(){
+		$('.notaryQuestion .caseLabel').on("click", (function(){
 			let tar = $(this).attr("data-target");
 			if (tar != "") {
 				$('.Imagecontainer').show();

@@ -3258,8 +3258,11 @@ hr {
 	box-shadow: none !important;
 }
 .USDInstruction  ul{
-	font-size: 30px;
+	font-size: 25px;
+	list-style: none;
+	padding: 0;
 }
+.USDInstruction  ul li{margin-bottom: 28px;}
   input[type="radio"]:checked:after {
 	content: '';
 	font-size: 12px;
@@ -3330,7 +3333,7 @@ hr {
 	color:black;
 }
 .choose2 .charTable > tbody > tr td{
-	width: 29px;
+	width: 35px;
 }
 .fedCase h3{
 	font-weight: bold;
@@ -4390,7 +4393,7 @@ hr {
 		font-size: 51px;
 		font-weight: bold;
 		color: #b32134;
-		margin-bottom: 60px;
+		margin-bottom: 23px;
 		/* margin-top: 38px; */
 		text-transform: capitalize;
 		text-align: center;
@@ -4665,8 +4668,10 @@ hr {
 		padding-left: 23px;
 	}
 
-	.notaryQuestion p{
-		font-size: 19px;
+	.notaryQuestion .step1 p{
+		font-size: 26px;
+		text-align: center;
+		margin-top: 22px;
 	}
 	.choose2 .col {
 		margin-left: 2px;
@@ -4691,6 +4696,7 @@ hr {
 		color: #b32134;
 		font-size: 24px;
 		margin-top: 5em;
+		text-align: left;
 	}
 	#formStyle .col-lg-4 ul{
 	  font-size: 28px;
@@ -5558,9 +5564,9 @@ hr {
 	margin-bottom: 2em;
 }
 
-.companyType ul{list-style: none;}
+.companyType ul{list-style: none;margin-bottom: 40px;}
 .companyType ul li{
-	padding: 12px;
+	padding: 10px;
 	font-size: 21px;
 	background: #f0f0f0;
 	margin-bottom: 7px;
@@ -5571,6 +5577,7 @@ hr {
 	font-size: 3em;
 	text-align: center;
 	margin-bottom: 1em;
+	font-size: 23px;
 }
 
 .expCountries2 .col::-webkit-scrollbar-thumb {
@@ -8731,6 +8738,7 @@ button.btn.btn-danger.btn-responsive.hagbor:hover {
 #CountriesDiv .hagbor:hover{
 	background-color: rgb(0, 44, 105)!important;
 	border-color: gold!important;
+	color: white;
 }
 #moreCountries{
 	background-color: #b32134;
@@ -8741,7 +8749,7 @@ button.btn.btn-danger.btn-responsive.hagbor:hover {
 }
 .notaryQuestion .step1,.notaryQuestion .step2,.notaryQuestion .step3,.notaryQuestion .step4,.notaryQuestion .step5{
 	/* border:0 */
-	width: 83%;
+	width: 73%;
 	margin: auto;
 	margin-bottom: 17px;
 	text-align: center;
@@ -8751,7 +8759,23 @@ button.btn.btn-danger.btn-responsive.hagbor:hover {
 	text-align: center;
 	color: black;
 	font-weight: bold;
+	margin-bottom: 42px;
 }
 #CountriesDiv {
 	margin-top: 25px;
+}
+.expServ-hag .case:first-child .Imagecontainer img:last-child{
+	height: 300px;
+	object-fit: cover;
+	object-position: right;
+}
+.expServ-hag .case:first-child .Imagecontainer img:first-child{
+	height: 301px;
+	/* z-index: 3; */
+	object-fit: cover;
+	object-position: left;
+}
+.expServ-hag .case:first-child .step2 {
+	text-align: center;
+	font-weight: bold;
 }
