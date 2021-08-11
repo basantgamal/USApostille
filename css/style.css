@@ -2924,8 +2924,9 @@ h2 {}
 	min-height: 422px;
 	content: '';
 	padding: 20px;
-	border: 7px solid #b32134;
+	border: 4px solid #b32134;
 	margin-top: -1px;
+	border-radius: 8px;
 }
 .document-case:nth-child(1) .step1{
 	background: #f5e9eb;
@@ -2984,11 +2985,11 @@ h2 {}
 }
 
 
-.priceInfo{
+.priceInfo .row{
 	background: #dcdcdc8c;
 	padding: 22px;
 	width: 90%;
-	margin: auto;
+	margin: auto!important;
 	border: 1px solid gainsboro;
 }
 .prictot-div {
@@ -3172,9 +3173,11 @@ hr {
 	background-color: #ffcad1;
 	width: 236px;
 }
-.shippingTable{
+.row.shippingTable{
 	background-color: white;
 	font-size: 20px;
+	width: 90%;
+	margin: auto!important;
 }
 .smallCalndr{
 	width: 141px!important;
@@ -4042,7 +4045,7 @@ hr {
 	#formStyle h2,.embassyForm h2,.alabamaForm h2{
 		/* margin-top: 1em; */
 		padding-top: 26px;
-		margin-bottom: 2em;
+		/* margin-bottom: 2em; */
 	}
 	.paymentMethod{
 		margin-top: 3em;
@@ -4092,14 +4095,16 @@ hr {
 	.embassyForm .fixedPos p{
 		font-size: 32px;
 		margin-left: 34px;
-		color: firebrick;
-		font-weight: 500;
+		color: #b32134;
+		/* font-weight: 500; */
 		font-family: 'Poppins';
 	}
 	.embassyForm .fixedPos h3{
 		font-size: 32px;
 		margin-left: 40px;
 		margin-top: 3em;
+		color: #b32134;
+		text-align: left;
 	}
 	.embassyForm .fixedPos h3 img{
 		width:60px
@@ -5899,6 +5904,8 @@ button.btn.btn-danger.btn-responsive.hagbor:hover {
 	color: blue;
 	text-align: center;
 	font-size: 30px;
+	/* margin-bottom: 12px; */
+	/* margin-top: 12px; */
 }
 .expServ-hag  .contentInfo{
 	min-height: auto;
@@ -5913,10 +5920,52 @@ button.btn.btn-danger.btn-responsive.hagbor:hover {
 .fedx-div{
 	margin-bottom: 2em;
 }
-
-
-
-
+.caldPos p{
+	font-size: 20px;
+	text-align: left;
+	font-weight: 500;
+	padding: 0 32px;
+	margin: 0;
+	margin-top: 2em;
+}
+.caldPos img{
+	object-fit: contain;
+	border-radius: 50%;
+	width: 168px;
+}
+.horz-table{
+	background-color: white;/* margin-top: -2em; */width: 95%;margin: auto;margin-left: 33px;
+}
+.priceInfo .shippingTable{
+	width: 90%;
+	margin: auto;
+	margin-top: 2em;
+}
+ .shippingTable p{
+	text-align: center;
+	font-size: 43px;
+	color: #b32134;
+	font-weight: 500;
+	/* margin-top: -24px; */
+}
+.priceInfo h2{
+	
+	font-size: 76px;
+	color: #b32134;
+	text-transform: capitalize;
+	font-weight: 500;
+	margin-top: 31px;
+	margin-bottom: 33px;
+								
+}
+.priceInfo tr  .fdx label{
+	font-weight: normal;
+	position: relative;
+	top: 5px;
+}
+.priceInfo  table tr:last-child td:last-child{
+	width: 345px;
+}
 
 
 
@@ -6586,10 +6635,24 @@ button.btn.btn-danger.btn-responsive.hagbor:hover {
 }
 
 @media screen and (max-width: 1500px) {
-
+	.expServ-hag .case:first-child .Imagecontainer img:first-child {
+		width: 87%;
+		left: 17px;
+	}
+	.notaryQuestion h1 {
+		margin: 0;
+	}
 	.FBICase .title h3:first-child {
 		font-size: 13pc;
 		margin-left: 0;
+	}
+	.case h2{
+		margin: 0;
+		margin-bottom: 12px;
+	}
+	.notaryQuestion .step1, .notaryQuestion .step2, .notaryQuestion .step3, .notaryQuestion .step4, .notaryQuestion .step5 {
+		width:100%;
+		min-height: 371px;
 	}
 	.stateQuestion .row:first-child {
 		min-height: 90vh;
@@ -6636,7 +6699,7 @@ button.btn.btn-danger.btn-responsive.hagbor:hover {
 		font-size: 31px;
 	}
 	 .contentInfo{
-		min-height: 75vh!important;
+		min-height: 75vh;
 	}
 	.Exp-Bus .hint{
 		font-size: 21px;
@@ -7173,8 +7236,24 @@ button.btn.btn-danger.btn-responsive.hagbor:hover {
 }
 
 @media screen and (max-width: 1200px) {
+	.notaryQuestion .image-container2,.image-container3 {
+	    width: 55%;
+    	margin: auto;
+		height: 58vh;
+	}	
+	.notaryQuestion .steps{
+		width: 50%;
+		margin: auto;
+	}
+	.notaryQuestion .steps .block{
+		min-height: 444px;
+	}
 	.stateQuestion .row:first-child {
 		padding: 0;
+	}
+	.expServ-hag .ex {
+
+		text-align: center;
 	}
 	.certicatesImg img {
 		width: 330px;
