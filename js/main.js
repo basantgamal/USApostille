@@ -434,18 +434,19 @@
 
 
 		$(".case  .block .custom-option").on("click", (function(){
-			let tar = $(this).parents('.block').attr("data-target");
-			console.log(tar)
-			if (tar != "") {
-				$('.Imagecontainer  .overlay').show();
-				$('.steps').hide();
-				$('.steps .block').hide();
+			// let tar = $(this).parents('.block').attr("data-target");
+			// console.log(tar)
+			// if (tar != "") {
+			// 	$('.Imagecontainer  .overlay').show();
+			// 	$('.steps').hide();
+			// 	$('.steps .block').hide();
 				
-				$(this).parents('.case').find('.Imagecontainer ').hide();
-				$(this).parents('.case').find('.steps').show();
-				$(this).parents('.case').find('.' + tar).show();
-				$(this).parents('.case').find('.overlay').hide();
-			}
+			// 	$(this).parents('.case').find('.Imagecontainer ').hide();
+			// 	$(this).parents('.case').find('.steps').show();
+			// 	$(this).parents('.case').find('.' + tar).show();
+			// 	$(this).parents('.case').find('.overlay').hide();
+			// }
+			window.location="price&Timline.html";
 		}))
 
 		$("#OutUSA").on("click", (function(){

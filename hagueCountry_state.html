@@ -113,12 +113,9 @@
 
 						  <div class="col-lg-10 pmw-0">		
 							<div class="countryCase pmw-0">						
-
-
 								<div class="block notaryQuestion" style="display: block;">
 									<h1>
 										Please choose your case 
-
 									</h1>
 									<div class="row contentInfo">
 										<div class="col-md-6 ">
@@ -150,7 +147,7 @@
 											</p>
 										</div>
 									</div>
-									<div class="row" st="">
+									<div class="row">
 										<div class="col-xs-12 text-left">
 											<a type="button" class="backBtn" data-target="stateQuestion"><img src="images/go-back-button1.png" class="goBack"></a>
 										</div>
@@ -159,8 +156,6 @@
 
 
 								<div class="block IssuedByState" style="display: none;">
-							
-					
 									<div class="row">
 										<div class="col-md-6">
 											<div class="row">
@@ -170,8 +165,7 @@
 														The estimated processing time to obtain the Apostille <br>from the state of Alabama <span>5 </span>Business days
 													</div>
 													<div>The fee is  <span>$2.00</span> per Apostille.</div>
-												</div>
-											
+												</div>		
 												<p>We are going to help to fill and print the required form of the state of Alabama,
 													And create 2 ways FedEx envelops to send and receive your documents. 
 													But, before you start, it is highly recommended that you call the state of Alabama first.  
@@ -179,8 +173,8 @@
 													<span>The telephone number is</span>
 												<img src="images/tel.jpg" class="telImg"> <p>(123) 456-7890</p>
 												<p>Please describe your document, state the name of signer on it, and the date of issuing. 
-													<br>The representative will confirm to you that the document is ready to be shipped to them. </p>
-												
+													<br>The representative will confirm to you that the document is ready to be shipped to them.
+												 </p>
 												<button class="btn btn-primary processBtn" data-target="alabamaForm">Proceed</button>
 											</div>
 
@@ -203,31 +197,36 @@
 									</div>
 								</div>
 
-								<div class="block USDInstruction" style="display: none;">
+								<div class="block USDInstruction " style="display: none;" id="formStyle">
 									<link rel="stylesheet" href="css/usd.css">
 									<div class="row pmw-0">
 										<div class="col-md-4 fixedPos">
+										
+											<div class="row">
+												<ul>
+													<li>
+														The US Department of State fee is:<br> $8 per document.
+													</li>
+													<li>
+														The estimate processing time is: <br>60 business days.
+													</li>
+												</ul>
+											
+												<h3 >Please fill the form <img src="images/arrowRight.gif"></h3>
+
+												<button class="btn btn-primary processBtn" data-target="fedxOption" >Proceed</button>
+
+												<p >If you a question about your document,<br> call (202) 485-8000 .</p>
+											</div>
+
+										<div class="row">
 											<a type="button" class="backBtn" data-target="stateQuestion"><img src="images/go-back-button1.png" class="goBack"></a>
+										</div>
+
+
+											
 								  
 
-
-											<ul style="font-size: 31px;">
-												<li>
-													The US Department of State fee is:<br> $8 per document.
-												</li>
-												<li>
-													The estimate processing time is: <br>60 business days.
-												</li>
-											</ul>
-										
-											<h3 style="font-size: 32px;margin-top: 3em;">please fill the form <img src="images/arrowRight.gif" style="
-												width: 98px;"></h3>
-											<button class="btn btn-primary processBtn" data-target="fedxOption" style="width:90%;margin-top: 2em;">Proceed</button>
-											<p style="    font-size: 27px;
-											font-weight: 500;
-											font-family: 'Poppins', sans-serif;
-											font-weight: 500;
-											margin-top: 2em;">If you a question about your document,<br> call (202) 485-8000 .</p>
 										</div>
 										<div class="col-md-8 col-md-offset-4 pmw-0 overScroll">
 											<form action="" class="black_background">
@@ -942,42 +941,47 @@
 									</div>
 								</div>
 
-								<div class="block embassyForm" style="display: none;">
-									
+								<div class="block embassyForm" style="display: none;" id="formStyle">			
 									<link rel="stylesheet" href="css/embassy.css">
 									<div class="row">
-										<div class="col-md-4 fixedPos">
-											<a type="button" class="backBtn" data-target="authQues"><img src="images/go-back-button1.png" class="goBack"></a>
-											<ul>
-												<li style="margin-bottom: 12px;">Embassy of Afghanistan charges $125 per document. </li>
-												<li> Estimated processing time is:<br> 10 Bussiness days.  </li>
-											</ul>		
-											<h3>Please fill the form <img src="images/arrowRight.gif" style="width: 98px;    margin-bottom: 0;"></h3>
-											<p> Then click Proceed below</p>
-											<button class="btn btn-primary processBtn" data-target="fedxOption">Proceed</button>
+										<div class="col-lg-4 fixedPos">
+											<div class="row">
+												<ul>
+													<li>Embassy of Afghanistan charges <br> $125 per document. </li>
+													<li> Estimated processing time is: <br>10 Bussiness days.  </li>
+												</ul>		
+												<h3>Please fill the form <img src="images/arrowRight.gif"></h3>
+												<p> Then click Proceed below</p>
+												<button class="btn btn-primary processBtn" data-target="fedxOption">Proceed</button>
+											</div>
+											<div class="row">
+												<a type="button" class="backBtn" data-target="authQues"><img src="images/go-back-button1.png" class="goBack"></a>
+											</div>
 										</div>
-										<div class="col-md-8 col-md-offset-4 scrolling">
+
+										<div class="col-lg-8  col-lg-offset-4 scrolling">
 											<form action="" class="black_background">
+												<h2 class="text-center mb-2 ">To the Embassy of Afganistan, Washington D.C.</h2>
+												<div class="row no-print">
+													<div class="col-md-3 col-md-offset-3 col-sm-12 col-sm-offset-0">
+														<input type="radio" id="check10" name="addressCheck">
+														<label for="check10">U.S address</label>
+													</div>
+													<div class="col-md-6">
+														<input type="radio" id="check9" checked="" name="addressCheck">
+														<label for="check9">International address</label>
+													</div>
+												</div>
 												<section class="gen-form bigContentSmallScreen" id="embassy">
 													<div class="form-container">
 														<div class="content ">
 																<br>
-																<h2 class="text-center mb-2 ">To the Embassy of Afganistan, Washington D.C.</h2>
-																<div class="row no-print">
-																	<div class="col-xs-3 col-xs-offset-3" style="position: relative;left: -18px;">
-																		<input type="radio" id="check10" >
-																		<label for="check10" style="font-size: 13px;position: relative;top: -7px;">U.S address</label>
-																	</div>
-																	<div class="col-xs-3">
-																		<input type="radio" id="check9" checked>
-																		<label for="check9" style="font-size: 13px;position: relative;top: -7px;">International address</label>
-																	</div>
-																</div>
+														
 																<div class="row">
 																	<div class="col-xs-12">
 																			<div class="form-group">
 																				<label for="" style="position: relative;top: -12px;">Company Name :</label>
-																				<input type="text" class="form-control mb-2" id="" name="company_name" style="margin-left: 28px;">
+																				<input type="text" class="form-control mb-2" id="" name="company_name">
 																			</div>
 																			<i style="display: inline;margin-left:3px;position: absolute;top: 20px;left: -3px;font-size: 14px;"> (Optional)</i>
 																	</div>
@@ -986,7 +990,7 @@
 																	<div class="col-xs-12">
 																		<div class="form-group">
 																			<label for="">Name:</label>
-																			<input type="text" class="form-control mb-2" id="firstname" name="firstname" placeholder="firstName" style="margin-left: 111px;">
+																			<input type="text" class="form-control mb-2" id="firstname" name="firstname" placeholder="firstName">
 																			<input type="text" class="form-control mb-2" id="lastname" name="lastname" placeholder="lastName">
 																		</div>
 																	</div>
@@ -995,7 +999,7 @@
 																	<div class="col-xs-12">
 																		<div class="form-group">
 																			<label for="">Address:</label>
-																			<input type="text" class="form-control mb-2" id="address" name="address" style="margin-left: 95px;">
+																			<input type="text" class="form-control mb-2" id="address" name="address">
 																		</div>
 																	</div>
 															
@@ -1006,7 +1010,7 @@
 																			<div class="col-xs-4">
 																				<div class="form-group">
 																					<label for="">Zip Code:</label>
-																					<input type="text" class="form-control mb-2" id="zipcode" name="zipcode" style="margin-left: 89px;">
+																					<input type="text" class="form-control mb-2" id="zipcode" name="zipcode">
 																				</div>
 																			</div>
 																			<div class="col-xs-3">
@@ -1018,7 +1022,8 @@
 																	
 																			  <div class="col-xs-5">
 																				<div class="form-group">
-																					<label for="">State:</label>
+																					<label class="check9">Country:</label>
+																					<label class="check10" style="display: none;">State:</label>
 																					<input type="text" class="form-control mb-2" id="state" name="state">
 																				</div>
 																			</div>  
@@ -1031,7 +1036,7 @@
 																	<div class="col-xs-6">
 																		<div class="form-group">
 																			<label for="">Tel:</label>
-																			<input type="text" class="form-control mb-2" id="tel" name="tel" style="margin-left: 136px;">
+																			<input type="text" class="form-control mb-2" id="tel" name="tel">
 																		</div>
 																	</div>
 																	<div class="col-xs-6">
@@ -1045,22 +1050,20 @@
 																	<div class="col-xs-12">
 																		<div class="form-group">
 																			<label for="">Email Address:</label>
-																			<input type="text" class="form-control mb-2" id="email_address" name="email_address" style="margin-left: 49px;">
+																			<input type="text" class="form-control mb-2" id="email_address" name="email_address">
 																		</div>
 																	</div>
 																</div>
 
-																<div class="row">
-																	<div class="col-xs-10">
-																		<hr>
-																	</div>
-																</div>
+															
+																<hr>
+																
 															
 																<div class="row">
 																	<div class="col-xs-12">
 																		<div class="form-group">
 																			<label for="">I am including</label>
-																			<input type="text" class="form-control mb-2" id="documents" name="documents" style="margin-left: 58px;">
+																			<input type="text" class="form-control mb-2" id="documents" name="documents">
 																			<label for="">document(s), to be legalized for use in the counrty of afghanistan.</label>
 																		</div>
 																	</div>
@@ -1076,9 +1079,8 @@
 																		</div>
 																	</div>
 																</div>
-															
-																
-																
+
+
 																<p style="font-size: 18px;">Please contact me if you have any question regarding my document(s)
 																</p><p style="font-size: 21px;">Thank you</p>
 																<br>
@@ -1088,9 +1090,6 @@
 																		<textarea name="" id="" cols="50" rows="7"></textarea>
 																	</div>
 																</div>
-														
-												
-													
 														</div>
 													</div>
 												</section>
@@ -1098,31 +1097,327 @@
 											</form>
 										</div>
 									</div>
+							
 								</div>
-								<div class="block alabamaForm " style="display: none;" id="formStyle">
+
+
+								<div class="block alabamaForm" style="display: none;" id="formStyle">
 									<link rel="stylesheet" href="./css/alabama.css">
 									<div class="row ">
 										<div class="col-md-4 fixedPos">
-											<h2 style="font-size: 42px;font-weight: bold; font-family: 'Alegreya Sans'; color: #b32134; width: 90%; margin: auto;text-align: center;">A document issued and signed by the state of Alabama</h2>
+											<h2 >A document issued and signed by the state of Alabama</h2>
 
-											<div class="row" style="margin-bottom: 73px;">
-												<ul style=" margin-bottom: 50px; margin: 0; width: 100%; display: block;font-size: 22px;">
-													<li style="/* width: 73%; */ margin-top: 55px;">The state of Alabama fee is $12 per document. 
+											<div class="row" >
+												<ul >
+													<li >The state of Alabama fee is $12 per document. 
 													</li>
-													<li style="/* width: 78%; */margin-bottom: 2em;">
+													<li >
 														The estimate processing time is 5 b. days
 													</li>
 												</ul>
-												<p style="font-size: 21px; margin: 0;">
+												<p>
 													If this is your first time requesting certification or apostille, we highly advise you to contact the Secretary of State help desk <br>@ (123) 456-7890. 
 													Please describe your document, state the name of signer on it, and the date of issuing. 
 													The representative will confirm  that the document is ready to be shipped. </p>
+
 												<h3>Please fill the form <img src="images/arrowRight.gif"></h3>
 												<button class="btn btn-primary processBtn" data-target="fedxOption">Print &amp; Proceed</button>
+										
 											</div>
 									
 											<div class="row">
-												<a type="button" class="backBtn" data-target="ChooseState" style="top: 6em;"><img src="images/go-back-button1.png" class="goBack"></a>
+												<a type="button" class="backBtn" data-target="ChooseState"><img src="images/go-back-button1.png" class="goBack"></a>
+											</div>
+										</div>
+
+										<div class="col-md-8 col-md-offset-4 pmw-0 overScroll">
+											<section class="gen-form bigContentSmallScreen" id="alabama">
+												<div class="form-container">
+													<div class="content doubleBorder">
+											
+														<form action="">
+															<h2 class="text-center mb-2"><b>AUTHENTICATION SUBMITTAL FORM</b></h2>
+															<div class="row">
+																<div class="col-xs-10">
+																	<div class="row">
+																		<div class="col-xs-12">
+																			<div class="form-group">
+																				<label for="">Sender</label>
+																				<input type="text " class="form-control" name="firstname" id="firstname">
+																				<input type="text " class="form-control" name="lastname" id="lastname">
+																			</div>
+																		</div>
+																	</div>
+																
+																	<div class="row">
+																		<div class="col-xs-12 ">
+																			<div class="form-group">
+																				<label for="">Company</label>
+																				<input type="text " class="form-control" name="company_name" id="company_name">
+																			</div>
+																		</div>
+																		<div class="col-xs-12">
+																			<div class="form-group">
+																				<label for="">Address</label>
+																				<input type="text " class="form-control " name="address" id="address">
+																			</div>
+																		</div>
+																		<div class="col-xs-8 pr-0 form-group">
+																			<input type="text " class="form-control" name="city" id="city" placeholder="city">
+																			<input type="text " class="form-control" name="state" id="state" placeholder="state">
+																		</div>
+																		<div class="col-xs-4  pl-0" style="padding-left:6px">
+																			<div class="form-group">
+																				
+																				<label for="">Zip </label>
+																				<input type="text " class="form-control " name="zipcode" id="zipcode">
+																			</div>
+																		</div>
+																	</div>
+																	<div class="row">
+																		<div class="col-xs-12">
+																			<div class="form-group">
+																
+																				<label for="">Email address</label>
+																				<input type="text" class="form-control" name="email_address" id="email_address">
+																
+																			</div>
+																		</div>
+																	</div>
+																
+																	<div class="row">
+																		<div class="col-xs-12 ">
+																			<div class="form-group">
+																				<label for="">Daytime Telephone Number</label>
+																				<input type="text " class="form-control" name="tel" id="tel">
+																			</div>
+																		</div>
+																	</div>
+																
+																	<div class="row " style="margin-bottom:10px">
+																		<div class="col-xs-3">
+																			<label for="">Select one:</label>
+																		</div>
+																
+																		<div class="col-xs-3 checkbox">
+																
+																			<input type="checkbox" name="grp1" id="checkx">
+																			<label class="doc" for="checkx">Apostille</label>
+																		</div>
+																		<div class="col-xs-3 checkbox">
+																			<input type="checkbox" name="grp1" id="checky">
+																			<label for="checky">Certificate</label>
+																		</div>
+																
+																	</div>
+																
+																
+																	<div class="row">
+																		<div class="col-xs-12">
+																			<div class="form-group">
+																				<label for="">Foreign country in which document will be used</label>
+																				<input type="text" class="form-control" name="document_type" id="document_type">
+																
+																			</div>
+																		</div>
+																	</div>
+																
+																	<div class="row">
+																		<div class="col-xs-12">
+																			<div class="form-group">
+																				<label for="">Number of Document</label>
+																				<input type="text" class="form-control" name="documents" id="documents">
+																				<label for="">x $5.00 = $</label>
+																				<input type="text" class="form-control " name="total" id="total">
+																				<label for="">Total Amount Due</label>
+																			</div>
+																		</div>
+																
+																	</div>
+																	<div class="row">
+																		<div class="col-xs-6 checkbox">
+																			<label for="check3" id="check3">Payment Enclosed: Check</label>
+																			<input type="checkbox" name="grp2">
+																		</div>
+																		<div class="col-xs-3 pl-0 pr-0 checkbox">
+																			<label class="doc" for="check4" id="check4">Money Order</label>
+																			<input type="checkbox" name="grp2">
+																		</div>
+																		<div class="col-xs-3 checkbox">
+																			<label class="doc" for="check5" id="check5">Cash</label>
+																			<input type="checkbox" name="grp2">
+																		</div>
+																
+																	</div>
+																	<h4 class="text-center serif-font">Make checks and Money orders payable to the Secretary of State</h4>
+																	<div class="row" style="margin-bottom: 12px;">
+																		<div class="col-xs-10 col-xs-offset-2 ">
+																			<label for="check10" id="check10">
+																				Credit Card
+																			</label>
+																			<input type="checkbox" name="check10">
+																			<span for="">(Please provide credit card information below)</span>
+																		</div>
+																	</div>
+																	
+																
+																	<div class="row" style="margin-bottom: 10px;    margin-left: 16px;">
+																		<div class="col-xs-2 pr-0 checkbox">
+																			<input type="checkbox" name="check6" id="check6">
+																			<label for="check6">Visa</label>
+																		</div>
+																		<div class="col-xs-3 pl-0 pr-0 checkbox">
+																			<input type="checkbox" name="check7" id="check7"> 
+																			<label for="check7">Master Card</label>
+																		</div>
+																		<div class="col-xs-4 pr-0 pl-0 checkbox">
+																			<input type="checkbox" name="check8" id="check8">
+																			<label for="check8">American Express</label>
+																		</div>
+																		<div class="col-xs-3 pl-0 pr-0 checkbox">
+																			<input type="checkbox" name="check9" id="check9">
+																			<label for="check9">Discover Card</label>
+																		</div>
+																
+																	</div>
+																
+																	<div class="row">
+																		<div class="col-xs-6 pr-0">
+																			<div class="form-group">
+																				<label for="">Card Number</label>
+																				<input type="text" class="form-control pr-2" name="card_number1" id="card_number1"> 
+																					<input type="text" class="form-control pr-2" name="card_number2" id="card_number2"> 
+																					<input type="text" class="form-control pr-2" name="card_number3" id="card_number3">
+																					<input type="text" class="form-control" name="card_number4" id="card_number4">
+																			</div>
+																
+																		</div>
+																		<div class="col-xs-6 ">
+																			<div class="form-group">
+																				<label for="">Expiration Date</label>
+																				<input type="text" class="form-control" name="expiration_date1" id="expiration_date1">
+																				/
+																				<input type="text" class="form-control" name="expiration_date2" id="expiration_date2">
+																			</div>
+																		</div>
+																	</div>
+																	<div class="row">
+																		<div class="col-xs-12">
+																			<div class="form-group">
+																				<label for="">Card Holder</label>
+																				<input type="text" class="form-control" name="card_holder" id="card_holder">
+																			</div>
+																
+																		</div>
+																	</div>
+																	<div class="row">
+																		<div class="col-xs-12 ">
+																			<div class="form-group">
+																				<label for="">Billing Address</label>
+																				<input type="text" class="form-control" name="billing_address1" id="billing_address1">
+																			</div>
+																		</div>
+																		<div class="col-xs-8 pr-0">
+																				<input type="text" class="form-control" name="billing_address2" id="billing_address2">
+																		</div>
+																		<div class="col-xs-4 " style="padding-left:8px">
+																			<div class="form-group">
+																				<label for="">zip</label>
+																				<input type="text" class="form-control" name="zip_code" id="zip_code">
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+															
+															<div class="col-xs-12" style="	margin-top: 12px;">
+																<p class="small-par pl-3" style="	font-size: 14px;font-weight: 500;">Documents will <b>NOT</b> be returned to the sender unless one of the
+																	following is provided:</p>
+																<p class="xsmall-par text-center">(Secretary of State’s office is <b>NOT</b> responsible for documents lost
+																	with
+																	US postal service)</p>
+															</div>
+															
+											
+											
+															<div class="row">
+																<h4 class="serif-font2" style="margin-bottom: 27px;"><b>FEDEX or UPS will <b>NOT</b> be returned if address below is listed as the sender on
+																		Shipping
+																		Label.</b></h4>
+																		<div class="col-xs-offset-1 checklist">
+																			<div class="col-xs-12 pr-0 checkbox">
+																			
+																				<input type="checkbox" name="check12" id="check12">
+																				<label for="check12">Self-addressed first class envelope with postage</label>
+																			</div>
+																			<div class="col-xs-12 pr-0 checkbox">
+																				<input type="checkbox" name="check13" id="check13">
+																				<label for="check13">Self-addressed Priority or Express envelope with postage</label>
+																			</div>
+																			<div class="col-xs-12 pr-0 checkbox">
+																				<input type="checkbox" class="col-xs-1" id="check14">
+																				<label for="check14" class="col-xs-11  pr-0 ">Prepaid courier service (FedEx, UPS, Airborne, DHL)
+																					with
+																					envelope &amp; sendercannot be SOS office</label>
+																			</div>
+																			<div class="col-xs-12 pr-0 checkbox" style="margin-top: 8px;">
+																				<input type="checkbox" class="col-xs-1" name="grp4" id="check15">
+																				<label for="check15" class="col-xs-11  pr-0">Self-addressed courier service envelope (with account
+																					number clearly printed on label)</label>
+																			</div>
+																		</div>
+												
+															</div>
+															<div class="text-list-center">
+																<p class="text-center small-par"><b>Mail the completed authentication submittal form and documents
+																to:</b>
+																</p>
+																
+																<p class="text-center" style="font-size: 13px;">Office of the Secretary of State</p>
+																<p class="text-center" style="font-size: 13px;">Authentication Division</p>
+																<p class="text-center" style="font-size: 13px;">11 South Union Street, Suite 224</p>
+																<p class="text-center" style="font-size: 13px;">Montgomery, Alabama 36130</p>
+																<p class="text-center" style="font-size: 13px;">(334) 242-5325</p>
+																
+																<!--      <br> -->
+																
+																<p class="text-center" style="font-size: 13px;font-weight: 500;">Please allow five (5) business days for mail time. Walk in service is
+																	available 8:00-5:00 Mon-Fri
+																</p>
+															</div>
+											
+											
+											
+														</form>
+														
+													</div>
+												</div>
+											</section>
+											
+										</div>
+									</div>
+								</div>
+
+								<div class="block  alabamaFormWithTel" style="display: none;" id="formStyle">
+									<link rel="stylesheet" href="./css/alabama.css">
+									<div class="row ">
+										<div class="col-md-4 fixedPos">
+											<div class="row">
+												<ul>
+													<li>The state of Alabama fee is $2 per document. 
+													</li>
+													<li>
+														The estimate processing time is 5 business days. 
+													</li>
+												</ul>
+											
+												<h3>Please fill the form <img src="images/arrowRight.gif"></h3>
+												<button class="btn btn-primary processBtn" data-target="fedxOption">Print &amp; Proceed</button>
+												<p>If you a question about your document,<br> call the state office (123) 456-7890</p>
+											</div>
+
+											<div class="row backBtnContainer">
+												<a type="button" class="backBtn" data-target="notaryQuestion"><img src="images/go-back-button1.png" class="goBack"></a>
 											</div>
 										</div>
 										<div class="col-md-8 col-md-offset-4 pmw-0 overScroll">
@@ -1394,308 +1689,16 @@
 								</div>
 
 								
-								<div class="block alabamaFormWithTel" style="display: none;">
-									<link rel="stylesheet" href="./css/alabama.css">
-									<div class="row ">
-										<div class="col-md-4 fixedPos">
-											<a type="button" class="backBtn" data-target="stateQuestion"><img src="images/go-back-button1.png" class="goBack"></a>
-											<ul style="font-size: 31px;">
-												<li>The state of Alabama fee is $2 per document. 
-												</li>
-												<li>
-													The estimate processing time is 5 business days. 
-												</li>
-											</ul>
-										
-											<h3 style="font-size: 32px;margin-top: 3em;">Please fill the form <img src="images/arrowRight.gif" style="
-												width: 98px;"></h3>
-											<button class="btn btn-primary processBtn" data-target="fedxOption" style="width:90%;margin-top: 2em;">Print & Proceed</button>
-											<p style="    font-size: 27px;
-											font-weight: 500;
-											font-family: 'Poppins', sans-serif;
-											font-weight: 500;
-											margin-top: 2em;">If you a question about your document,<br> call the state office (123) 456-7890</p>
-										</div>
-										<div class="col-md-8 col-md-offset-4 pmw-0 overScroll">
-											<section class="gen-form bigContentSmallScreen" id="alabama">
-			
-												<div class="form-container">
-										
-													<div class="content doubleBorder">
-											
-														<form action="">
-															<h2 class="text-center mb-2"><b>AUTHENTICATION SUBMITTAL FORM</b></h2>
-															<div class="row">
-																<div class="col-xs-10">
-																	<div class="row">
-																		<div class="col-xs-12">
-																			<div class="form-group">
-																				<label for="">Sender</label>
-																				<input type="text " class="form-control" name="firstname" id="firstname">
-																				<input type="text " class="form-control" name="lastname" id="lastname">
-																			</div>
-																		</div>
-																	</div>
-																
-																	<div class="row">
-																		<div class="col-xs-12 ">
-																			<div class="form-group">
-																				<label for="">Company</label>
-																				<input type="text " class="form-control" name="company_name" id="company_name">
-																			</div>
-																		</div>
-																		<div class="col-xs-12">
-																			<div class="form-group">
-																				<label for="">Address</label>
-																				<input type="text " class="form-control " name="address" id="address">
-																			</div>
-																		</div>
-																		<div class="col-xs-8 pr-0 form-group">
-																			<input type="text " class="form-control" name="city" id="city" placeholder="city">
-																			<input type="text " class="form-control" name="state" id="state" placeholder="state">
-																		</div>
-																		<div class="col-xs-4  pl-0" style="padding-left:6px">
-																			<div class="form-group">
-																				
-																				<label for="">Zip </label>
-																				<input type="text " class="form-control " name="zipcode" id="zipcode">
-																			</div>
-																		</div>
-																	</div>
-																	<div class="row">
-																		<div class="col-xs-12">
-																			<div class="form-group">
-																
-																				<label for="">Email address</label>
-																				<input type="text" class="form-control" name="email_address" id="email_address">
-																
-																			</div>
-																		</div>
-																	</div>
-																
-																	<div class="row">
-																		<div class="col-xs-12 ">
-																			<div class="form-group">
-																				<label for="">Daytime Telephone Number</label>
-																				<input type="text " class="form-control" name="tel" id="tel">
-																			</div>
-																		</div>
-																	</div>
-																
-																	<div class="row " style="margin-bottom:10px">
-																		<div class="col-xs-3">
-																			<label for="">Select one:</label>
-																		</div>
-																
-																		<div class="col-xs-3 checkbox">
-																
-																			<input type="checkbox" name="grp1" id="checkx">
-																			<label class="doc" for="checkx">Apostille</label>
-																		</div>
-																		<div class="col-xs-3 checkbox">
-																			<input type="checkbox" name="grp1" id="checky">
-																			<label for="checky">Certificate</label>
-																		</div>
-																
-																	</div>
-																
-																
-																	<div class="row">
-																		<div class="col-xs-12">
-																			<div class="form-group">
-																				<label for="">Foreign country in which document will be used</label>
-																				<input type="text" class="form-control" name="document_type" id="document_type">
-																
-																			</div>
-																		</div>
-																	</div>
-																
-																	<div class="row">
-																		<div class="col-xs-12">
-																			<div class="form-group">
-																				<label for="">Number of Document</label>
-																				<input type="text" class="form-control" name="documents" id="documents">
-																				<label for="">x $5.00 = $</label>
-																				<input type="text" class="form-control " name="total" id="total">
-																				<label for="">Total Amount Due</label>
-																			</div>
-																		</div>
-																
-																	</div>
-																	<div class="row">
-																		<div class="col-xs-6 checkbox">
-																			<label for="check3" id="check3">Payment Enclosed: Check</label>
-																			<input type="checkbox" name="grp2">
-																		</div>
-																		<div class="col-xs-3 pl-0 pr-0 checkbox">
-																			<label class="doc" for="check4" id="check4">Money Order</label>
-																			<input type="checkbox" name="grp2">
-																		</div>
-																		<div class="col-xs-3 checkbox">
-																			<label class="doc" for="check5" id="check5">Cash</label>
-																			<input type="checkbox" name="grp2">
-																		</div>
-																
-																	</div>
-																	<h4 class="text-center serif-font">Make checks and Money orders payable to the Secretary of State</h4>
-																	<div class="row" style="margin-bottom: 12px;">
-																		<div class="col-xs-10 col-xs-offset-2 ">
-																			<label for="check10" id="check10">
-																				Credit Card
-																			</label>
-																			<input type="checkbox" name="check10">
-																			<span for="">(Please provide credit card information below)</span>
-																		</div>
-																	</div>
-																	
-																
-																	<div class="row" style="margin-bottom: 10px;    margin-left: 16px;">
-																		<div class="col-xs-2 pr-0 checkbox">
-																			<input type="checkbox" name="check6" id="check6">
-																			<label for="check6">Visa</label>
-																		</div>
-																		<div class="col-xs-3 pl-0 pr-0 checkbox">
-																			<input type="checkbox" name="check7" id="check7"> 
-																			<label for="check7">Master Card</label>
-																		</div>
-																		<div class="col-xs-4 pr-0 pl-0 checkbox">
-																			<input type="checkbox" name="check8" id="check8">
-																			<label for="check8">American Express</label>
-																		</div>
-																		<div class="col-xs-3 pl-0 pr-0 checkbox">
-																			<input type="checkbox" name="check9" id="check9">
-																			<label for="check9">Discover Card</label>
-																		</div>
-																
-																	</div>
-																
-																	<div class="row">
-																		<div class="col-xs-6 pr-0">
-																			<div class="form-group">
-																				<label for="">Card Number</label>
-																				<input type="text" class="form-control pr-2" name="card_number1" id="card_number1"> 
-																					<input type="text" class="form-control pr-2" name="card_number2" id="card_number2"> 
-																					<input type="text" class="form-control pr-2" name="card_number3" id="card_number3">
-																					<input type="text" class="form-control" name="card_number4" id="card_number4">
-																			</div>
-																
-																		</div>
-																		<div class="col-xs-6 ">
-																			<div class="form-group">
-																				<label for="">Expiration Date</label>
-																				<input type="text" class="form-control" name="expiration_date1" id="expiration_date1">
-																				/
-																				<input type="text" class="form-control" name="expiration_date2" id="expiration_date2">
-																			</div>
-																		</div>
-																	</div>
-																	<div class="row">
-																		<div class="col-xs-12">
-																			<div class="form-group">
-																				<label for="">Card Holder</label>
-																				<input type="text" class="form-control" name="card_holder" id="card_holder">
-																			</div>
-																
-																		</div>
-																	</div>
-																	<div class="row">
-																		<div class="col-xs-12 ">
-																			<div class="form-group">
-																				<label for="">Billing Address</label>
-																				<input type="text" class="form-control" name="billing_address1" id="billing_address1">
-																			</div>
-																		</div>
-																		<div class="col-xs-8 pr-0">
-																				<input type="text" class="form-control" name="billing_address2" id="billing_address2">
-																		</div>
-																		<div class="col-xs-4 " style="padding-left:8px">
-																			<div class="form-group">
-																				<label for="">zip</label>
-																				<input type="text" class="form-control" name="zip_code" id="zip_code">
-																			</div>
-																		</div>
-																	</div>
-																</div>
-															</div>
-															
-															<div class="col-xs-12" style="	margin-top: 12px;">
-																<p class="small-par pl-3" style="	font-size: 14px;font-weight: 500;">Documents will <b>NOT</b> be returned to the sender unless one of the
-																	following is provided:</p>
-																<p class="xsmall-par text-center">(Secretary of State’s office is <b>NOT</b> responsible for documents lost
-																	with
-																	US postal service)</p>
-															</div>
-															
-											
-											
-															<div class="row">
-																<h4 class="serif-font2" style="margin-bottom: 27px;"><b>FEDEX or UPS will <b>NOT</b> be returned if address below is listed as the sender on
-																		Shipping
-																		Label.</b></h4>
-																		<div class="col-xs-offset-1 checklist">
-																			<div class="col-xs-12 pr-0 checkbox">
-																			
-																				<input type="checkbox" name="check12" id="check12">
-																				<label for="check12">Self-addressed first class envelope with postage</label>
-																			</div>
-																			<div class="col-xs-12 pr-0 checkbox">
-																				<input type="checkbox" name="check13" id="check13">
-																				<label for="check13">Self-addressed Priority or Express envelope with postage</label>
-																			</div>
-																			<div class="col-xs-12 pr-0 checkbox">
-																				<input type="checkbox" class="col-xs-1" id="check14">
-																				<label for="check14" class="col-xs-11  pr-0 ">Prepaid courier service (FedEx, UPS, Airborne, DHL)
-																					with
-																					envelope &amp; sendercannot be SOS office</label>
-																			</div>
-																			<div class="col-xs-12 pr-0 checkbox" style="margin-top: 8px;">
-																				<input type="checkbox" class="col-xs-1" name="grp4" id="check15">
-																				<label for="check15" class="col-xs-11  pr-0">Self-addressed courier service envelope (with account
-																					number clearly printed on label)</label>
-																			</div>
-																		</div>
-												
-															</div>
-															<div class="text-list-center">
-																<p class="text-center small-par"><b>Mail the completed authentication submittal form and documents
-																to:</b>
-																</p>
-																
-																<p class="text-center" style="font-size: 13px;">Office of the Secretary of State</p>
-																<p class="text-center" style="font-size: 13px;">Authentication Division</p>
-																<p class="text-center" style="font-size: 13px;">11 South Union Street, Suite 224</p>
-																<p class="text-center" style="font-size: 13px;">Montgomery, Alabama 36130</p>
-																<p class="text-center" style="font-size: 13px;">(334) 242-5325</p>
-																
-																<!--      <br> -->
-																
-																<p class="text-center" style="font-size: 13px;font-weight: 500;">Please allow five (5) business days for mail time. Walk in service is
-																	available 8:00-5:00 Mon-Fri
-																</p>
-															</div>
-											
-											
-											
-														</form>
-														
-													</div>
-												</div>
-											</section>
-											
-										</div>
-									</div>
-								</div>
 
-								<div class="block alabamaFormStep1" style="display: none;">
+								<div class="block alabamaFormStep1" style="display: none;" id="formStyle">
 									<div class="block-content">
 										<h2>step 1</h2>
 										<h4 class="text-center">Please fill the form and click print button..</h4>
 										<div class="container">
 											<section class="gen-form bigContentSmallScreen" id="alabama">
-												<!--   <h2 class="title print-no">Please fill the form of the secretary of
-															state of Alabama</h2> -->
+									
 												<div class="form-container">
-													<!--    <div class="gredient"></div> -->
+											
 													<div class="content doubleBorder">
 											
 														<form action="">
@@ -1980,6 +1983,98 @@
 								</div>
 
 
+								<div class="block paymentMethod" style="display: none;">
+									<div class="block-content">
+
+										<div class="row">
+											<div class="col-md-6">
+												<div class="creditCardForm">
+													<div class="payment">
+														<form>
+															<div class="form-group owner">
+																<label for="owner">Owner</label>
+																<input type="text" class="form-control" id="owner">
+															</div>
+													
+															<div class="form-group" id="card-number-field">
+																<label for="cardNumber">Card Number</label>
+																<input type="number" class="form-control" id="cardNumber">
+															</div>
+															<div class="form-group" id="expiration-date">
+																<label>Expiration Date</label>
+																<select id="month">
+																	<option value="01">January</option>
+																	<option value="02">February </option>
+																	<option value="03">March</option>
+																	<option value="04">April</option>
+																	<option value="05">May</option>
+																	<option value="06">June</option>
+																	<option value="07">July</option>
+																	<option value="08">August</option>
+																	<option value="09">September</option>
+																	<option value="10">October</option>
+																	<option value="11">November</option>
+																	<option value="12">December</option>
+																</select>
+																<select id="year">
+																	<option value="16"> 2016</option>
+																	<option value="17"> 2017</option>
+																	<option value="18"> 2018</option>
+																	<option value="19"> 2019</option>
+																	<option value="20"> 2020</option>
+																	<option value="21"> 2021</option>
+																</select>
+															</div>
+															<div class="form-group" id="credit_cards">
+																<img src="images/visa.jpg" id="visa" alt="visa">
+																<img src="images/mastercard.jpg" id="mastercard" alt="master">
+																<img src="images/amex.jpg" id="amex" class="selected" alt="amex">
+															</div>
+															<div class="form-group" id="pay-now">
+																<button type="submit" class="btn btn-default" id="confirm-purchase">Confirm</button>
+															</div>
+														</form>
+													</div>
+												</div>
+											</div>
+											<div class="col-md-6">
+												<div class="card">
+													<div class="card_bar"></div>
+													<p  class="chipContainer">
+														<img src="images/chip-pin-01.png" class="chipImg">
+														<span >world bank | U.S. 123-456 INT 123-456</span>
+													</p>
+													<div class="cvv_card">
+
+													</div>
+													<form action="" method="post" class="form">
+														<div class="card__number form__field">
+															<input type="text" id="card__name" class="card__name__input" placeholder="John smith" disabled="">
+														  </div>
+												  
+													  <div class="card__number form__field">
+														<input type="number" id="card__number" class="card__number__input" style="width: 100%;" placeholder="4000 1234 5678 9010" disabled="">
+													  </div>
+											  
+											  
+													  <div class="card__expiration form__field">
+
+														<input type="text" id="card__month" class="card__month__input" placeholder="02" disabled="" style="width:30px">
+
+														<p >/</p>
+														<input type="text" id="card__year" class="card__year__input" placeholder="2012" disabled="">
+													  </div>
+													</form>
+												  </div> 
+											</div>
+										</div>
+										<div class="row">
+											<a type="button" class="backBtn" data-target="fedxOption"><img src="images/go-back-button1.png" class="goBack"></a> 
+										</div>
+									
+									</div>
+	
+								</div>
 
 								<div class="block fedxOption" style="display: none;">
 									
@@ -1989,9 +2084,8 @@
 												By choosing FedEx shipping, you will receive an email confirming the delivery to the embassy, and another email when the embassy release the document back to FedEx to be shipped back to you. 
 											</p>
 										</div>
-									
-										<!-- <h4 class="fill-form">Please fill the form ..</h4> -->
-										<div class="row >
+							
+										<div class="row" >
 											<div class=" col-md-12"="">
 												<form class="">
 													<div class="p-12 radioContainer">
@@ -2637,7 +2731,7 @@
 								</div>
 
 							
-							</div>
+								</div>
 					
 							
 							</div>
@@ -2668,11 +2762,11 @@
 		<!-- Counters -->
 		<script src="js/jquery.countTo.js"></script>
 		<!-- Main -->
-		<script src="js/main.js"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/imask/3.4.0/imask.min.js"></script>
+	
+
 
 		<script src="js/creditCard.js"></script>
-
+		<script src="js/main.js"></script>
 
 
 
